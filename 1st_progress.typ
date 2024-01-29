@@ -89,7 +89,7 @@ LCMI curve as a framework to find out when where is a change in certain price, h
 
 Expand & Income categories could be expanded/fine tuned, linkages could be built.
 
-PS: As an software engineer, I would also build a website/app to let consumer adjust abitary price factor to forecast the impact. Perhaps, it could serve as a tool to estimate new goverment policy's index? (I suppose SG government should already have this kind of benchmark tool? Is it publicly available?)
+PS: As an software engineer, I would also build a website/app to let consumer adjust arbitrary price factor to forecast the impact. Perhaps, it could serve as a tool to estimate new government policy's index? (I suppose SG government should already have this kind of benchmark tool? Is it publicly available?)
 
 = My questions
 
