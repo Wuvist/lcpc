@@ -1,6 +1,6 @@
-# Living Misery Index
+= Living Misery Index
 
-## Motivation
+== Motivation
 
 There is no
 
@@ -16,19 +16,19 @@ https://www.numbeo.com/cost-of-living/city-estimator/in/Singapore?Recalculated=S
 
 It should become a curve
 
-## Formula
+== Formula
 
 Categorize spending into groups
 * Non weighted
   * Monthly speeding
 
-## Uniqueness about SG
+== Uniqueness about SG
 
 Two class:
 * HDB
 * Condo
 
-## Find out
+== Find out
 
 What adds living cost?
 
