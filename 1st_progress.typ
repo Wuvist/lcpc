@@ -68,6 +68,7 @@ LCMI curve of different cities could be used for comparison:
 - Could serve as a reference for people consider to relocation
   - Just make a estimate of the denominator: income
   - Even for foreign student with no income
+- Could also serve as alternative to gini coefficient
 
 == Factors impacting LCMI
 
