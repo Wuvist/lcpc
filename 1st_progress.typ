@@ -96,6 +96,9 @@ PS: As an software engineer, I would also build a website/app to let consumer ad
 - How to set clear scope
   - Just cover LCMI for SG or include other cities like HK/Shanghai/New York?
 - Shall collect historical data to see how LCMI changes?
+  - good to have
 - How many groups to have for LCMI curve?
+  - which group has change the most?
+  - get the curve first!
 - Really no existing index solve this problem?
 - How many price factors to evaluate? And how to evaluate?
