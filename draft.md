@@ -1,3 +1,32 @@
+- Research Question
+- Motivation
+- Description of Industry
+- Important Literature
+- (Potential) Data Sources
+- Empirical Model and Identification Strategy
+- (Potential) Results
+- Discussion and Limitations
+
+# Summary
+
+Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased[ref TBA]. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but they are usually not comprehensive. Public need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. In this paper, I propose a new economy indicator: LCMC - Living Cost Misery Curve, which provide holistic view of living cost pressure of a society in a single curve. My focus will be Singapore, but the methodology should be applicable to other economies, cross comparison of LCMC among different economies is also possible.
+
+# Issues of existing economic indicators
+
+## CPI
+
+When considering living cost, Consumer Price Index (CPI) is a commonly used indicator. According to Singapore Statistic Department[ref TBA], the annual CPI using 2019 As Base Year increase from 74 in 2000 to 109 in 2022, but it doesn't imply that Singaporean's economic pressure also increased by 47%. Singaporeans's income level may also increase during the same period. If income level increase at a faster rate than CPI, the actual economic pressure from living cost may drop.
+
+## GDP per capita measured in PPP
+
+GDP
+
+
+
+##
+
+CPI: Consumer Price Index (CPI), 2019 As Base Year, Annual
+
 # Household types
 
 - HDB 1 & 2 Room
@@ -12,7 +41,6 @@ Resident Households by Income Quintile 1/ and Type of Dwelling
 
 Table 18A
 Average Monthly Household Expenditure Among Resident Households by Type of Goods and Services (Detailed) and Type of Dwelling
-
 
 Chart 1.10: Average Monthly Household Expenditure1 Per Household Member
 by Type of Dwelling, 2007/08 - 2017/18
@@ -46,6 +74,11 @@ compare with EIU
 # Condo District
 
 3	Queenstown, Alexandra, Tiong Bahru
+In long-ago times, MSR was capped at 40% of a borrower’s gross monthly income. Then in January 2013, it was lowered to 35%. At the same time, the Monetary Association of Singapore (MAS) set an MSR limit of 30% for bank-issued loans for HDB flats.
+
+# Condo District
+
+3 Queenstown, Alexandra, Tiong Bahru
 
 Normanton Park
 1 bedroom: 527
@@ -53,5 +86,3 @@ Normanton Park
 3 bedroom: 936
 
 # Housing Loans
-
-
