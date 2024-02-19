@@ -1,6 +1,9 @@
+= Living Cost Pressure Curve in Singapore
+Weng Wei
+
 = Summary
 
-Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased[ref TBA]. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but they are usually not comprehensive. Public need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. In this paper, I propose a new economy indicator: LCPC - Living Cost Pressure Curve, which provide holistic view of living cost pressure of a society in a single curve. My focus will be Singapore, but the methodology should be applicable to other economies, cross comparison of LCMC among different economies is also possible.
+Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased[ref TBA]. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but they are usually not comprehensive. Public need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. In this paper, I propose a new economy indicator: LCPC - Living Cost Pressure Curve, which provide holistic view of living cost pressure of a society in a single curve. My focus will be Singapore, but the methodology should be applicable to other economies, cross comparison of LCPC among different economies is also possible.
 
 = Issues of existing economic indicators
 
@@ -14,11 +17,11 @@ GDP per capita includes income factors, but it could be distorted. For example, 
 
 == Worldwide Cost of Living by EIU
 
-Another commonly cited indicator is the Economist Intelligence Unit's (EIU) Worldwide Cost of Living (WCOL) survey. In this yearly survery, it consistanly ranks Singapore as the city with highest live cost in the world and attracts media attentions.
+Another commonly cited indicator is the Economist Intelligence Unit's (EIU) Worldwide Cost of Living (WCOL) survey. In this yearly survey, it consistently ranks Singapore as the city with highest live cost in the world and attracts media attentions.
 
-"The survey has been designed to enable human resources and finance managers to calculate cost-of-living allowances and build compensation packages for expatriates and business travellers"[ref TBA] But when covered by media, public may have the misconconception that this survey is reflecting living cost of local people.
+"The survey has been designed to enable human resources and finance managers to calculate cost-of-living allowances and build compensation packages for expatriates and business travelers"[ref TBA] But when covered by media, public may have the misconception that this survey is reflecting living cost of local people.
 
-Singapore government responsed[ref TBA] to this survey in Dec 2023, pointing out two reasons for "it may not reflect the cost of living for Singaporeans":
+Singapore government responded[ref TBA] to this survey in Dec 2023, pointing out two reasons for "it may not reflect the cost of living for Singaporeans":
 - The WCOL survey's consumption basket does not reflect what Singaporeans usually consume
 - The rankings are sensitive to currency fluctuations
 
@@ -30,45 +33,98 @@ Society is diversified, society has classes. Economic index indicators are usual
 
 In order to create more holistic view of living cost of a economy, the proposed indicator is a curve: Living Cost Pressure Curve.
 
-= Living Cost Pressue Curve - LCPC
+= Living Cost Pressure Curve - LCPC
 
-== Basic Formula
+== LCP - Formula
 
-Indicators like CPI and EIU's WCOL are essentially a weighted sum of living cost. In order to capture living cost pressued faced by consumer, it not enough to just consider living cost metrics. Living cost must be used to againt values like income to represent pressure faced. The proposed formula for Living Cost Pressue - LCP is:
+Indicators like CPI and EIU's WCOL are essentially a weighted sum of living cost. In order to capture living cost pressure faced by consumer, it not enough to just consider living cost metrics. Living cost must be used to against values like income to represent pressure faced. The proposed formula for Living Cost Pressure - LCP is:
 
 $ L C P = (sum "Expenditure")/(sum "Income") $
 
+The expenditure and income mentioned above are referring to the average household monthly expenditure of all form and average monthly income from all source.
+
 Benefit of:
-- No weitage conversion is needed, just using norminal numbers
+- No weighted conversion is needed, just using nominal dollar values numbers and sum up
   - If we want to evaluate an impact of certain price change, like fresh food price shock
-  - We will need to look into composition of the "Overall expenditure". But again, no weightage conversion is needed, we just need to calculated the nomail dollar changes.
+  - We will need to look into composition of the "Overall expenditure". But again, no weighted conversion is needed, we just need to calculated the nominal dollar changes.
 - Denoted In local currency, robust to currency fluctuations
-- Is log tranform needed? No?
+- [TBA] Is log transformation needed? No?
 
 It reflects an individual or a household's cash flow status, which reflects pressure of living cost.
 
-== Forming curve
+=== Expenditures
 
-In order to provide a holistic view of living cost pressure in a society, its not enough to calculate a the expenditure & income of a "Representive Consumer/household".
+The focus here should be a household's cash flow, thus expenditures like imputed rental of owner-occupied accommodation should not be included.
 
-= Singapore's data
+=== Income
 
-== Household Expenditure Survey
+Income include from all source that effects household's cash flow, typical example will be salary.
 
-Singapore Statistic Department conducts Quinquennial Household Expenditure Survey[ref TBA] staring from 2007.
+Unrealized profit from stock investment or increased valuation of assets should not be included.
 
-== Segmentation
+== LCP Curve
 
-=== By income groups
+In order to provide a holistic view of living cost pressure of a society, its not enough to calculate a `LCP` of a "Representative Consumer/household".
 
-It shows:
+LCP must be segmented, and LCP of different groups and construct a curve. This will show how live cost pressure are distributed among a society.
 
-Issue: 30%+ of household in bottom 20% income segments are sole household of 65+
+LCPC should be segmented using different ways. The most natural way will be segmented with income level. But using income level may have both pros and cons. We will exam constructing LCPC by income level and by type of dwelling using Singapore's data.
 
-Retired elderly may have no income, but potentially high saving.
+= Examining LCPC with Singapore's data
+
+Government agencies like Singapore Statistic Department provides comprehensive data of Singapore society. Thus making constructing of LCPC for Singapore easy.
+
+In terms of household expenditures and income, Singapore conducts conducts quinquennial Household Expenditure Survey[ref TBA] HES staring from 2007.
+
+Three national wide HES has been conducted:
+- HES 2007/08
+- HES 2012/13
+- HES 2017/18
+
+Reports for HES 2022/23 is not yet released at the moment of writing of this paper.
+
+[TBA] Why trust HES's data?
+
+The official report of HES is very comprehensive, containing analysis of Singapore household's expenditures & incomes. It also shows comparisons of expenditures & incomes by different segmentation, including income level, type of dwelling, etc.
+
+Nonetheless, LCP by taking the ratio of household expenditure over income, indicating living cost pressure would serve a complement to this report. And the LCPC also reveal "hidden characteristics" of Singapore household.
+
+== Segmentation by income level
+
+#image("data/LCPC_income.png")
+
+Quick finding from LCPC:
+- LCP decreases as income level increases
+- LCPC shift downward from 07/08 to 17/18
+  - All group faces lesser pressure
+- 21th-40th group's LCP drop most significantly
+- 81th-100th group's LCP didn't shift much
+- 1st-20th group's LCP increase from 12/13 to 17/18, indicating this group by face large pressure.
+
+However, the data of 1st-20th group deserve more careful examination:
+- LCP is higher than 1, meaning expenditure exceed income
+
+And, we can't jump to the conclusion that "Singapore's Poor struggles with household deficit".
+
+In fact, within this group, 30%+ of household sole household of age 65+[ref TBA] members.
+
+LCP failed to represent living cost pressure of retired elderly, as they may not relying on income for living, but may rely on saving.
+
+This is a issue when we segmented by income level, it may not be relevant for retired group.
+
+In fact, HES report indicates that about 10% of 1st-20th income group living in condo/landed property and have expenditures for domestic helpers, indicating people with low monthly income may not be poor.
 
 === By dwelling
 
+Segmentation by type of dwelling on the other hand, may be better representing wealthiness of a household.
+
+[TBA] regression income with dwelling etc etc
+
+This is also the metric used by Singapore government when consider provide many subsidies to household.
+
+[TBA] Subsidies given during covid period.
+
+Type of dwelling in Singapore are typically segmented into:
 - HDB 1 & 2 Room
 - HDB 3 Room
 - HDB 4 Room
@@ -76,134 +132,128 @@ Retired elderly may have no income, but potentially high saving.
 - Condo
 - Landed
 
-Relief of lower income groups are more significated. Top 20% household are actually "worse off".
+HDB stands for House Development Board, and the the public house developed by Singapore government.
 
-Waves in 12/13 data: HDB 4 ROOM & Condo
+Unique in the world, about 80% of Singaporean household stay HDB - public houses[ref TBA].
 
-Possiable explaination:
-- Squezed middle class
-- Cut off
+The remaining 20% household stay in private properties like Condo - Condominium(15% of household) and landed properties(5% of household).
 
-A more detailed analysis will need to have housing loan data.
+It's worth noting that when segmenting by type of dwelling, the proportion of each segment may not be the same. "HDB 4 Room" actually represent about 36% of household.
 
-=== Housing loan
+[TBA] distribution of household by dwelling
+
+LCPC doesn't requires size of each segment to be equal, it's more important to make each segments representative. i.e. audience is easier to understand which people belongs to which segments and thus able to form inference.
+
+Comparing to by income level, although the segments are evenly distributed, but audience may hard to project themselves into corresponding group. One may think they belongs to "middle-income", when while they are actually among the top 20% earners. Or the opposites may happened.
+
+Segmenting by dwelling type on the other hand, provides a clear cut of who should belong to each segment.
+
+After comprising household with sole member of age 65+ and segmented by household, the LCPC become:
+
+#image("data/LCPC_dwelling.png")
+
+_Data of 07/08 by dwelling seems unavailable from HES_
+
+Quick findings:
+- LCP drop as dwelling gets better in 12/13
+- LCP actually has "bounds" as dwelling improve in 17/18
+- LCP drop significantly for the 80% household stays in HDB - Public Housing from 12/13 to 17/18
+- LCP actually increase slightly for the 20% household stays in private housing
+- LCPC "flatten" from 12/13 to 17/18
+- All LCP are below 1: no deficit
+
+These phenomenons may be results of:
+- Government policies favoring Singaporean staying HDB
+- Lack of income increment opportunities for the "rich Singaporean"
+- Upgrading to better dwelling or moving to a more expensive life-style may increase LCP, "richer" household faces more economic pressure than the previous group
+  - Significant increase in pressure when moving from public housing to private
+  - "Squeezed Middle Class" - Singaporean household exceeds qualification for HDB, but not rich enough for private housing faces large economic pressure
+
+[TBA] more analysis/metrics
+
+= Mortgage Payment
 
 HES's expenditure doesn't include Housing loan repayment.
 
-The housing category expenditure only includes:
-*
-*
+The housing category expenditure in HES report only includes[ref TBA]:
+* Housing(Rentals) And Utilities
+* Furnishings, Household Equipment And Routine Household Maintenance
 
-I did tried to find statistic for Singaporean's mortage, but it's very hard:
-- HES did collect the data, but did not reveal
+I did tried hard to find statistic for Singaporean's mortgage, but not able to get any statistical data or estimations could fitted into LCP.
 
-Housing loan is determined largly at the moment of purchase, and it varies a lot from household to household. It's hard to estimate which age group of household purchase their first house, nor to mention segmented it by income level or type of house.
+(HES did collect the data, but did not reveal in report. [ref TBA])
 
-The mortage rate may changes, but about 80% of Singapore household stays in HDB, and the HDB housing loans interest rate is pegged[ref TAB] to +0.1% of interest rate of CPF ordinary account, which is 2.5% since July 1999[ref TAB].
+Mortgage is determined largely at the moment of purchase, and it varies a lot from one household to another. It's hard to estimate which age group of household purchase their first house, nor to mention segmented it by income level or type of house.
 
-Market interest rate may change, but it will be capped to 2.6% - HDB rates. Condo & landed properies owners may need to take loans from commercial banks, and the rate would have much higher flutuations. But that only impacts the top 20% hight income household.
+Mortgage rate may changes, but about 80% of Singapore household stays in HDB, and the interest rate of HDB's loans is pegged[ref TAB] to +0.1% of interest rate of CPF ordinary account, which is 2.5% since July 1999[ref TAB].
 
-Furthermore, MAS has MRS limit, 30%.
+Market interest rate may change, but it will be capped to 2.6% - HDB rates. Condo & landed properties owners may need to take loans from commercial banks, and the rate would have much higher fluctuations. But that only impacts the top 20% high income household.
 
-If we do a extreme estimation of that all household takes the maxinum housing loans, it just discounts LCM of all segment to 70%, and has no impact on the shape/distribution of the LCMC.
+Furthermore, MAS has MRS limit: 30%. [ref TBA].
 
-Finally, from an accounting point of view, property is considered as an asset of an household, when spending
+If we do a extreme estimation of that all household takes the maximum housing loans, it just discounts LCP of all segment to 70%, and has no impact on the shape/distribution of the LCPC.
 
-Housing impact of LCMC would be future research topic, perhaps using another economy like Hong Kong as object.
+From an accounting point of view, property is considered as an asset of an household, "buying" of house is actually turning cash assets to fixed asset, and may not incur any expenditures, it could even be considered as an investment. It's only the interest payment of mortgage could be considered actual expenditure.
 
-=== Rental
+Mortgage impact of LCPC would be future research topic, perhaps using another economy like Hong Kong as object.
 
-It could be worthy to dive more into
+= Rental - LCPC for foreigner in Singapore
 
-==== Good reference to foreigner
+Rental on housing is a also a topic worth deeper analysis. Home ownership rate is almost 90% in Singapore[ref TBA], thus rental may not be a significant factor for Singaporean household's expenditure. But Singapore is a society consisting about 30% non-residents[ref TBA], including foreign students, workers and professionals.
 
-- Student / foreign workers
+Singapore forbids foreigner making purchase of HDB and most landed properties[ref TBA], the additional buyer-side stamp duty (ABSD) for foreign buyers also has been increasing. Thus rental would play a major factor for foreigner staying in Singapore's LCP.
 
-Rental is an income of the local - already included in LCMC.
+HES focused on local household, thus didn't have any data on this aspect.
 
-HDB & condo rental stats are available.
+But, it's feasible to construct an estimated LCPC for foreigner in Singapore.
 
-*HDB Rental*[ref TBA]
+[TBA] HDB Rental / Condo rental data & construct LCPC and findings
 
-==== Condo District
-3 Queenstown, Alexandra, Tiong Bahru
-In long-ago times, MSR was capped at 40% of a borrower’s gross monthly income. Then in January 2013, it was lowered to 35%. At the same time, the Monetary Association of Singapore (MAS) set an MSR limit of 30% for bank-issued loans for HDB flats.
+= Factors impacting LCPC
 
-Normanton Park[ref TBA]
-1 bedroom: 527
-2 bedroom: 656
-3 bedroom: 936
-
-Possiable to adapt LCMC for reference of foreigners.
-
-= Factors impacting LCMC
-
-== Income
-
-Covid
-
-high income
-
-wait for 22/23 HES.
-
-Progressive wage?
+== Income [TBA]
+- Covid
+- Why high income group's LCP increase?
+- Does Progressive wage scheme help the bottom income group?
 
 == GST
 
-Singapore Government increase GST from 7% to 9% in 2023 and 2024.
+Singapore Government increase GST from 7% to 9% in 2023 and 2024, with 1% increment each year, and it applies to all expenditure of all segments. Assuming Singaporeans doesn't change consumption with new GST, i.e. inelastic to price change of 1%; this policy will shift whole LCPC upwards, but the shape remains.
 
-1% increasement to all expenditure of all segments.
+However, Singapore government did provide tax relief to low income families[ref TBA], thus this policy will have an "bending effect" on LCPC, potentially making it more flatten.
 
-Singapore govenemnt did provide tax relief to low income families[ref TBA], thus this policy will have an "bending effect" on LCMC.
+When HER 22/23 report is available, we could re-visit with the new data.
 
-= How to apply LCMC?
+= LCPC for other economies
 
-Accounts for expenditure & income carefully
-Like weather to con
+The proposed indicator LCPC should be flexible and applicable to economy besides Singapore. When constructing LCPC for other economies, we must look into the specified characteristics of the economy.
 
-== Segmentation
+For example, when segmenting by income level, could be applied to other economies without modification, providing household expenditures & income data by income level are available.
 
-Segment carefully!
+As mentioned earlier, segmenting by income level has its pro and cons. And in Singapore's case, segmenting by type of dwelling would provide better insight. However, this approach is unique to Singapore.
 
-By income level? By dwelling? By race/ethnic group? By age? By education/level?
+When constructing LCPC for other economies, we may need to digest the characteristics of the local societies, and pick representing segmentation. It could be by income level, or by race/ethnic groups etc.
 
-Segmentation could be an IV.
+[TBA] Segmentation could be an IV?
 
-= Limitations
+As LCPC for different economies may used different segmentation approach. Comparison of LCPC may not be meaningful. But, LCP as a scalar may be used for comparison among economies.
 
-- No Data for 07/08????
-- Only considering SG, better to have another city
-- Estimation of expenditure needs review
-- Bais of ignore in dollar value: Dollar value of (I - E) could be another indicator: Live Cost Luxury Curve
+The shape and movement of LCPC in different period may also be used from cross comparison.
+
+[TBA] formula for calculating flatness?
+
+For example, the more flatten the LCPC(no matter how it's segmented) may implies a more equal society. Thus, we could compare flatness of different economies. It could actually serve as alternative to GINI co-efficient, as GINI co-efficient only accounts for different in income, and didn't include expenditures data.
+
+[TBA] Bias of ignore in dollar value: Dollar value of (I - E) could be another indicator: Live Cost Surplus Curve???
 
 = Conclusion
 
-The main purpose of LCMC is to propose a indicator/framework for living cost measurements
-- Provision impacts of government policy
-- Better reference for local & foreigners
-- Comparison amony cities/economies
+The main purpose of LCPC is to propose a indicator/framework for living cost pressure measurements, it has only two simple idea:
+- Take ratio of expenditure and ratio to represent: pressure
+- Perform meaningful segmentation to show how pressure is distributed.
 
+The paper also used Singapore's data to show how simple idea of LCPC could reveal more meaningful household characteristics from the comprehensive HER reports, and make it good reference to larger group of audiences as well.
 
 = Reference
 
-Table 14
-Resident Households by Income Quintile 1/ and Type of Dwelling
-
-Table 18A
-Average Monthly Household Expenditure Among Resident Households by Type of Goods and Services (Detailed) and Type of Dwelling
-
-Chart 1.10: Average Monthly Household Expenditure1 Per Household Member
-by Type of Dwelling, 2007/08 - 2017/18
-
-== Number of household
-1068907
-
-76961,240651,430965,320330,207282,69038
-
-== Income
-
-1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th
-2022 $689 $1,347 $1,864 $2,400 $2,976 $3,634 $4,447 $5,578 $7,493 $14,354
-2023 $706 $1,421 $1,987 $2,563 $3,169 $3,857 $4,729 $5,892 $7,862 $14,803
-
-https://www.valuechampion.sg/home-loans/average-cost-housing-singapore
+[TBA] generate reference with bib from Zotero
