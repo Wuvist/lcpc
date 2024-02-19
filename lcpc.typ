@@ -1,12 +1,12 @@
 = Summary
 
-Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased[ref TBA]. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but they are usually not comprehensive. Public need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. In this paper, I propose a new economy indicator: LCMC - Living Cost Misery Curve, which provide holistic view of living cost pressure of a society in a single curve. My focus will be Singapore, but the methodology should be applicable to other economies, cross comparison of LCMC among different economies is also possible.
+Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased[ref TBA]. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but they are usually not comprehensive. Public need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. In this paper, I propose a new economy indicator: LCPC - Living Cost Pressure Curve, which provide holistic view of living cost pressure of a society in a single curve. My focus will be Singapore, but the methodology should be applicable to other economies, cross comparison of LCMC among different economies is also possible.
 
 = Issues of existing economic indicators
 
 == CPI
 
-When considering living cost, Consumer Price Index (CPI) is a commonly used indicator. According to Singapore Statistic Department[ref TBA], the annual CPI using 2019 As Base Year increase from 74 in 2000 to 109 in 2022, but it doesn't imply that Singaporean's economic pressure also increased by 47%. Singaporeans's income level may also increase during the same period. If income level increase at a faster rate than CPI, the actual economic pressure from living cost may drop.
+When considering living cost, Consumer Price Index (CPI) is a commonly used indicator. According to Singapore Statistic Department[ref TBA], the annual CPI using 2019 As Base Year increase from 74 in 2000 to 109 in 2022, but it doesn't imply that Singaporean's living cost pressure also increased by 47%. Singaporeans's income level may also increase during the same period. If income level increase at a faster rate than CPI, the actual economic pressure from living cost may drop.
 
 == GDP per capita measured in PPP
 
@@ -28,15 +28,15 @@ Beside these two reason, WCOL has same issue as CPI: It doesn't contains informa
 
 Society is diversified, society has classes. Economic index indicators are usually an scalar. Scalar as an one dimensional number could never contains enough information for describe situation across different segments of an economy.
 
-In order to create more holistic view of living cost of a economy, the proposed indicator is a curve: Living Cost Misery Curve.
+In order to create more holistic view of living cost of a economy, the proposed indicator is a curve: Living Cost Pressure Curve.
 
-= Living Cost Misery Curve - LCMC
+= Living Cost Pressue Curve - LCPC
 
 == Basic Formula
 
-A better and in fact nature way of have both all categories of expenditure and all source of income included.
+Indicators like CPI and EIU's WCOL are essentially a weighted sum of living cost. In order to capture living cost pressued faced by consumer, it not enough to just consider living cost metrics. Living cost must be used to againt values like income to represent pressure faced. The proposed formula for Living Cost Pressue - LCP is:
 
-$ L C P = "Overall expenditure"/"All source income" $
+$ L C P = (sum "Expenditure")/(sum "Income") $
 
 Benefit of:
 - No weitage conversion is needed, just using norminal numbers
@@ -49,7 +49,7 @@ It reflects an individual or a household's cash flow status, which reflects pres
 
 == Forming curve
 
-In order to provide a holistic view of living cost pressure in a society, its not enough to calculate a the expenditure & income of a "Representive Consumer/household"
+In order to provide a holistic view of living cost pressure in a society, its not enough to calculate a the expenditure & income of a "Representive Consumer/household".
 
 = Singapore's data
 
