@@ -22,10 +22,10 @@ lcmc1718 = expditures1718 ./ (income1718)
 # 1room:  585
 loans = [585, 1170, 1673, 2170, 4340]
 
-plot(lcmc0708, ylim=[0, 2], label="07/08", title="Living Cost Misery Curve by Household", ylabel="Monthly Expenditure / Income", xlabel="Income Quintile", xticks=([1, 2, 3, 4, 5], ["1st-20th", "21st-40th", "41th-60th", "61st-80th", "81th-100th"]))
+plot(lcmc0708, ylim=[0, 2], label="07/08", title="Living Cost Pressure Curve by Income Level", ylabel="Monthly Expenditure / Income", xlabel="Income Quintile", xticks=([1, 2, 3, 4, 5], ["1st-20th", "21st-40th", "41th-60th", "61st-80th", "81th-100th"]))
 plot!(lcmc1213, label="12/13")
 plot!(lcmc1718, label="17/18")
-savefig("lcmc_household.png")
+savefig("data/LCPC_income.png")
 
 # by housing type
 # expditures0708 = [3180, 957, 2121, 3093, 4423, 6587, 8222]
@@ -33,23 +33,26 @@ savefig("lcmc_household.png")
 # expditures1718 = [3956, 1545, 2709, 3933, 5504, 7963, 10500]
 hnumbers = [76961, 240651, 430965, 320330, 207282, 69038]
 
-expend_1213 = CSV.read("expend_201213.csv", header=1:12, DataFrame)
+expend_1213 = CSV.read("data/expend_201213.csv", header=1:12, DataFrame)
 rename!(expend_1213, ["Type of Goods and Services", "Total", "Total HDB", "1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed", "Misc"])
 # csv[1:15, 4:9]
 e1213 = values(expend_1213[1, 4:9])
 
+expend_1718 = CSV.read("data/expend_201718.csv", header=1:12, DataFrame)
 e1718 = values(expend_1718[1, 4:9])
 
-income_1213 = CSV.read("income_201213.csv", header=1:12, DataFrame)
+income_1213 = CSV.read("data/income_201213.csv", header=1:12, DataFrame)
 # income_1718 = CSV.read("income_201718.csv", header=1:12, DataFrame)
 rename!(income1213, ["Source", "Total", "Total HDB", "1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed", "Misc"])
 income1213[1:6, 3:9]
-i1213 = values(income1213[1, 4:9])
-# i1213 = values(income1213[1, 4:9])
+i1213 = values(income_1213[1, 4:9])
+
+income_1718 = CSV.read("data/income_201718.csv", header=1:12, DataFrame)
+i1718 = values(income_1718[1, 4:9])
 
 mc1213 = collect(e1213 ./ i1213)
 mc1718 = collect(e1718 ./ i1718)
-plot(mc1213, ylim=[0, 1], xticks=([1, 2, 3, 4, 5, 6], ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"]), label="12/13", title="Living Cost Misery Curve")
+plot(mc1213, ylim=[0, 1], xticks=([1, 2, 3, 4, 5, 6], ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"]), label="12/13", title="Living Cost Pressure Curve - by dwelling")
 plot!(mc1718, label="17/18")
 
 cpi = [73.741, 74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992]
