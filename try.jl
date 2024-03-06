@@ -1,3 +1,5 @@
+using CSV, DataFrame, Plots
+
 expditures0708 = [1787, 2950, 3602, 4569, 6138]
 expditures1213 = [2215, 3531, 4705, 5596, 7575]
 expditures1718 = [2570, 3753, 4812, 5826, 7573]
@@ -58,3 +60,10 @@ plot!(mc1718, label="17/18")
 cpi = [73.741, 74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992]
 plot(2000:2022, cpi, label="Consumer Price Index (CPI), 2019 As Base Year")
 savefig("cpi.png")
+
+# plots
+
+plot([1,4], [2,2], marker = true, ylim= [0, 4])
+plot!([2,3], [3,3], arrow = 2)
+plot!([2.8, 1.2], [1,1], arrow = 4)
+yticks!([1, 2, 3], ["Group 1", "Group 2", "Group 3"])
