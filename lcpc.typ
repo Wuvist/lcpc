@@ -87,6 +87,8 @@ Reports for HES 2022/23 is not yet released at the moment of writing of this pap
 
 The official report of HES is very comprehensive, containing analysis of Singapore household's expenditures & incomes. It also shows comparisons of expenditures & incomes by different segmentation, including income level, type of dwelling, etc.
 
+A random sample was then selected from each group and combined to form the required sample of about 13,000 dwelling units.
+
 Nonetheless, LCP by taking the ratio of household expenditure over income, indicating living cost pressure would serve a complement to this report. And the LCPC also reveal "hidden characteristics" of Singapore household.
 
 == Segmentation by income level
@@ -141,6 +143,11 @@ The remaining 20% household stay in private properties like Condo - Condominium(
 It's worth noting that when segmenting by type of dwelling, the proportion of each segment may not be the same. "HDB 4 Room" actually represent about 36% of household.
 
 [TBA] distribution of household by dwelling
+
+"It is notable, for example, that some resident households in the
+lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived in private property (7.1 per cent) or were headed by persons aged 65 years and over (36.7 per cent) in 2017/18." HES 17/18
+
+"live in a property with an annual value3 of \$21,000 and below from Work Year 2024 (was \$13,000), as at 31 December of the preceding year;" https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement
 
 LCPC doesn't requires size of each segment to be equal, it's more important to make each segments representative. i.e. audience is easier to understand which people belongs to which segments and thus able to form inference.
 
@@ -209,6 +216,25 @@ But, it's feasible to construct an estimated LCPC for foreigner in Singapore.
 
 [TBA] HDB Rental / Condo rental data & construct LCPC and findings
 
+Just use typical case:
+* WP 1600 - E-HDB 1/2
+  * HDB 1 room share, HDB 4 room rental / 6
+* SP 3,150  E-HDB 3
+  * HDB 2000 1 room alone, HDB 4 room rental / 3
+* EP holder income threhold 5,600 E-HDB 4
+  * Condo 1 room 7.31
+* PEP 22,500 Family 1 kids; two room condo
+* One Pass 30,000 Family, two kids; 3 room condo
+
+947 * 7.31 / 3
+2307.52
+
+700 * 7.31
+5117.0
+
+1200 * 7.31
+8772.0
+
 = Factors impacting LCPC
 
 == Income [TBA]
@@ -234,13 +260,11 @@ As mentioned earlier, segmenting by income level has its pro and cons. And in Si
 
 When constructing LCPC for other economies, we may need to digest the characteristics of the local societies, and pick representing segmentation. It could be by income level, or by race/ethnic groups etc.
 
-[TBA] Segmentation could be an IV?
-
 As LCPC for different economies may used different segmentation approach. Comparison of LCPC may not be meaningful. But, LCP as a scalar may be used for comparison among economies.
 
 The shape and movement of LCPC in different period may also be used from cross comparison.
 
-[TBA] formula for calculating flatness?
+[TBA] formula for calculating flatness? Just use the variance
 
 For example, the more flatten the LCPC(no matter how it's segmented) may implies a more equal society. Thus, we could compare flatness of different economies. It could actually serve as alternative to GINI co-efficient, as GINI co-efficient only accounts for different in income, and didn't include expenditures data.
 
