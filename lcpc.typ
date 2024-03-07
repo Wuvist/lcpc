@@ -1,21 +1,39 @@
-= Living Cost Pressure Curve in Singapore
-Weng Wei
+#import "paper_template.typ": paper
 
-= Summary
+#show: doc => paper(
+  title: [Living Cost Pressure Curve in Singapore],
+  authors: (
+    (
+      name: "Weng Wei",
+      affiliation: "",
+      email: "",
+      note: "Singapore Management University, wei.weng.2022@mse.smu.edu.sg",
+    ),
+  ),
+  date: "Mar 2024",
+  abstract: [In this paper, I propose a new economy indicator: LCPC - Living Cost Pressure Curve, aiming to provide holistic view of living cost pressure of a society. I used Singapore as the example, but the methodology is applicable to other economies, and possible to make cross comparison of LCPC among different economies.], // replace lorem(80) with [ Your abstract here. ]
+  keywords: [
+    Household Analysis, Household Finance, Demographic Economics, Economic indicator, Social indicator,],
+  acknowledgments: "This paper is a work in progress.",
+  doc,
+)
 
-Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased[ref TBA]. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but they are usually not comprehensive. Public need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. In this paper, I propose a new economy indicator: LCPC - Living Cost Pressure Curve, which provide holistic view of living cost pressure of a society in a single curve. My focus will be Singapore, but the methodology should be applicable to other economies, cross comparison of LCPC among different economies is also possible.
+#set text(spacing: 100%)
+#set par(
+  leading: 1.2em,
+  first-line-indent: 2em,
+  justify: true,
+)
 
-= Issues of existing economic indicators
+= Introduction
 
-== CPI
+Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased[ref TBA]. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but seems none is directly reflecting living cost pressure in a society. People need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure.
+
+Existing economic indicators have different issue when used for understanding living cost.
 
 When considering living cost, Consumer Price Index (CPI) is a commonly used indicator. According to Singapore Statistic Department[ref TBA], the annual CPI using 2019 As Base Year increase from 74 in 2000 to 109 in 2022, but it doesn't imply that Singaporean's living cost pressure also increased by 47%. Singaporeans's income level may also increase during the same period. If income level increase at a faster rate than CPI, the actual economic pressure from living cost may drop.
 
-== GDP per capita measured in PPP
-
-GDP per capita includes income factors, but it could be distorted. For example, an economy like Singapore which has significant portion of GDP contributed by international trade, its GDP may not fully reflects the income level of local people.
-
-== Worldwide Cost of Living by EIU
+GDP per capita measured in PPP includes income factors, but it could be distorted. For example, an economy like Singapore which has significant portion of GDP contributed by international trade, its GDP may not fully reflects the income level of local people.
 
 Another commonly cited indicator is the Economist Intelligence Unit's (EIU) Worldwide Cost of Living (WCOL) survey. In this yearly survey, it consistently ranks Singapore as the city with highest live cost in the world and attracts media attentions.
 
@@ -27,11 +45,37 @@ Singapore government responded[ref TBA] to this survey in Dec 2023, pointing out
 
 Beside these two reason, WCOL has same issue as CPI: It doesn't contains information about income level.
 
-== Common issue of Index indicator
+In general, if an economic indicator is represented as an scalar like the three mentioned above, it won't be able to reflect diversification within a society. Scalar as an one dimensional number is not suitable for describing situation across different segments of an economy. When concerning living cost pressure, it's a status tends varies among different classes within a society. Different representation of economic indicator are needed.
 
-Society is diversified, society has classes. Economic index indicators are usually an scalar. Scalar as an one dimensional number could never contains enough information for describe situation across different segments of an economy.
+== Research Question
 
 In order to create more holistic view of living cost of a economy, the proposed indicator is a curve: Living Cost Pressure Curve.
+
+
+== Result
+
+= Inst Dashboard
+
+= Data
+
+This papar mainly used data from Household Expenditure Survey (HES) conducted by the Singapore Department of Statistics. HES is conducted every 5 years since 2007/2008. Currently 3 survey's data are available: 07/08, 12/13 and 17/18. The latest survey data for year 23/24 will only be available in mid 2024.
+
+Each HES surveyed about 13,000 dwelling units in Singapore, and reported household income and expenditure data.
+
+[Add income & expediture data]
+
+These data provides insights about household living cost status in Singapore.
+
+== Who
+
+== Summary Statistic
+
+= Analysis
+
+= Conclusion
+
+
+= 
 
 = Living Cost Pressure Curve - LCPC
 
@@ -221,18 +265,18 @@ Just use typical case:
   * HDB 1 room share, HDB 4 room rental / 6
 * SP 3,150  E-HDB 3
   * HDB 2000 1 room alone, HDB 4 room rental / 3
-* EP holder income threhold 5,600 E-HDB 4
+* EP holder income threshold 5,600 E-HDB 4
   * Condo 1 room 7.31
 * PEP 22,500 Family 1 kids; two room condo
 * One Pass 30,000 Family, two kids; 3 room condo
 
-947 * 7.31 / 3
+947 \* 7.31 / 3
 2307.52
 
-700 * 7.31
+700 \* 7.31
 5117.0
 
-1200 * 7.31
+1200 \* 7.31
 8772.0
 
 = Factors impacting LCPC
