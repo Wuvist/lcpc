@@ -1,0 +1,586 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <bib:Document rdf:about="https://www.gov.sg/article/singapore-is-it-really-the-most-expensive-place-to-live">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Default</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_203"/>
+        <dc:title>gov.sg | Singapore Is it really the most expensive place to live</dc:title>
+        <dcterms:abstract>Government of Singapore.</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.gov.sg/article/singapore-is-it-really-the-most-expensive-place-to-live</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 16:41:10</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_203">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.gov.sg/article/singapore-is-it-really-the-most-expensive-place-to-live</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 16:41:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.numbeo.com/common/motivation_and_methodology.jsp">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_205"/>
+        <dc:title>Methodology and Motivation</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.numbeo.com/common/motivation_and_methodology.jsp</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 16:46:52</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_205">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Methodology and Motivation</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.numbeo.com/common/motivation_and_methodology.jsp</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 16:46:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.numbeo.com/cost-of-living/in/Singapore">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_207"/>
+        <dc:title>Cost of Living in Singapore</dc:title>
+        <dcterms:abstract>Average prices of more than 40 products and services in Singapore, SingaporeJan 2024. Prices of restaurants, food, transportation, utilities and housing are included.</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.numbeo.com/cost-of-living/in/Singapore</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 17:05:03</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_207">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.numbeo.com/cost-of-living/in/Singapore</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 17:05:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights.">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Base</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_209"/>
+        <dc:title>Singapore Consumer Price Index, Nov 2023</dc:title>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights.</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 17:22:12</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_209">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights.</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-01-13 17:22:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.imf.org/external/datamapper/PPPPC@WEO">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_211"/>
+        <dc:title>World Economic Outlook (October 2023) - GDP per capita, current prices</dc:title>
+        <dcterms:abstract>Gross domestic product (GDP) is the most commonly used single measure of a country's overall economic activity. Per capita GDP represents the total value in PPP terms of final goods and services produced within a country during a specified time period divided by the average population for the same one year.
+
+Purchasing Power Parity (PPP) is a theory which relates changes in the nominal exchange rate between two countries currencies to changes in the countries' price levels. More information on PPP methodology can be found on the World Economic Outlook FAQ - &lt;a href=&quot;http://www.imf.org/external/pubs/ft/weo/faq.htm#q4d&quot; target=&quot;new&quot;&gt;click here&lt;/a&gt;</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.imf.org/external/datamapper/PPPPC@WEO</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 07:55:07</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_211">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.imf.org/external/datamapper/PPPPC@WEO/SGP?zoom=SGP&amp;highlight=SGP</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 07:55:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.eiu.com/n/campaigns/worldwide-cost-of-living-2023/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Economist Intelligence Unit</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_213"/>
+        <dc:title>Worldwide Cost of Living 2023</dc:title>
+        <dcterms:abstract>Discover which cities the cost-of-living crisis is affecting the most in EIU’s latest report.</dcterms:abstract>
+        <z:language>en-GB</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.eiu.com/n/campaigns/worldwide-cost-of-living-2023/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 07:57:03</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_213">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.eiu.com/n/campaigns/worldwide-cost-of-living-2023/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 07:57:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_215"/>
+        <dc:title>HDB | Rental Statistics</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 08:24:41</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_215">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>HDB | Rental Statistics</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 08:24:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://normanton-park.sg/floorplan/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Normanton Park</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <dc:title>Floorplan | Normanton Park Condo Floor Plan Layout &amp; Project Brochure</dc:title>
+        <dcterms:abstract>Download our Complete Floorplan Layouts for Normanton Park. Choose from various Unit Types, Sizes &amp; Facing at Normanton Park Condo.</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://normanton-park.sg/floorplan/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 09:05:41</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.propertyguru.com.sg/property-guides/ccr-ocr-rcr-region-singapore-ura-map-21045">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>PropertyGuru Singapore</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Singapore District Map: Defining the CCR, RCR and OCR by the 28 Districts</dc:title>
+        <dcterms:abstract>Presenting the OCR, CCR and RCR! The Singapore District Map divides Singapore into distinct regions and 28 districts, according to the URA. Read more about the 3 main regions and Singapore districts here.</dcterms:abstract>
+        <z:shortTitle>Singapore District Map</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.propertyguru.com.sg/property-guides/ccr-ocr-rcr-region-singapore-ura-map-21045</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 09:05:54</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.ura.gov.sg/property-market-information/pmiResidentialRentalStatisticsForNonLanded">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Rental Statistics for Non-Landed Private Residential Properties by Project Name - Property Market Information</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ura.gov.sg/property-market-information/pmiResidentialRentalStatisticsForNonLanded</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 09:06:01</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://tablebuilder.singstat.gov.sg/table/CT/17863">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_220"/>
+        <dc:title>(DOS) | SingStat Table Builder – Average Household Size of Resident and Resident Employed Households</dc:title>
+        <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/17863</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 10:59:55</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_220">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/17863</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 10:59:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://tablebuilder.singstat.gov.sg/table/CT/16450">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_222"/>
+        <dc:title>(DOS) | SingStat Table Builder – Average Monthly Household Expenditure Per Household Member Among Resident Households</dc:title>
+        <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/16450</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 11:18:35</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_222">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/16450</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 11:18:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://tablebuilder.singstat.gov.sg/table/CT/16482">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_224"/>
+        <dc:title>(DOS) | SingStat Table Builder – Average Monthly Household Income (excluding Employer CPF) Among Resident Households</dc:title>
+        <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/16482</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 11:21:36</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_224">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/16482</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 11:21:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://tablebuilder.singstat.gov.sg/table/CT/16516">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_226"/>
+        <dc:title>(DOS) | SingStat Table Builder – Average Monthly Household Expenditure Per Household Member Among Resident Households Comprising Solely Non-Working Persons Aged 65 Years and Over</dc:title>
+        <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/16516</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 11:22:16</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_226">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tablebuilder.singstat.gov.sg/table/CT/16516</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 11:22:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.propertyguru.com.sg/property-guides/ultimate-list-of-bto-flat-prices-54099">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>PropertyGuru Singapore</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_242"/>
+        <dc:title>HDB BTO Prices Sorted by Estate and Price of Different Flat Types in Singapore (From 2019 to Oct 2023)</dc:title>
+        <dcterms:abstract>Looking up HDB BTO prices for the various estates and room sizes is part of figuring out which areas you can afford to live in. To help you better plan your budget, we compiled a list of BTO prices in Singapore from 2019 to Oct 2023.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.propertyguru.com.sg/property-guides/ultimate-list-of-bto-flat-prices-54099</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:07:37</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_242">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.propertyguru.com.sg/property-guides/ultimate-list-of-bto-flat-prices-54099</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 14:02:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.mas.gov.sg/regulation/explainers/new-housing-loans/msr-and-tdsr-rules">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Mortgage Servicing Ratio and Total Debt Servicing Ratio Rules</dc:title>
+        <dcterms:abstract>Explains the mortgage servicing ratio and total debt servicing ratio requirements for residential property loans.</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mas.gov.sg/regulation/explainers/new-housing-loans/msr-and-tdsr-rules</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:09:59</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.propertyguru.com.sg/property-guides/what-you-need-to-know-about-mortgage-servicing-ratio-msr-2731">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>PropertyGuru Singapore</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>What Is Mortgage Servicing Ratio (MSR)?</dc:title>
+        <dcterms:abstract>The Mortgage Servicing Ratio (MSR) in Singapore caps the amount that may be spent on mortgage repayments to 30% of a borrower’s gross monthly income. It applies to HDB flats and executive condominiums (ECs) bought from developers.</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.propertyguru.com.sg/property-guides/what-you-need-to-know-about-mortgage-servicing-ratio-msr-2731</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:12:59</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://stackedhomes.com/editorial/are-btos-still-as-profitable-today-heres-how-bto-profits-have-changed-since-2001/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Property Blog Singapore - Stacked Homes</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Sean</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_241"/>
+        <dc:title>Are BTOs Still As Profitable Today? Here’s How BTO Profits Have Changed Since 2001</dc:title>
+        <dc:date>2022-06-15T14:00:04+00:00</dc:date>
+        <z:language>en-US</z:language>
+        <z:shortTitle>Are BTOs Still As Profitable Today?</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://stackedhomes.com/editorial/are-btos-still-as-profitable-today-heres-how-bto-profits-have-changed-since-2001/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:15:50</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_241">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://stackedhomes.com/editorial/are-btos-still-as-profitable-today-heres-how-bto-profits-have-changed-since-2001/#gs.4nejum</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 14:02:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://homes.hdb.gov.sg/home/calculator/payment-plan">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>HDB | Payment Plan Calculator</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://homes.hdb.gov.sg/home/calculator/payment-plan</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:17:43</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.propertyguru.com.sg/singapore-property-resources/singapore-mortgage-calculators">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Home Loan Calculator to Calculate your HDB loans HLE | PropertyGuru Finance</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.propertyguru.com.sg/singapore-property-resources/singapore-mortgage-calculators</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:22:00</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_233">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>InterestRate.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cpf.gov.sg/content/dam/web/member/faq/documents/InterestRate.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:29:34</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_235">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sibor</foaf:surname>
+                        <foaf:givenName>M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_234"/>
+        <dc:title>Summary of SIBOR (SGD) 2024</dc:title>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_234">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Sibor - Summary of SIBOR (SGD) 2024.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dbs.com.sg/iwov-resources/pdf/loan/home-loans/manage-your-mortgage/sibor_dbs.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:31:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://housingloansg.com/hl/charts/sibor-sor-historical-chart">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_239"/>
+        <dc:title>HousingLoanSG - SIBOR/SORA Historical Chart</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://housingloansg.com/hl/charts/sibor-sor-historical-chart</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:32:19</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_239">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>HousingLoanSG - SIBOR/SORA Historical Chart</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://housingloansg.com/hl/charts/sibor-sor-historical-chart</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 14:02:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.dbs.com.sg/personal/loans/homeloans/sibor-transition">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>DBS</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>SIBOR to SORA Transition for Mortgage Loans | DBS Singapore</dc:title>
+        <dcterms:abstract>What you need to know about the SIBOR Transition</dcterms:abstract>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dbs.com.sg/personal/loans/homeloans/sibor-transition</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:34:50</dcterms:dateSubmitted>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.hdb.gov.sg/residential/selling-a-flat/overview/resale-statistics">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_240"/>
+        <dc:title>HDB | Resale Statistics</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.hdb.gov.sg/residential/selling-a-flat/overview/resale-statistics</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 12:41:24</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_240">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>HDB | Resale Statistics</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.hdb.gov.sg/residential/selling-a-flat/overview/resale-statistics</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-02-18 14:02:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
