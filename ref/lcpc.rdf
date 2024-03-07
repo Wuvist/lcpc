@@ -583,4 +583,82 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <z:linkMode>1</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
+    <bib:Document rdf:about="https://www.censtatd.gov.hk/en/web_table.html?id=140-09005">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_246"/>
+        <dc:title>C&amp;SD : Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.censtatd.gov.hk/en/web_table.html?id=140-09005</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-07 14:11:30</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_246">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>C&amp;SD : Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.censtatd.gov.hk/en/web_table.html?id=140-09005</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-07 14:11:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_245"/>
+        <dc:title>C&amp;SD : Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-07 14:11:35</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_245">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>C&amp;SD : Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-07 14:11:41</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://tradingeconomics.com/singapore/home-ownership-rate">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_248"/>
+        <dc:title>Singapore Home Ownership Rate</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tradingeconomics.com/singapore/home-ownership-rate</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-07 14:29:12</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_248">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Singapore Home Ownership Rate</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tradingeconomics.com/singapore/home-ownership-rate</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-07 14:29:16</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
 </rdf:RDF>

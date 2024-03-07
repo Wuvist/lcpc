@@ -63,21 +63,21 @@ savefig("cpi.png")
 
 # plots
 
-plot([1,4], [2,2], marker = true, ylim= [0, 4])
-plot!([2,3], [3,3], arrow = 2)
-plot!([2.8, 1.2], [1,1], arrow = 4)
+plot([1, 4], [2, 2], marker=true, ylim=[0, 4])
+plot!([2, 3], [3, 3], arrow=2)
+plot!([2.8, 1.2], [1, 1], arrow=4)
 yticks!([1, 2, 3], ["Group 1", "Group 2", "Group 3"])
 
 # LCPC By dwelling
 
-LCPC_e_0708 = [957,2121,3093,4423,6587,8222]
-LCPC_e_1213 = [1287,2478,3918,5283,8000,10409]
-LCPC_e_1718 = [1545,2709,3933,5504,7963,10500]
+LCPC_e_0708 = [957, 2121, 3093, 4423, 6587, 8222]
+LCPC_e_1213 = [1287, 2478, 3918, 5283, 8000, 10409]
+LCPC_e_1718 = [1545, 2709, 3933, 5504, 7963, 10500]
 
 
-LCPC_i_0708 = [1373,3946,5737,9028,17176,21198]
-LCPC_i_1213 = [1855,5083,8043,11006,20534,26055]
-LCPC_i_1718 = [2521,5868,8827,12244,21830,28937]
+LCPC_i_0708 = [1373, 3946, 5737, 9028, 17176, 21198]
+LCPC_i_1213 = [1855, 5083, 8043, 11006, 20534, 26055]
+LCPC_i_1718 = [2521, 5868, 8827, 12244, 21830, 28937]
 
 LCPC_0708 = LCPC_e_0708 ./ LCPC_i_0708
 LCPC_1213 = LCPC_e_1213 ./ LCPC_i_1213
@@ -87,5 +87,9 @@ plot(LCPC_0708, ylim=[0, 1], xticks=([1, 2, 3, 4, 5, 6], ["1-2 Room", "3-Room", 
 plot!(LCPC_1213, label="12/13")
 plot!(LCPC_1718, label="17/18")
 
+# Hong Kong
+hk_e_1920 = [15018, 27631, 37895]
+hk_i_23 = [19500, 27100, 38700]
 
-
+LCPC_hk = hk_e_1920 ./ hk_i_23
+plot(LCPC_hk, ylim=[0, 1.1], xticks=([1, 2, 3], ["Public housing", "Subsidised Housing", "Private Housing"]), label="19/20", title="HK Living Cost Pressure Curve - by type of Housing")
