@@ -113,8 +113,6 @@ These data provides insights about household living cost status in Singapore.
 
 = Living Cost Pressure Curve - LCPC
 
-
-
 The expenditure and income mentioned above are referring to the average household monthly expenditure of all form and average monthly income from all source.
 
 Benefit of:
