@@ -36,9 +36,9 @@ GDP per capita measured in PPP includes income factors, but it could be distorte
 
 Another commonly cited indicator is the Economist Intelligence Unit's (EIU) Worldwide Cost of Living (WCOL) survey@eiu. In this yearly survey, it consistently ranks Singapore as the city with highest live cost in the world and attracts media attentions.
 
-"The survey has been designed to enable human resources and finance managers to calculate cost-of-living allowances and build compensation packages for expatriates and business travelers"@eiu But when covered by media, public may have the misconception that this survey is reflecting living cost of local people.
+#quote[The survey has been designed to enable human resources and finance managers to calculate cost-of-living allowances and build compensation packages for expatriates and business travelers]@eiu But when WCOL survey report is covered by media, public may have the misconception that its data is aiming to reflect the living cost of local people.
 
-Singapore government responded@sg_response to this survey in Dec 2023, pointing out two reasons for "it may not reflect the cost of living for Singaporeans":
+Singapore government responded to WCOL survey in Dec 2023@sg_response, pointing out two reasons for #quote[it may not reflect the cost of living for Singaporeans]:
 - The WCOL survey's consumption basket does not reflect what Singaporeans usually consume
 - The rankings are sensitive to currency fluctuations
 
