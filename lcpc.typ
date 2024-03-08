@@ -35,7 +35,7 @@ When considering living cost, Consumer Price Index (CPI) is a commonly used indi
 
 GDP per capita measured in PPP includes income factors, but it could be distorted. For example, an economy like Singapore which has significant portion of GDP contributed by international trade, its GDP may not fully reflects the income level of local people.
 
-Another commonly cited indicator is the Economist Intelligence Unit's (EIU) Worldwide Cost of Living (WCOL) survey. In this yearly survey, it consistently ranks Singapore as the city with highest live cost in the world and attracts media attentions.
+Another commonly cited indicator is the Economist Intelligence Unit's (EIU) Worldwide Cost of Living (WCOL) survey@eiu. In this yearly survey, it consistently ranks Singapore as the city with highest live cost in the world and attracts media attentions.
 
 "The survey has been designed to enable human resources and finance managers to calculate cost-of-living allowances and build compensation packages for expatriates and business travelers"[ref TBA] But when covered by media, public may have the misconception that this survey is reflecting living cost of local people.
 
@@ -75,7 +75,7 @@ These data provides insights about household living cost status in Singapore.
 = Conclusion
 
 
-= 
+=
 
 = Living Cost Pressure Curve - LCPC
 
@@ -322,6 +322,4 @@ The main purpose of LCPC is to propose a indicator/framework for living cost pre
 
 The paper also used Singapore's data to show how simple idea of LCPC could reveal more meaningful household characteristics from the comprehensive HER reports, and make it good reference to larger group of audiences as well.
 
-= Reference
-
-[TBA] generate reference with bib from Zotero
+#bibliography("lcpc.bib", style:"harvard-cite-them-right")
