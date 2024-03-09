@@ -819,4 +819,119 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <z:linkMode>1</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
+    <bib:Document rdf:about="http://www.singstat.gov.sg/find-data/search-by-theme/households/household-income/latest-data">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Base</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_171"/>
+        <dc:title>Household Income - Latest Data</dc:title>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.singstat.gov.sg/find-data/search-by-theme/households/household-income/latest-data</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 07:01:10</dcterms:dateSubmitted>
+        <dc:description>Citation Key: income_trend</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_171">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.singstat.gov.sg/find-data/search-by-theme/households/household-income/latest-data</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 07:01:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.singstat.gov.sg/find-data/search-by-theme/households/households/latest-data">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Base</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_173"/>
+        <dc:title>Households - Latest Data</dc:title>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.singstat.gov.sg/find-data/search-by-theme/households/households/latest-data</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 07:17:51</dcterms:dateSubmitted>
+        <dc:description>Citation Key: dwelling_types</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_173">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.singstat.gov.sg/find-data/search-by-theme/households/households/latest-data</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 07:17:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.mof.gov.sg/singaporebudget/resources/support-for-households">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Budget</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Support For Households</dc:title>
+        <dcterms:abstract>Support For Households</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mof.gov.sg/singaporebudget/resources/support-for-households</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 07:57:47</dcterms:dateSubmitted>
+        <dc:description>Citation Key: ap_support</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.population.gov.sg/our-population/population-trends/overview/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:title>Singapore Population Trend</dc:title>
+        <dcterms:abstract>Singapore’s total population stood at 5.92 million as at June 2023 (Diagram 1), a 5.0 per cent increase from June...</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.population.gov.sg/our-population/population-trends/overview/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 08:11:49</dcterms:dateSubmitted>
+        <dc:description>Citation Key: sg_population</dc:description>
+    </bib:Document>
+    <bib:Document rdf:about="https://tradingeconomics.com/hong-kong/home-ownership-rate">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_177"/>
+        <dc:title>Hong Kong Home Ownership Rate</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tradingeconomics.com/hong-kong/home-ownership-rate</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 11:04:55</dcterms:dateSubmitted>
+        <dc:description>Citation Key: hk_home_ownership</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_177">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hong Kong Home Ownership Rate</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://tradingeconomics.com/hong-kong/home-ownership-rate</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-09 11:05:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
 </rdf:RDF>

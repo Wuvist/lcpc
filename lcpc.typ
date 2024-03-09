@@ -151,7 +151,7 @@ However, the data of 1st-20th group deserve more careful examination:
 This status does not necessarily implies that "Singapore's Poor struggles with household deficit". Within this group, 30%+ of household sole non-working household members of age 65+. i.e. retired elderly could be living saving, thus expenditure exceeds income#footnote[Retired elderly has no fixed salary, but could still have income from investment and rental.]. HES report indicates that #quote[It is notable, for example, that some resident households in the
 lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived in private property (7.1 per cent) or were headed by persons aged 65 years and over (36.7 per cent) in 2017/18.], indicating group with low monthly income may not be poorest group.
 
-=== By dwelling
+=== Segmented by Type of Dwelling
 
 Segmentation by type of dwelling on the other hand, may be better representing wealthiness of a household@sg_household_by_dwelling. There is strong corelation between amount of government transfer received and type of dwelling as shown in Key Household Income Trends, 2023 report@income_trend by SingStat and the group of received most government transfer is the one dwell in HDB#footnote[HDB stands for House Development Board, and it's often referred to the public house developed by Singapore government - House Development Board.] 1 & 2 Room flat#footnote[Key Household Income Trends, 2023 Chart 6: Average Annual Government Transfers Per Household Member shows that Government Transfers tends to decrease as type of dwelling improve]. Thus, if we are concerned about status of low class in Singapore, it's better to look at the group stay in HDB 1-2 room flat, instead of the group having the lowest income.
 
@@ -182,29 +182,12 @@ Segmenting by dwelling type on the other hand, provides a clear cut of who shoul
 
 Quick findings from this LCPC:
 - All LCP below 1: no household face deficit
-- LCP drop as type of dwelling improve in 2012/13
-- LCP actually has "bounds" as dwelling improve in 2017/18
-- LCP drop significantly for the 80% household stays in HDB - Public Housing from 2012/13 to 2017/18
-- LCP actually increase slightly for the 20% household stays in private housing
-- LCPC "flatten" from 2012/13 to 2017/18
+- LCP of all groups drop from 2007/08 to 2017/18
+- 1-2 Room group has the most improvement from 2012/13 to 2017/18, as a result of larger increment in income than expenditure. This could be a result of large transfer payment by the government.
+- LCPC of 2017/18 is in a slight "W" shape, which the "middle class" - group staying in 4-Room HDB and 5-Room and EC have large LCP than the neighboring groups 3-Room HDB and Condo. This may reflects the so-called "Squeezed Middle Class"
+- LCPC is much more "flatten" in 2017/18 than 2012/13, which may imply a more equal society.
 
-These phenomenons may be results of:
-- Government policies favoring Singaporean staying HDB
-- Lack of income increment opportunities for the "rich Singaporean"
-- Upgrading to better dwelling or moving to a more expensive life-style may increase LCP, "richer" household faces more economic pressure than the previous group
-  - Significant increase in pressure when moving from public housing to private
-  - "Squeezed Middle Class" - Singaporean household exceeds qualification for HDB, but not rich enough for private housing faces large economic pressure
-
-[TBA] more analysis/metrics
-
-=== Factors impacting SG LCPC
-
-==== Income [TBA]
-- Covid
-- Why high income group's LCP increase?
-- Does Progressive wage scheme help the bottom income group?
-
-==== GST increment
+=== GST increment
 
 Singapore Government increase GST from 7% to 9% in 2023 and 2024, with 1% increment each year, and it applies to all expenditure of all segments. Assuming Singaporeans doesn't change consumption with new GST, i.e. inelastic to price change of 1%; this policy will shift whole LCPC upwards, but the shape remains.
 
