@@ -15,7 +15,9 @@ LCPC_0708_IQ = e0708 ./ (i0708)
 LCPC_1213_IQ = e1213 ./ (i1213)
 LCPC_1718_IQ = e1718 ./ (i1718)
 
-plot(LCPC_0708_IQ, xlim=[0.8, 5.2], ylim=[0, 1.3], label="2007/08", title="SG LCPC by Income Quintile", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Income Quintile", xticks=([1, 2, 3, 4, 5], ["1st-20th", "21st-40th", "41st-60th", "61st-80th", "81th-100th"]))
+plot(LCPC_0708_IQ, xlim=[0.8, 5.2], ylim=[0, 1.3], label="2007/08", title="SG LCPC by Income Quintile",
+    ylabel="Monthly LCP(Expenditure/Income)", xlabel="Income Quintile", xticks=([1, 2, 3, 4, 5],
+        ["1st-20th", "21st-40th", "41st-60th", "61st-80th", "81th-100th"]))
 plot!(LCPC_1213_IQ, label="2012/13")
 plot!(LCPC_1718_IQ, label="2017/18")
 savefig("data/LCPC_income.png")
@@ -36,49 +38,29 @@ LCPC_0708 = LCPC_e_0708 ./ LCPC_i_0708
 LCPC_1213 = LCPC_e_1213 ./ LCPC_i_1213
 LCPC_1718 = LCPC_e_1213 ./ LCPC_i_1718
 
-plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6], ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"]), label="07/08", title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Dwelling")
-plot!(LCPC_1213, label="12/13")
-plot!(LCPC_1718, label="17/18")
+plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6],
+        ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"]), label="2007/08",
+    title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Dwelling")
+plot!(LCPC_1213, label="2012/13")
+plot!(LCPC_1718, label="2017/18")
 savefig("data/LCPC_dwelling.png")
 
 # Hong Kong
+# Expenditure https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A
+# Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing
+# Income https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A
+# Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)
 hk_e_1920 = [15018, 27631, 37895]
 hk_i_23 = [19500, 27100, 38700]
+hk_rent = [1701, 10100, 15218]
 
 LCPC_hk = hk_e_1920 ./ hk_i_23
-plot(LCPC_hk, xlim=[0.8, 3.2], ylim=[0, 1.3], xticks=([1, 2, 3], ["Public housing", "Subsidised Housing", "Private Housing"]), label="19/20", title="HK LCPC by type of housing", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Housing")
+LCPC_exclude_rent_hk = (hk_e_1920 .- hk_rent) ./ hk_i_23
+plot(LCPC_hk, xlim=[0.8, 3.2], ylim=[0, 1.3], xticks=([1, 2, 3],
+        ["Public housing", "Subsidised Housing", "Private Housing"]), label="2019/20",
+    title="HK LCPC by type of housing", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Housing")
+plot!(LCPC_exclude_rent_hk, label="2019/20 exclude rent")
 savefig("data/LCPC_hk.png")
-
-# by housing type
-# expditures0708 = [3180, 957, 2121, 3093, 4423, 6587, 8222]
-# expditures1213 = [3831, 1287, 2478, 3918, 5283, 8000, 10409]
-# expditures1718 = [3956, 1545, 2709, 3933, 5504, 7963, 10500]
-# hnumbers = [76961, 240651, 430965, 320330, 207282, 69038]
-
-# expend_1213 = CSV.read("data/expend_201213.csv", header=1:12, DataFrame)
-# rename!(expend_1213, ["Type of Goods and Services", "Total", "Total HDB", "1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed", "Misc"])
-# e1213 = values(expend_1213[1, 4:9])
-
-# expend_1718 = CSV.read("data/expend_201718.csv", header=1:12, DataFrame)
-# e1718 = values(expend_1718[1, 4:9])
-
-# income_1213 = CSV.read("data/income_201213.csv", header=1:12, DataFrame)
-# # income_1718 = CSV.read("income_201718.csv", header=1:12, DataFrame)
-# rename!(income1213, ["Source", "Total", "Total HDB", "1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed", "Misc"])
-# income1213[1:6, 3:9]
-# i1213 = values(income_1213[1, 4:9])
-
-# income_1718 = CSV.read("data/income_201718.csv", header=1:12, DataFrame)
-# i1718 = values(income_1718[1, 4:9])
-
-# mc1213 = collect(e1213 ./ i1213)
-# mc1718 = collect(e1718 ./ i1718)
-# plot(mc1213, ylim=[0, 1], xticks=([1, 2, 3, 4, 5, 6], ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"]), label="12/13", title="Living Cost Pressure Curve - by dwelling")
-# plot!(mc1718, label="17/18")
-
-# cpi = [73.741, 74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992]
-# plot(2000:2022, cpi, label="Consumer Price Index (CPI), 2019 As Base Year")
-# savefig("cpi.png")
 
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
 # data/cpijan24.xlsx, 3	Prices and Price Indices	Consumer Price Index (CPI), 2019 As Base Year, Annual
@@ -121,7 +103,8 @@ condo_23Q2 = CSV.read("data/condo_2023Q2.csv", DataFrame)
 condo_23Q3 = CSV.read("data/condo_2023Q3.csv", DataFrame)
 condo_23Q4 = CSV.read("data/condo_2023Q4.csv", DataFrame)
 
-median_PSF = [condo_23Q1."Median (\$ PSF per month)"; condo_23Q2."Median (\$ PSF per month)"; condo_23Q3."Median (\$ PSF per month)"; condo_23Q4."Median (\$ PSF per month)"]
+median_PSF = [condo_23Q1."Median (\$ PSF per month)"; condo_23Q2."Median (\$ PSF per month)";
+    condo_23Q3."Median (\$ PSF per month)"; condo_23Q4."Median (\$ PSF per month)"]
 mean_median_PSF = sum(median_PSF) / length(median_PSF)
 
 # estimate size of 3 bedroom condo: 1350 sf
@@ -151,5 +134,7 @@ i_ONE = 30000
 
 LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP_FSS_Condo, e_PEP, e_ONE] ./ [i_WP, i_SP, i_EP_HDB, i_EP_FSS_Condo, i_PEP, i_ONE]
 
-plot(LCPC_foreign, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6], ["WP", "SP", "EP-HDB", "EP-FSS-Condo", "PEP", "One Pass"]), label="2023", title="ESTIMATED SG LCPC by Type of Work Pass", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Work Pass")
+plot(LCPC_foreign, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6],
+        ["WP", "SP", "EP-HDB", "EP-FSS-Condo", "PEP", "One Pass"]), label="2023",
+    title="ESTIMATED SG LCPC by Type of Work Pass", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Work Pass")
 savefig("data/LCPC_foreign.png")
