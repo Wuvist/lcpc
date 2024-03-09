@@ -47,6 +47,15 @@ plot!(LCPC_1213, label="2012/13")
 plot!(LCPC_1718, label="2017/18")
 savefig("data/LCPC_dwelling.png")
 
+plot([LCPC_0708[1], LCPC_1718[1]], [6, 6], arrow=2, ylim=[0, 6.5], xlim=[0.3, 0.75], label="", xlabel="LCP")
+plot!([LCPC_0708[2], LCPC_1718[2]], [5, 5], arrow=2, label="")
+plot!([LCPC_0708[3], LCPC_1718[3]], [4, 4], arrow=2, label="")
+plot!([LCPC_0708[4], LCPC_1718[4]], [3, 3], arrow=2, label="")
+plot!([LCPC_0708[5], LCPC_1718[5]], [2, 2], arrow=2, label="")
+plot!([LCPC_0708[6], LCPC_1718[6]], [1, 1], arrow=2, label="")
+yticks!([6, 5, 4, 3, 2, 1], ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"])
+savefig("data/LCPC_change.png")
+
 # Hong Kong
 # Expenditure https://www.censtatd.gov.hk/en/web_table.html?id=140-09005
 # Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing
@@ -59,7 +68,7 @@ hk_e_1920 = [15018, 27631, 37895]
 
 # 2019,Q1,18500,29600,39000,28600
 # 2020,Q1,18000,27200,38800,28000
-hk_i_21 = [(18500+18000)/2, (29600+27200)/2, (39000+38800)/2]
+hk_i_21 = [(18500 + 18000) / 2, (29600 + 27200) / 2, (39000 + 38800) / 2]
 hk_rent = [1701, 10100, 15218]
 
 LCPC_hk = hk_e_1920 ./ hk_i_21
