@@ -81,11 +81,13 @@ savefig("data/LCPC_hk.png")
 # savefig("cpi.png")
 
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
-cpi = [74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992]
+# data/cpijan24.xlsx, 3	Prices and Price Indices	Consumer Price Index (CPI), 2019 As Base Year, Annual
+# CPI: All Items Less Accommodation
+cpi = [74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992, 114.334]
 cpi_0708 = (cpi[7] + cpi[8]) / 2
 cpi_1213 = (cpi[12] + cpi[13]) / 2
 cpi_1718 = (cpi[17] + cpi[18]) / 2
-cpi_22 = cpi[22]
+cpi_23 = cpi[23]
 
 df = DataFrame()
 df.cpi = [cpi_0708, cpi_1213, cpi_1718]
@@ -103,52 +105,50 @@ alpha_1room, beta_1room = coef(m_1room)
 alpha_4room, beta_4room = coef(m_4room)
 alpha_condo, beta_condo = coef(m_condo)
 
-e_1room = alpha_1room + beta_1room * cpi_22
-e_4room = alpha_4room + beta_4room * cpi_22
-e_condo = alpha_condo + beta_condo * cpi_22
-
-i_WP = 1600
-i_SP = 3150
-i_EP = 5000
-i_PEP = 22500
-i_ONE = 30000
+e_1room = alpha_1room + beta_1room * cpi_23
+e_4room = alpha_4room + beta_4room * cpi_23
+e_condo = alpha_condo + beta_condo * cpi_23
 
 # https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics
-HDB_4room_rent = [3380,3280,3600,3150,3900,3000,4100,3100,3800,3100,3150,3500,3200,3500,3080,3300,3300,4300,3200,3200,3400,3300,3500,3000,3100]
+HDB_4room_rent = [3380, 3280, 3600, 3150, 3900, 3000, 4100, 3100, 3800, 3100, 3150, 3500, 3200, 3500, 3080, 3300, 3300, 4300, 3200, 3200, 3400, 3300, 3500, 3000, 3100]
 # 4room HDB flat has 3 bed room for rent
-rent_1_HDB_room = sum(HDB_4room_rent)/length(HDB_4room_rent)/3
+rent_1_HDB_room = sum(HDB_4room_rent) / length(HDB_4room_rent) / 3
+# 7.31 from https://www.ura.gov.sg/property-market-information/pmiResidentialRentalStatisticsForNonLanded
+# data/condo_2023Q{1-4}.csv
 
-# 7.31 from https://www.ura.gov.sg/property-market-information/pmiResidentialRentalStatisticsForNonLanded 
-rent_condo_1room = 947 * 7.31 / 3
-rent_condo_2room_flat = 700 * 7.31
-rent_condo_3room_flat = 1200 * 7.31
+condo_23Q1 = CSV.read("data/condo_2023Q1.csv", DataFrame)
+condo_23Q2 = CSV.read("data/condo_2023Q2.csv", DataFrame)
+condo_23Q3 = CSV.read("data/condo_2023Q3.csv", DataFrame)
+condo_23Q4 = CSV.read("data/condo_2023Q4.csv", DataFrame)
 
-rent_WP = rent_1_HDB_room / 2
-rent_SP = rent_1_HDB_room
-rent_PEP = rent_condo_2room_flat
-rent_ONE = rent_condo_3room_flat
+median_PSF = [condo_23Q1."Median (\$ PSF per month)"; condo_23Q2."Median (\$ PSF per month)"; condo_23Q3."Median (\$ PSF per month)"; condo_23Q4."Median (\$ PSF per month)"]
+mean_median_PSF = sum(median_PSF) / length(median_PSF)
 
-e_WP = rent_WP + e_1room
-e_SP = rent_SP + e_4room
+rent_condo_1room = 947 * mean_median_PSF / 3
+rent_condo_2room_flat = 700 * mean_median_PSF
+rent_condo_3room_flat = 1200 * mean_median_PSF
+
+e_WP = rent_1_HDB_room / 2 + e_1room
+e_SP = rent_1_HDB_room + e_4room
 e_EP_hdb = rent_1_HDB_room + e_4room
-e_EP = rent_condo_1room + e_condo
-e_PEP = rent_PEP + e_condo * 3
-e_ONE = rent_ONE + e_condo * 4
+e_EP_FSS_Condo = rent_condo_1room + e_condo
+e_PEP = rent_condo_2room_flat + e_condo * 3
+e_ONE = rent_condo_3room_flat + e_condo * 4
 
 # min salary requirement
 # https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/services-sector-requirements
 # https://www.mom.gov.sg/passes-and-permits/s-pass/upcoming-changes-to-s-pass-eligibility
-# https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
+# https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility#ep-qualifying-salary
 # https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/eligibility-and-requirements
 # https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/eligibility
 i_WP = 1600
 i_SP = 3150
 i_EP_HDB = 5000
-i_EP = 5600
+i_EP_FSS_Condo = 5500
 i_PEP = 22500
 i_ONE = 30000
 
-LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP, e_PEP, e_ONE] ./ [i_WP,i_SP,i_EP_HDB,i_EP,i_PEP,i_ONE]
+LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP_FSS_Condo, e_PEP, e_ONE] ./ [i_WP, i_SP, i_EP_HDB, i_EP_FSS_Condo, i_PEP, i_ONE]
 
-plot(LCPC_foreign, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6], ["WP", "SP", "EP-HDB", "EP-Condo", "PEP", "One Pass"]), label="2022", title="ESTIMATED SG LCPC by Type of Work Pass", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Work Pass")
+plot(LCPC_foreign, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6], ["WP", "SP", "EP-HDB", "EP-FSS-Condo", "PEP", "One Pass"]), label="2023", title="ESTIMATED SG LCPC by Type of Work Pass", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Work Pass")
 savefig("data/LCPC_foreign.png")
