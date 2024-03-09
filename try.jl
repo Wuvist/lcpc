@@ -97,6 +97,10 @@ e_1room = alpha_1room + beta_1room * cpi_23
 e_4room = alpha_4room + beta_4room * cpi_23
 e_condo = alpha_condo + beta_condo * cpi_23
 
+e_1room_2019 = alpha_1room + beta_1room * 100
+e_4room_2019 = alpha_4room + beta_4room * 100
+e_condo_2019 = alpha_condo + beta_condo * 100
+
 # https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics 2023
 HDB_4room_rent = [3380, 3280, 3600, 3150, 3900, 3000, 4100, 3100, 3800, 3100, 3150, 3500, 3200, 3500, 3080, 3300, 3300, 4300, 3200, 3200, 3400, 3300, 3500, 3000, 3100]
 # 4room HDB flat has 3 bed room for rent
@@ -121,9 +125,16 @@ rent_condo_2room = rent_condo_1room * 2
 e_WP = rent_1_HDB_room / 2 + e_1room
 e_SP = rent_1_HDB_room + e_4room
 e_EP_hdb = rent_1_HDB_room + e_4room
-e_EP_FSS_Condo = rent_condo_1room + e_condo
+e_EP_Condo = rent_condo_1room + e_condo
 e_PEP = rent_condo_2room + e_condo * 3
 e_ONE = rent_condo_3room_flat + e_condo * 4
+
+e_WP_2019 = rent_1_HDB_room / 2 + e_1room_2019
+e_SP_2019 = rent_1_HDB_room + e_4room_2019
+e_EP_hdb_2019 = rent_1_HDB_room + e_4room_2019
+e_EP_Condo_2019 = rent_condo_1room + e_condo_2019
+e_PEP_2019 = rent_condo_2room + e_condo_2019 * 3
+e_ONE_2019 = rent_condo_3room_flat + e_condo_2019 * 4
 
 # min salary requirement
 # https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/services-sector-requirements
@@ -134,13 +145,15 @@ e_ONE = rent_condo_3room_flat + e_condo * 4
 i_WP = 1600
 i_SP = 3150
 i_EP_HDB = 5000
-i_EP_FSS_Condo = 5500
+i_EP_Condo = 5500
 i_PEP = 22500
 i_ONE = 30000
 
-LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP_FSS_Condo, e_PEP, e_ONE] ./ [i_WP, i_SP, i_EP_HDB, i_EP_FSS_Condo, i_PEP, i_ONE]
+LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP_Condo, e_PEP, e_ONE] ./ [i_WP, i_SP, i_EP_HDB, i_EP_Condo, i_PEP, i_ONE]
+LCPC_foreign_2109 = [e_WP_2019, e_SP_2019, e_EP_hdb_2019, e_EP_Condo_2019, e_PEP_2019, e_ONE_2019] ./ [i_WP, i_SP, i_EP_HDB, i_EP_Condo, i_PEP, i_ONE]
 
 plot(LCPC_foreign, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6],
-        ["WP", "SP", "EP-HDB", "EP-FSS-Condo", "PEP", "One Pass"]), label="2023",
+        ["WP", "SP", "EP-HDB", "EP-Condo", "PEP", "One Pass"]), label="2023",
     title="ESTIMATED SG LCPC by Type of Work Pass", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Work Pass")
+plot!(LCPC_foreign_2109, label="2019 CPI")
 savefig("data/LCPC_foreign.png")
