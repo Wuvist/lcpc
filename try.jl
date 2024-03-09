@@ -68,7 +68,7 @@ plot!(LCPC_exclude_rent_hk, label="2019/20 exclude rent")
 savefig("data/LCPC_hk.png")
 
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
-# data/cpijan24.xlsx
+# data/cpi_jan24.xlsx
 # Sheet 3	Prices and Price Indices	Consumer Price Index (CPI), 2019 As Base Year, Annual
 # CPI: All Items Less Accommodation
 cpi = [74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992, 114.334]

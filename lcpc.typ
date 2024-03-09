@@ -28,7 +28,7 @@
 
 = Introduction
 
-Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but seems none is directly reflecting living cost pressure among a society, and the reference values are limited. People need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. Furthermore, existing economic indicators have different issue when used for understanding living cost. This papar propose a new economic indicator LCPC - Living Cost Pressure Curve, aiming to have easy reference about living cost in societies to broader audience.
+Singapore is an advanced economy sometimes famous for its high GDP per capita and high living cost. These fames are usually news headlines which may be biased. Existing economic indicators may help public to have a glimpse of Singapore's economic from certain aspects, but seems none is directly reflecting living cost pressure among a society, and the reference values are limited. People need to digest multiple economic indicators in order to have a better understanding of Singaporean's living cost pressure. Furthermore, existing economic indicators have different issue when used for understanding living cost. This paper propose a new economic indicator LCPC - Living Cost Pressure Curve, aiming to have easy reference about living cost in societies to broader audience.
 
 When living cost is concerned, Consumer Price Index (CPI) is a commonly used indicator. According to Singapore Statistic Department(SingStat) @sg_cpi, the annual CPI using 2019 As Base Year increase from 74 in 2000 to 109 in 2022, but it doesn't imply that Singaporean's living cost pressure also increased by 47%. Singaporeans's income level may also increase during the same period. If income level increase at a faster rate than CPI, the actual economic pressure from living cost may drop.
 
@@ -119,7 +119,7 @@ Household expenditure and income data segmented by type of dwelling:
 
 These data provides insights about household living cost status in Singapore.
 
-LPC focus on household's monthly all source expenditure and income, aiming to  reflect a household's cash flow status, which reflects pressure of living cost. Thus expenditures like imputed rental of owner-occupied accommodation should not be included when caculating expenditure.
+LPC focus on household's monthly all source expenditure and income, aiming to  reflect a household's cash flow status, which reflects pressure of living cost. Thus expenditures like imputed rental of owner-occupied accommodation should not be included when calculating expenditure.
 
 Income include from all source that effects household's cash flow, for example salary, investment, rental income and regular government transfers like Workfare Income Supplement @wis.
 
@@ -129,7 +129,7 @@ LCPC could be segmented using different ways. The most natural way will be segme
 
 == Analysis of SG LCPC
 
-=== Segmentated by income quintile
+=== Segmented by Income Quintile
 
 Quick finding from SG LCPC by income quintile @sg_household_by_income:
 - LCP decreases as income level increases
@@ -142,7 +142,7 @@ Quick finding from SG LCPC by income quintile @sg_household_by_income:
 However, the data of 1st-20th group deserve more careful examination:
 - LCP is higher than 1, meaning expenditure exceed income.
 
-This status does not nessesarily implies that "Singapore's Poor struggles with household deficit". Within this group, 30%+ of household sole non-working household members of age 65+. i.e. retired olderly could be living saving, thus expenditure exceeds income#footnote[Retired olderly has no fixed salary, but could still have income from investment and rental.]. HES report indicates that #quote[It is notable, for example, that some resident households in the
+This status does not necessarily implies that "Singapore's Poor struggles with household deficit". Within this group, 30%+ of household sole non-working household members of age 65+. i.e. retired elderly could be living saving, thus expenditure exceeds income#footnote[Retired elderly has no fixed salary, but could still have income from investment and rental.]. HES report indicates that #quote[It is notable, for example, that some resident households in the
 lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived in private property (7.1 per cent) or were headed by persons aged 65 years and over (36.7 per cent) in 2017/18.], indicating group with low monthly income may not be poorest group.
 
 === By dwelling
@@ -172,7 +172,7 @@ LCPC doesn't requires size of each segment to be equal, it's more important to m
 
 Comparing to by income level, although the segments are evenly distributed, but audience may hard to project themselves into corresponding group. One may think they belongs to "middle-income", when while they are actually among the top 20% earners. Or the opposites may also happen.
 
-Segmenting by dwelling type on the other hand, provides a clear cut of who should belong to each segment. The SG LCPC by type of dwelling @sg_household_by_dwelling has been striped off household with sole member of age 65+ and segmented by household#[It's also possible to form another LCPC analysing this group alone, the data is available in HES].
+Segmenting by dwelling type on the other hand, provides a clear cut of who should belong to each segment. The SG LCPC by type of dwelling @sg_household_by_dwelling has been striped off household with sole member of age 65+ and segmented by household#[It's also possible to form another LCPC focusing this group alone, the data is available in HES. I will exam in future study.].
 
 Quick findings from this LCPC:
 - All LCP below 1: no household face deficit
@@ -214,7 +214,7 @@ HES's expenditure doesn't include Mortgage Repayment. The housing category expen
 * Housing(Rentals) And Utilities
 * Furnishings, Household Equipment And Routine Household Maintenance
 
-I initially tried to include mortgage repayment into household expediture. According to HES 2022/23 Information Pamphlet, HES does collect home mortgage repayment data, but not revealed in report. It's not only hard to find statistic for Singaporean's mortgage repayment, making reasonable estimation of mortage repayment is also very hard.
+I initially tried to include mortgage repayment into household expenditure. According to HES 2022/23 Information Pamphlet, HES does collect home mortgage repayment data, but not revealed in report. It's not only hard to find statistic for Singaporean's mortgage repayment, making reasonable estimation of mortgage repayment is also very hard.
 
 Mortgage is determined largely at the moment of purchase, and it varies a lot from one household to another. It's hard to estimate which age group of household purchase their first house, nor to mention segmented it by income quintiles or type of dwelling.
 
@@ -258,7 +258,7 @@ As for income, I would use minimum salary required by Ministry of Manpower for e
     [Estimated Income#h(24pt)], [1,600], [3,150], [5,000], [5,500#footnote[minimum salary requirement for EP in Financial Sector]], [22,500], [30,000]
   ),
   kind: table,
-  caption: "ESTIMATED SG foreign works income & expenditure by type of work pass"
+  caption: "ESTIMATED SG foreign worker's income & expenditure by type of work pass"
 ) <sg_worker_by_pass>
 
 = LCPC for other economies
@@ -300,7 +300,7 @@ The paper also used Singapore's data to show how simple idea of LCPC could revea
 ```julia
 using CSV, DataFrames, GLM
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
-# data/cpijan24.xlsx
+# data/cpi_jan24.xlsx
 # Sheet 3 Prices and Price Indices  Consumer Price Index (CPI), 2019 As Base Year, Annual
 # CPI: All Items Less Accommodation
 cpi = [74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992, 114.334]
