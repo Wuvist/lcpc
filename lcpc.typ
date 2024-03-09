@@ -119,7 +119,7 @@ Household expenditure and income data segmented by type of dwelling:
 
 These data provides insights about household living cost status in Singapore.
 
-LPC focus on household's monthly all source expenditure and income, aiming to  reflect a household's cash flow status, which reflects pressure of living cost. Thus expenditures like imputed rental of owner-occupied accommodation should not be included when caculating expenditure. 
+LPC focus on household's monthly all source expenditure and income, aiming to  reflect a household's cash flow status, which reflects pressure of living cost. Thus expenditures like imputed rental of owner-occupied accommodation should not be included when caculating expenditure.
 
 Income include from all source that effects household's cash flow, for example salary, investment, rental income and regular government transfers like Workfare Income Supplement @wis.
 
@@ -147,7 +147,7 @@ lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived i
 
 === By dwelling
 
-Segmentation by type of dwelling on the other hand, may be better representing wealthiness of a household@sg_household_by_dwelling. There is strong corelation between amount of government transfer received and type of dewelling as shown in Key Household Income Trends, 2023 report@income_trend by SingStat and the group of received most goverment transfer is the one dwell in HDB#footnote[HDB stands for House Development Board, and it's offen refered to the public house developed by Singapore government - House Development Board.] 1 & 2 Room flat#footnote[Key Household Income Trends, 2023 Chart 6: Average Annual Government Transfers Per Household Member shows that Government Transfers tends to decrease as type of dwelling improve]. Thus, if we are concerned about status of low class in Singapore, it's better to look at the group stay in HDB 1-2 room flat, instead of the group having the lowest income.
+Segmentation by type of dwelling on the other hand, may be better representing wealthiness of a household@sg_household_by_dwelling. There is strong corelation between amount of government transfer received and type of dwelling as shown in Key Household Income Trends, 2023 report@income_trend by SingStat and the group of received most government transfer is the one dwell in HDB#footnote[HDB stands for House Development Board, and it's often referred to the public house developed by Singapore government - House Development Board.] 1 & 2 Room flat#footnote[Key Household Income Trends, 2023 Chart 6: Average Annual Government Transfers Per Household Member shows that Government Transfers tends to decrease as type of dwelling improve]. Thus, if we are concerned about status of low class in Singapore, it's better to look at the group stay in HDB 1-2 room flat, instead of the group having the lowest income.
 
 Type of dwelling in Singapore are typically segmented into:
 
@@ -156,8 +156,8 @@ Type of dwelling in Singapore are typically segmented into:
     columns: 7,
     align: center + horizon,
     auto-vlines: false,
-    (), colspanx(4)[*HDB*], rowspanx(2)[*Condo#footnot[Condominiums & Other Apartments]*], rowspanx(2)[*Landed#footnote[Landed Properties]*],
-    (), [*1-2 Room*], [*3-Room*], [*4-Room*], [*5-Room and EC#footnote[Executive Condominiums which sold by HDB, provide better housing but government sponsed.]*],(),
+    rowspanx(2)[],colspanx(4)[*HDB*], rowspanx(2)[*Condo#footnote[Condominiums & Other Apartments]*], rowspanx(2)[*Landed#footnote[Landed Properties]*],
+    (), [*1-2 Room*], [*3-Room*], [*4-Room*], [*5-Room and EC#footnote[Executive Condominiums which sold by HDB, provide better housing but government sponsored.]*],(),
     [Percentage], [7.0%], [17.0%], [31.3%], [22.4%], [17.2%], [4.8%],
   ),
   kind: table,
@@ -191,82 +191,75 @@ These phenomenons may be results of:
 
 [TBA] more analysis/metrics
 
+=== Factors impacting SG LCPC
 
-
-
-= Conclusion
-
-= Mortgage Payment
-
-HES's expenditure doesn't include Housing loan repayment.
-
-The housing category expenditure in HES report only includes@hes:
-* Housing(Rentals) And Utilities
-* Furnishings, Household Equipment And Routine Household Maintenance
-
-I did tried hard to find statistic for Singaporean's mortgage, but not able to get any statistical data or estimations could fitted into LCP.
-
-According to HES 2022/23 Information Pamphlet, HES does collect home mortgage repayment data, but not revealed in report.
-
-Mortgage is determined largely at the moment of purchase, and it varies a lot from one household to another. It's hard to estimate which age group of household purchase their first house, nor to mention segmented it by income level or type of house.
-
-Mortgage rate may changes, but about 80% of Singapore household stays in HDB, and the interest rate of HDB's loans is pegged to +0.1% of interest rate of CPF ordinary account@hdb_interest, which is 2.5% since July 1999@cpf_interest.
-
-Market interest rate may change, but it will be capped to 2.6% - HDB rates. Condo & landed properties owners may need to take loans from commercial banks, and the rate would have much higher fluctuations. But that only impacts the top 20% high income household.
-
-Furthermore, MAS has MRS limit: 30% @tdsr.
-
-If we do a extreme estimation of that all household takes the maximum housing loans, it just discounts LCP of all segment to 70%, and has no impact on the shape/distribution of the LCPC.
-
-From an accounting point of view, property is considered as an asset of an household, "buying" of house is actually turning cash assets to fixed asset, and may not incur any expenditures, it could even be considered as an investment. It's only the interest payment of mortgage could be considered actual expenditure.
-
-Mortgage impact of LCPC would be future research topic, perhaps using another economy like Hong Kong as object.
-
-= Rental - LCPC for foreigner in Singapore
-
-Rental on housing is a also a topic worth deeper analysis. Home ownership rate is almost 90% in Singapore@sg_home_ownership, thus rental may not be a significant factor for Singaporean household's expenditure. But Singapore is a society consisting about 30% non-residents[ref TBA], including foreign students, workers and professionals.
-
-Singapore forbids foreigner making purchase of HDB and most landed properties, the additional buyer-side stamp duty (ABSD) for foreign buyers also has been increasing. Thus rental would play a major factor for foreigner staying in Singapore's LCP.
-
-HES focused on local household, thus didn't have any data on this aspect.
-
-But, it's feasible to construct an estimated LCPC for foreigner in Singapore.
-
-[TBA] HDB Rental / Condo rental data & construct LCPC and findings
-
-Just use typical case:
-* WP 1600 - E-HDB 1/2
-  * HDB 1 room share, HDB 4 room rental / 6
-* SP 3,150  E-HDB 3
-  * HDB 2000 1 room alone, HDB 4 room rental / 3
-* EP holder income threshold 5,600 E-HDB 4
-  * Condo 1 room 7.31
-* PEP 22,500 Family 1 kids; two room condo
-* One Pass 30,000 Family, two kids; 3 room condo
-
-947 \* 7.31 / 3
-2307.52
-
-700 \* 7.31
-5117.0
-
-1200 \* 7.31
-8772.0
-
-= Factors impacting LCPC
-
-== Income [TBA]
+==== Income [TBA]
 - Covid
 - Why high income group's LCP increase?
 - Does Progressive wage scheme help the bottom income group?
 
-== GST
+==== GST increment
 
 Singapore Government increase GST from 7% to 9% in 2023 and 2024, with 1% increment each year, and it applies to all expenditure of all segments. Assuming Singaporeans doesn't change consumption with new GST, i.e. inelastic to price change of 1%; this policy will shift whole LCPC upwards, but the shape remains.
 
-However, Singapore government did provide tax relief to low income families[ref TBA], thus this policy will have an "bending effect" on LCPC, potentially making it more flatten.
+Singapore government does provide "Assurance Package" to help low income families@ap_support cushion the impact of the GST increment, thus this policy will have an "bending effect" on LCPC, potentially making it more flatten.
 
-When HER 22/23 report is available, we could re-visit with the new data.
+When HER 2022/23 report is available, I could re-visit with the new data.
+
+= Estimation of other LCPC
+
+== Mortgage Repayment
+
+HES's expenditure doesn't include Mortgage Repayment. The housing category expenditure in HES report only includes@hes:
+* Housing(Rentals) And Utilities
+* Furnishings, Household Equipment And Routine Household Maintenance
+
+I initially tried to include mortgage repayment into household expediture. According to HES 2022/23 Information Pamphlet, HES does collect home mortgage repayment data, but not revealed in report. It's not only hard to find statistic for Singaporean's mortgage repayment, making reasonable estimation of mortage repayment is also very hard.
+
+Mortgage is determined largely at the moment of purchase, and it varies a lot from one household to another. It's hard to estimate which age group of household purchase their first house, nor to mention segmented it by income quintiles or type of dwelling.
+
+Mortgage rate may changes,. But about 80% of Singapore household stays in HDB, and the interest rate of HDB's loans is pegged to +0.1% of interest rate of CPF ordinary account@hdb_interest, which is 2.5% since July 1999@cpf_interest. Market interest rate may change, but it will be capped to 2.6% - HDB rates. Condo & landed properties owners may need to take loans from commercial banks, and the rate would have much higher fluctuations. But that only impacts the top 20% high income household.
+
+Furthermore, MAS has MRS limit: 30%@tdsr.
+
+If we do a extreme estimation of that all household takes the maximum housing loans, it just discounts LCP of all segment to 70%, and has no impact on the shape of the LCPC.
+
+From an accounting perspective, property is considered as an asset of an household, "buying" of house is actually turning cash assets to fixed asset, and may not incur any expenditures, it could even be considered as an investment. It's only the interest payment of mortgage could be considered actual expenditure.
+
+Mortgage impact of LCPC would be future research topic, for this paper, I decides to exclude mortgage repayment when constructing LCPC.
+
+
+== Rental - LCPC for foreigner in Singapore
+
+Rental on housing is an area worth deeper analysis. Home ownership rate is almost 90% in Singapore@sg_home_ownership, thus rental may not be a significant factor for Singaporean household's expenditure. But Singapore is a society consisting about 30%, or 1.77M non-residents@sg_population, including foreign students, workers and professionals etc.
+
+Singapore forbids foreigner making purchase of HDB and most landed properties, the additional buyer-side stamp duty (ABSD) for foreign buyers also has been increasing#footnote[https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/additional-buyer's-stamp-duty-(absd)]. Thus rental would play a major factor for foreigner staying in Singapore's LCP.
+
+It's feasible to construct an estimated LCPC for foreigners in Singapore:
+
+#figure(
+  image("data/LCPC_foreign.png"),
+  caption: "ESTIMATED SG LCPC for foreigners by type of work pass"
+) <sg_lcpc_by_pass>
+
+For estimation, I assume Work Permit(WP), S-Pass(SP) and Employment Pass(EP) holders are individual bearing they own expenditure, Personalised Employment Pass(PEP) bear expenditure of a family of three, and Overseas Networks & Expertise Pass(ONE Pass) holder bear expenditure of a family of four. Their rentals are estimated from average rental price of 4room HDB and 3-bedroom condo, which WP holder share one 1 HDB bed room and ONE Pass holder rent the whole condo unit. Monthly expenditure excluding rental are estimated from household expenditure data from HES and CPI. Monthly rental are estimated from average rental 4room HDB and 3 bedroom condo. Details calculation are in @code.
+
+As for income, I would use minimum salary required by Ministry of Manpower for each type of pass.
+
+#figure(
+  tablex(
+    columns: 7,
+    align: center + horizon,
+    auto-vlines: false,
+    rowspanx(2)[], rowspanx(2)[*WP*], rowspanx(2)[*SP*], colspanx(2)[*EP*], rowspanx(2)[*PEP*], rowspanx(2)[*ONE Pass*],
+    [*Rent HDB*], [*Rent Condo*],
+    [Estimated Expenditure], [1,010], [1,667], [1,667], [3,454], [10,362], [13,816],
+    [Estimated Rental#h(28pt)], [562], [1,126], [1,126], [2,328], [4,656], [6,983],
+    [Estimated Income#h(24pt)], [1,600], [3,150], [5,000], [5,500#footnote[minimum salary requirement for EP in Financial Sector]], [22,500], [30,000]
+  ),
+  kind: table,
+  caption: "ESTIMATED SG foreign works income & expenditure by type of work pass"
+) <sg_worker_by_pass>
 
 = LCPC for other economies
 
@@ -299,5 +292,85 @@ The main purpose of LCPC is to propose a indicator/framework for living cost pre
 - Perform meaningful segmentation to show how pressure is distributed.
 
 The paper also used Singapore's data to show how simple idea of LCPC could reveal more meaningful household characteristics from the comprehensive HER reports, and make it good reference to larger group of audiences as well.
+
+= Appendix
+
+== Detail calculation of foreign worker LCPC <code>
+
+```julia
+using CSV, DataFrames, GLM
+# http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
+# data/cpijan24.xlsx
+# Sheet 3 Prices and Price Indices  Consumer Price Index (CPI), 2019 As Base Year, Annual
+# CPI: All Items Less Accommodation
+cpi = [74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992, 114.334]
+cpi_0708 = (cpi[7] + cpi[8]) / 2
+cpi_1213 = (cpi[12] + cpi[13]) / 2
+cpi_1718 = (cpi[17] + cpi[18]) / 2
+cpi_23 = cpi[23]
+
+df = DataFrame()
+df.cpi = [cpi_0708, cpi_1213, cpi_1718]
+
+# HES - Chart 1.10: Average Monthly Household Expenditure Per Household Member by Type of Dwelling, 2007/08 - 2017/18
+df.e_1room = [491, 653, 772]
+df.e_4room = [919, 1162, 1320]
+df.e_condo = [2169, 2717, 2794]
+
+m_1room = lm(@formula(e_1room ~ cpi), df)
+m_4room = lm(@formula(e_4room ~ cpi), df)
+m_condo = lm(@formula(e_condo ~ cpi), df)
+
+alpha_1room, beta_1room = coef(m_1room)
+alpha_4room, beta_4room = coef(m_4room)
+alpha_condo, beta_condo = coef(m_condo)
+
+e_1room = alpha_1room + beta_1room * cpi_23
+e_4room = alpha_4room + beta_4room * cpi_23
+e_condo = alpha_condo + beta_condo * cpi_23
+
+# https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics
+HDB_4room_rent = [3380, 3280, 3600, 3150, 3900, 3000, 4100, 3100, 3800, 3100, 3150, 3500, 3200, 3500, 3080, 3300, 3300, 4300, 3200, 3200, 3400, 3300, 3500, 3000, 3100]
+# 4room HDB flat has 3 bed room for rent
+rent_1_HDB_room = sum(HDB_4room_rent) / length(HDB_4room_rent) / 3
+# 7.31 from https://www.ura.gov.sg/property-market-information/pmiResidentialRentalStatisticsForNonLanded
+# data/condo_2023Q{1-4}.csv
+
+condo_23Q1 = CSV.read("data/condo_2023Q1.csv", DataFrame)
+condo_23Q2 = CSV.read("data/condo_2023Q2.csv", DataFrame)
+condo_23Q3 = CSV.read("data/condo_2023Q3.csv", DataFrame)
+condo_23Q4 = CSV.read("data/condo_2023Q4.csv", DataFrame)
+
+median_PSF = [condo_23Q1."Median (\$ PSF per month)"; condo_23Q2."Median (\$ PSF per month)";
+    condo_23Q3."Median (\$ PSF per month)"; condo_23Q4."Median (\$ PSF per month)"]
+mean_median_PSF = sum(median_PSF) / length(median_PSF)
+
+# estimate size of 3 bedroom condo: 1350 sf
+rent_condo_3room_flat = 1350 * mean_median_PSF
+rent_condo_1room = rent_condo_3room_flat / 3
+rent_condo_2room = rent_condo_1room * 2
+
+e_WP = rent_1_HDB_room / 2 + e_1room
+e_SP = rent_1_HDB_room + e_4room
+e_EP_hdb = rent_1_HDB_room + e_4room
+e_EP_FSS_Condo = rent_condo_1room + e_condo
+e_PEP = rent_condo_2room_flat + e_condo * 3
+e_ONE = rent_condo_3room_flat + e_condo * 4
+
+# min salary requirement
+# https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/services-sector-requirements
+# https://www.mom.gov.sg/passes-and-permits/s-pass/upcoming-changes-to-s-pass-eligibility
+# https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility#ep-qualifying-salary
+# https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/eligibility-and-requirements
+# https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/eligibility
+i_WP = 1600
+i_SP = 3150
+i_EP_HDB = 5000
+i_EP_FSS_Condo = 5500
+i_PEP = 22500
+i_ONE = 30000
+
+LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP_FSS_Condo, e_PEP, e_ONE] ./ [i_WP, i_SP, i_EP_HDB, i_EP_FSS_Condo, i_PEP, i_ONE]
+```
 
 #bibliography("lcpc.bib", style:"harvard-cite-them-right")

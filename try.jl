@@ -1,5 +1,4 @@
-# using CSV
-using DataFrames, GLM, Plots
+using CSV, DataFrames, GLM, Plots
 
 # HES: REPORT ON THE HOUSEHOLD EXPENDITURE SURVEY, 2017/18
 # data/household_expenditure.pdf
@@ -98,7 +97,7 @@ e_1room = alpha_1room + beta_1room * cpi_23
 e_4room = alpha_4room + beta_4room * cpi_23
 e_condo = alpha_condo + beta_condo * cpi_23
 
-# https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics
+# https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/rental-statistics 2023
 HDB_4room_rent = [3380, 3280, 3600, 3150, 3900, 3000, 4100, 3100, 3800, 3100, 3150, 3500, 3200, 3500, 3080, 3300, 3300, 4300, 3200, 3200, 3400, 3300, 3500, 3000, 3100]
 # 4room HDB flat has 3 bed room for rent
 rent_1_HDB_room = sum(HDB_4room_rent) / length(HDB_4room_rent) / 3
@@ -123,7 +122,7 @@ e_WP = rent_1_HDB_room / 2 + e_1room
 e_SP = rent_1_HDB_room + e_4room
 e_EP_hdb = rent_1_HDB_room + e_4room
 e_EP_FSS_Condo = rent_condo_1room + e_condo
-e_PEP = rent_condo_2room_flat + e_condo * 3
+e_PEP = rent_condo_2room + e_condo * 3
 e_ONE = rent_condo_3room_flat + e_condo * 4
 
 # min salary requirement
