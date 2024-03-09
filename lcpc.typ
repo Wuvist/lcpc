@@ -334,6 +334,35 @@ All data and source code used for this paper are available at: https://github.co
 
 == Detail calculation of foreign worker LCPC <code>
 
+#show raw: it => {
+  if it.block {
+    if it.lang == "julia" or it.lang =="python" {
+      let top_right(lang) = style(styles => {
+        let body = "Python"
+        if lang == "julia" {
+          body = "Julia"
+        }
+        let w = measure(body, styles).width
+        place(
+          dy:-8pt,
+          dx: 100%- w,
+          block(fill: luma(255), inset: 4pt, body),
+        )
+      })
+      block(fill: luma(250), width: 100%, inset: 8pt, radius: 2pt, [
+        #top_right(it.lang)
+        #set text(8pt)
+        #set par(justify: false)
+        #it
+      ], )
+    } else {
+      block(fill: luma(230), width: 100%, inset: 7pt, radius: 1pt, it)
+    }
+  } else {
+    it
+  }
+}
+
 ```julia
 using CSV, DataFrames, GLM
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
@@ -370,7 +399,7 @@ e_condo = alpha_condo + beta_condo * cpi_23
 HDB_4room_rent = [3380, 3280, 3600, 3150, 3900, 3000, 4100, 3100, 3800, 3100, 3150, 3500, 3200, 3500, 3080, 3300, 3300, 4300, 3200, 3200, 3400, 3300, 3500, 3000, 3100]
 # 4room HDB flat has 3 bed room for rent
 rent_1_HDB_room = sum(HDB_4room_rent) / length(HDB_4room_rent) / 3
-# 7.31 from https://www.ura.gov.sg/property-market-information/pmiResidentialRentalStatisticsForNonLanded
+# PSF from https://www.ura.gov.sg/property-market-information/pmiResidentialRentalStatisticsForNonLanded
 # data/condo_2023Q{1-4}.csv
 
 condo_23Q1 = CSV.read("data/condo_2023Q1.csv", DataFrame)
