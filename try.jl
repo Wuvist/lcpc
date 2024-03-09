@@ -124,9 +124,10 @@ condo_23Q4 = CSV.read("data/condo_2023Q4.csv", DataFrame)
 median_PSF = [condo_23Q1."Median (\$ PSF per month)"; condo_23Q2."Median (\$ PSF per month)"; condo_23Q3."Median (\$ PSF per month)"; condo_23Q4."Median (\$ PSF per month)"]
 mean_median_PSF = sum(median_PSF) / length(median_PSF)
 
-rent_condo_1room = 947 * mean_median_PSF / 3
-rent_condo_2room_flat = 700 * mean_median_PSF
-rent_condo_3room_flat = 1200 * mean_median_PSF
+# estimate size of 3 bedroom condo: 1350 sf
+rent_condo_3room_flat = 1350 * mean_median_PSF
+rent_condo_1room = rent_condo_3room_flat / 3
+rent_condo_2room = rent_condo_1room * 2
 
 e_WP = rent_1_HDB_room / 2 + e_1room
 e_SP = rent_1_HDB_room + e_4room
