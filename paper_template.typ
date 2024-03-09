@@ -27,7 +27,7 @@
   JEL: [],
   acknowledgments: none,
   // bibloc: "",
-  // bibstyle: "ieee", 
+  // bibstyle: "ieee",
   // bibtitle: "References",
   doc,
 ) = {
@@ -55,7 +55,7 @@ set footnote.entry(indent: 0em)
     columns: (1fr,) * ncols,
     row-gutter: 24pt,
     ..authors.map(author => {
-      text(14pt,align(center,{author.name; 
+      text(14pt,align(center,{author.name;
       {
         if author.note != ""  {
           footnote(author.note)
@@ -80,14 +80,14 @@ set footnote.entry(indent: 0em)
     }
     if keywords != [] {
     par(justify: true)[
-      #set align(left) 
+      #set align(left)
       #emph([*Keywords:*]) #keywords
     ]
     v(5pt)
     }
     if JEL != [] {
     par(justify: true)[
-        #set align(left) 
+        #set align(left)
         #emph([*JEL Classification:*]) #JEL
     ]
     v(5pt)
@@ -102,7 +102,7 @@ set footnote.entry(
 set footnote.entry(indent: 0em)
   set align(left)
   columns(1, doc)
-pagebreak()
+// pagebreak()
 
 // bibliography(
 //     bibloc,
@@ -124,7 +124,7 @@ pagebreak()
 )
 
 #let definition = thmbox(
-  "definition", 
+  "definition",
   "Definition",
   base_level: 1,
   stroke: rgb("#0000ff") + 1pt,
@@ -132,7 +132,7 @@ pagebreak()
 )
 
 #let lemma = thmbox(
-  "theorem", 
+  "theorem",
   "Lemma",
   base: "theorem",
   fill: rgb("#eeffee"),
@@ -150,6 +150,6 @@ pagebreak()
 ).with(numbering: none)
 
 #let remark = thmplain(
-  "remark", 
+  "remark",
   "Remark"
   ).with(numbering: none)

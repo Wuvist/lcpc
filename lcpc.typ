@@ -85,14 +85,14 @@ Household expenditure and income data segmented by income quintile:
     columns: 7,
     align: center + horizon,
     auto-vlines: false,
-    [*Year*], [*Type*], [*1st-20th*], [*21st-40th*], [*41st-60th*], [*61st-80th*], [*81st-100th*],
-    rowspanx(3)[07/08], [Expenditure], [1,787], [2,950], [3,602], [4,569], [6,138],
+    [*Year*], [*Data Type*], [*1st-20th*], [*21st-40th*], [*41st-60th*], [*61st-80th*], [*81st-100th*],
+    rowspanx(3)[2007/08], [Expenditure], [1,787], [2,950], [3,602], [4,569], [6,138],
     [Income], [1,466], [3,934], [6,175], [9,439], [19,511],
     [LCP], [1.22], [0.75], [0.58], [0.48], [0.31],
-    rowspanx(3)[12/13], [Expenditure], [2,215], [3,531], [4,705], [5,596], [7,575],
+    rowspanx(3)[2012/13], [Expenditure], [2,215], [3,531], [4,705], [5,596], [7,575],
     [Income], [1,949], [5,238], [8,355], [12,246], [24,547],
     [LCP], [1.14], [0.67], [0.56], [0.46], [0.31],
-    rowspanx(3)[17/18], [Expenditure], [2,570], [3,753], [4,812], [5,826], [7,573],
+    rowspanx(3)[2017/18], [Expenditure], [2,570], [3,753], [4,812], [5,826], [7,573],
     [Income], [2,235], [5,981], [9,678], [14,407], [26,587],
     [LCP], [1.15], [0.63], [0.50], [0.40], [0.28],
   ),
@@ -106,15 +106,15 @@ Household expenditure and income data segmented by type of dwelling:
     columns: 8,
     align: center + horizon,
     auto-vlines: false,
-    rowspanx(2)[*Year*], rowspanx(2)[*Type*], colspanx(4)[*HDB*], rowspanx(2)[*Condo*], rowspanx(2)[*Landed*],
-    (), [*1-2 Room*], [*3-Room*], [*4-Room*], [*5-Room and EC*],(),
-    rowspanx(3)[*07/08*], [Expenditure], [957], [2,121], [3,093], [4,423], [6,587], [8,222],
+    rowspanx(2)[*Year*], rowspanx(2)[*Data Type*], colspanx(4)[*HDB*], rowspanx(2)[*Condo*], rowspanx(2)[*Landed*],
+    (), [*1-2 Room*], [*3-Room*], [*4-Room*], [*5-Room&EC*],(),
+    rowspanx(3)[*2007/08*], [Expenditure], [957], [2,121], [3,093], [4,423], [6,587], [8,222],
     [Income], [1,373], [3,946], [5,737], [9,028], [17,176], [21,198],
     [LCP], [0.70], [0.54], [0.54], [0.49], [0.38], [0.38],
-    rowspanx(3)[*12/13*], [Expenditure], [1,287], [2,478], [3,918], [5,283], [8,000], [10,409],
+    rowspanx(3)[*2012/13*], [Expenditure], [1,287], [2,478], [3,918], [5,283], [8,000], [10,409],
     [Income], [1,855], [5,083], [8,043], [11,006], [20,534], [26,055],
     [LCP], [0.69], [0.49], [0.49], [0.48], [0.39], [0.40],
-    rowspanx(3)[*17/18*], [Expenditure], [1,545], [2,709], [3,933], [5,504], [7,963], [10,500],
+    rowspanx(3)[*2017/18*], [Expenditure], [1,545], [2,709], [3,933], [5,504], [7,963], [10,500],
     [Income], [2,521], [5,868], [8,827], [12,244], [21,830], [28,937],
     [LCP], [0.51], [0.42], [0.44], [0.43], [0.37], [0.36],
   ),
@@ -154,7 +154,7 @@ So, using income quintile for LCPC would be misleading.
 
 === Segmented by Type of Dwelling
 
-Segmentation by type of dwelling on the other hand as shown in @sg_lcpc_by_dwelling and @sg_household_by_dwelling may better represent wealthiness of a household and its LCP. There is strong corelation between amount of government transfer received and type of dwelling as shown in Key Household Income Trends, 2023 report@income_trend by SingStat and the group of received most government transfer is the one dwell in HDB#footnote[HDB stands for House Development Board, and it's often referred to the public house developed by Singapore government - House Development Board.] 1 & 2 Room flat#footnote[Key Household Income Trends, 2023 Chart 6: Average Annual Government Transfers Per Household Member shows that Government Transfers tends to decrease as type of dwelling improve]. Thus, if we are concerned about status of low class in Singapore, it's better to look at the group stay in HDB 1-2 room flat, instead of the group having the lowest income.
+Segmentation by type of dwelling on the other hand as shown in @sg_lcpc_by_dwelling and @sg_household_by_dwelling may better represent wealthiness of a household and its LCP. There is strong corelation between amount of government transfer received and type of dwelling as shown in Key Household Income Trends, 2023 report@income_trend by SingStat and the group of received most government transfer is the one dwell in HDB#footnote[HDB stands for House Development Board, and it's often referred to the public house developed by Singapore government - House Development Board.] 1 & 2 Room flat#footnote[Key Household Income Trends, 2023 Chart 6: Average Annual Government Transfers Per Household Member shows that Government Transfers tends to decrease as type of dwelling improve]. Thus, if we are concerned about status of low class in Singapore, it's better to look at the group stay in HDB 1-2 Room flat, instead of the group having the lowest income.
 
 Type of dwelling in Singapore are typically segmented into:
 
@@ -164,7 +164,7 @@ Type of dwelling in Singapore are typically segmented into:
     align: center + horizon,
     auto-vlines: false,
     rowspanx(2)[],colspanx(4)[*HDB*], rowspanx(2)[*Condo#footnote[Condominiums & Other Apartments]*], rowspanx(2)[*Landed#footnote[Landed Properties]*],rowspanx(2)[*All*],
-    (), [*1-2 Room*], [*3-Room*], [*4-Room*], [*5-Room & EC#footnote[Executive Condominiums which sold by HDB, provide better housing but government sponsored.]*],(),
+    (), [*1-2 Room*], [*3-Room*], [*4-Room*], [*5-Room&EC#footnote[Executive Condominiums which sold by HDB, provide better housing but government sponsored.]*],(),
     [Percentage], [7.0%], [17.0%], [31.3%], [22.4%], [17.2%], [4.8%], [100%],
   ),
   kind: table,
@@ -179,7 +179,7 @@ LCPC doesn't requires size of each segment to be equal, it's more important to m
 
 Comparing to by income level, although the segments are evenly distributed, but audience may hard to project themselves into corresponding group. One may think they belongs to "middle-income", when while they are actually among the top 20% earners. Or the opposites may also happen.
 
-Segmenting by dwelling type on the other hand, provides a clear cut of who should belong to each segment. The SG LCPC by type of dwelling @sg_household_by_dwelling has been striped off household with sole member of age 65+ and segmented by household#footnote[It's possible to form another LCPC focusing this group alone, the data is available in HES. I will exam in future study.].
+Segmenting by dwelling type on the other hand, provides a clear cut of who should belong to each segment. The SG LCPC by type of dwelling in @sg_household_by_dwelling has been striped off household with sole member of age 65+ and segmented by household#footnote[It's possible to form another LCPC focusing this group alone, as HES has corresponding data. I will analyze in future study.].
 
 #figure(
   image("data/LCPC_change.png", width: 90%),
@@ -187,19 +187,19 @@ Segmenting by dwelling type on the other hand, provides a clear cut of who shoul
 ) <sg_lcpc_change>
 
 Quick findings from this LCPC:
-- All LCP below 1: no household face deficit
-- LCP of all groups drop from 2007/08 to 2017/18 as shown in @sg_lcpc_change.
-- 1-2 Room group has the most improvement from 2012/13 to 2017/18, as a result of larger increment in income than expenditure. This could be a result of large transfer payment by the government.
-- LCPC of 2017/18 is in a slight "W" shape, which the "middle class" - group staying in 4-Room HDB and 5-Room and EC have large LCP than the neighboring groups 3-Room HDB and Condo. This may reflects the so-called "Squeezed Middle Class"
-- LCPC is much more "flatten" in 2017/18 than 2012/13, which may imply a more equal society.
+- All LCP below 1: no household face deficit.
+- LCP of all groups drop from 2007/08 to 2017/18, the lower type of dwelling tends to have higher drop in LCP as shown in @sg_lcpc_change.
+- LCPC thus become much more "flat" in 2017/18 than in 2012/13, implies social equality has improved.
+- HDB 1-2 Room group has the most improvement from 2012/13 to 2017/18, as a result of larger increment in income than expenditure. This could be a result of large transfer payment by the government.
+- LCPC of 2017/18 is in a slight "W" shape, which the "middle class" - group staying in HDB 4-Room and 5-Room&EC have larger LCP than the neighboring groups HDB 3-Room and Condo. This may reflects the so-called "Squeezed Middle Class".
 
 === GST increment
 
-Singapore Government increase GST from 7% to 9% in 2023 and 2024, with 1% increment each year, and it applies to all expenditure of all segments. Assuming Singaporeans doesn't change consumption with new GST, i.e. inelastic to price change of 1%; this policy will shift whole LCPC upwards, but the shape remains.
+There are many factors would affect LCPC, especially change in government policy. Singapore Government increase GST from 7% to 9% in 2023 and 2024, with 1% increment each year, and it applies to all expenditure of all segments. Assuming Singaporeans doesn't change consumption with new GST, i.e. inelastic to price change of 1%; this policy will shift whole LCPC upwards, but the shape remains.
 
-Singapore government does provide "Assurance Package" to help low income families@ap_support cushion the impact of the GST increment, thus this policy will have an "bending effect" on LCPC, potentially making it more flatten.
+Singapore government does provide "Assurance Package" to help low income families@ap_support cushion the impact of GST increment, thus this policy could potentially further flatten LCPC.
 
-When HER 2022/23 report is available, I will re-visit with the new data.
+When HER 2022/23 report is available, I will re-visit with the new data to evaluate the impact of GST increment in Singapore.
 
 = Estimation of other LCPC
 
@@ -209,25 +209,23 @@ HES's expenditure doesn't include Mortgage Repayment. The housing category expen
 - Housing(Rentals) And Utilities
 - Furnishings, Household Equipment And Routine Household Maintenance
 
-I initially tried to include mortgage repayment into household expenditure. According to HES 2022/23 Information Pamphlet, HES does collect home mortgage repayment data, but not revealed in report. It's not only hard to find statistic for Singaporean's mortgage repayment, making reasonable estimation of mortgage repayment is also very hard.
+I initially tried to include mortgage repayment into household expenditure and make another LCPC. According to HES 2022/23 Information Pamphlet, HES does collect home mortgage repayment data, but not revealed in report. It's not only hard to find statistic for Singaporean's mortgage repayment, but also extreme hard to make reasonable estimation of mortgage repayment.
 
 Mortgage is determined largely at the moment of purchase, and it varies a lot from one household to another. It's hard to estimate which age group of household purchase their first house, nor to mention segmented it by income quintiles or type of dwelling.
 
-Mortgage rate may changes,. But about 80% of Singapore household stays in HDB, and the interest rate of HDB's loans is pegged to +0.1% of interest rate of CPF ordinary account@hdb_interest, which is 2.5% since July 1999@cpf_interest. Market interest rate may change, but it will be capped to 2.6% - HDB rates. Condo & landed properties owners may need to take loans from commercial banks, and the rate would have much higher fluctuations. But that only impacts the top 20% high income household.
-
-Furthermore, MAS has MRS limit: 30%@tdsr.
+Mortgage rate may changes,. But about 80% of Singapore household stays in HDB, and the interest rate of HDB's loans is pegged to +0.1% of interest rate of CPF ordinary account@hdb_interest, which is 2.5% since July 1999@cpf_interest. Market interest rate may change, but it will be capped to 2.6% - HDB rates. Condo & landed properties owners may need to take loans from commercial banks, and the rate would have much higher fluctuations. But that only impacts the top 20% high income household. Furthermore, MAS has MRS limit: 30%@tdsr.
 
 If we do a extreme estimation of that all household takes the maximum housing loans, it just discounts LCP of all segment to 70%, and has no impact on the shape of the LCPC.
 
 From an accounting perspective, property is considered as an asset of a household, "buying" of house is actually turning cash assets to fixed asset, and may not incur any expenditures. It's sometimes even be considered as an investment. It's only the interest payment of mortgage could be considered actual expenditure.
 
-Mortgage impact of LCPC would be future research topic. I decide to exclude mortgage repayment when constructing LCPC in this paper.
+Mortgage impact of LCPC would be future research topic, but in this paper, I decide to exclude mortgage repayment when constructing LCPC.
 
-== Rental - LCPC for foreigner in Singapore
+== Rental - LCPC for foreign workers in Singapore
 
-Rental on housing is an area worth deeper analysis. Home ownership rate is almost 90% in Singapore@sg_home_ownership, thus rental may not be a significant factor for Singaporean household's expenditure. But Singapore is a society consisting about 30%, or 1.77M non-residents@sg_population. Furthermore, Singapore forbids foreigner making purchase of HDB and most landed properties, the additional buyer-side stamp duty (ABSD) for foreign buyers also has been increasing#footnote[https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/additional-buyer's-stamp-duty-(absd)]. Foreign residents in Singapore are hard to own their own house in Singapore, and usually need to rental a place.  Thus rental would play a major factor for foreigner staying in Singapore's LCP.
+Rental on housing is an area worth deeper analysis. Home ownership rate is almost 90% in Singapore@sg_home_ownership, thus rental may not be a significant factor for Singaporean household's expenditure. But Singapore is a society consisting about 30%, or 1.77M non-residents@sg_population. Furthermore, Singapore forbids foreigner making purchase of HDB and most landed properties, the additional buyer-side stamp duty (ABSD) for foreign buyers also has been increasing#footnote[https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/additional-buyer's-stamp-duty-(absd)]. Most foreign workers in Singapore will need to rental places to stay, and rental is a major factor for their LCP.
 
-It's feasible to construct an estimated LCPC for foreign workers in Singapore for 2023:
+It's possible to construct an estimated LCPC for foreign workers in Singapore for 2023:
 
 #figure(
   image("data/LCPC_foreign.png"),
@@ -235,20 +233,18 @@ It's feasible to construct an estimated LCPC for foreign workers in Singapore fo
 ) <sg_lcpc_by_pass>
 
 Quick findings:
-- WP group has LCP very close to 1, implying they are very closed to face deficit or cash flow issues. The minimum WP salary required by MOM may not be sufficient for them to support their life in Singapore. Their monthly expenditure are already closed to the minimum by having expenditures similar to the bottom 7% local, i.e. the group stay in HDB 1-2 Room and they only assumed to share HDB room with another worker. There is not much room to cut expenditure given the ever increasing CPI in Singapore. THus, the way for WP group to fight with high LCP may  work overtime and get additional income.
-- The group estimated to have both lowest LCP(0.56) and highest LCP(1.05) are WP holders, depending on the type of housing they rent. Monthly rental is the most significant factor affecting their LCP. Middle class professional considering relocating to Singapore may find living cost unbearable if they want to stay in condo and maintain corresponding life style. But, they would find comfort if they choose to rent HDB and have moderate life style just like the majority of Singaporeans.
-- High income professional like PEP/ONE pass holders faces similar LCP below 0.7. They are the target audience of WCOL by EIU. Despite Singapore may have the highest cost of living in the world, the high income of expatriate may make them still find it manageable.
+- Work Permit(WP) group has LCP very close to 1, implying they are very closed to face deficit or cash flow issues. The minimum WP salary required by MOM may not be sufficient for them to support their life in Singapore. Their monthly expenditure are already closed to the minimum by having expenditures similar to the bottom 7% local, i.e. the group stay in HDB 1-2 Room and they only assumed to share HDB room with another worker. There is not much room to cut expenditure given the ever increasing CPI in Singapore. THus, the way for WP group to fight with high LCP may  work overtime and get additional income.
+- The group estimated to have both lowest LCP(0.56) and highest LCP(1.05) are Employment Pass(EP) holders, depending on the type of housing they rent. Monthly rental is the most significant factor affecting their LCP. Middle class professional considering relocating to Singapore may find living cost unbearable if they want to stay in condo and maintain corresponding life style. But, they would find comfort if they choose to rent HDB and have moderate life style just like the majority of Singaporeans.
+- High income professional like Personalized Employment Pass(PEP)/Overseas Networks & Expertise Pass(ONE Pass) holders faces similar LCP below 0.7. They are the target audience of WCOL by EIU. Despite Singapore may have the highest cost of living in the world, the high income of expatriate may make them still find it manageable.
 
 === Estimation of data
 
-For estimation, I assume Work Permit(WP), S-Pass(SP) and Employment Pass(EP) holders are individual bearing only they own expenditure, whereas Personalized Employment Pass(PEP) bear expenditure of a family of 3, and Overseas Networks & Expertise Pass(ONE Pass) holder bear expenditure of a family of 4. The rentals are estimated from average rental price of 4-Room HDB and 3-bedroom condo. I further assume:
-- WP holder share one HDB bed room.
-- SP/EP rent a whole room.
-- PEP and ONE-Pass holder rent one whole flat.
+As an estimation, I assume WP, S-Pass(SP) and EP holders are individual bearing only they own expenditure, whereas PEP bear expenditure of a family of 3, and ONE Pass holder bear expenditure of a family of 4. The rentals are estimated from average rental price of HDB 4-Room flat and 3-bedroom condo. I further assume:
+- WP holders co-rent one HDB bedroom.
+- SP/EP holders rent one bedroom.
+- PEP and ONE-Pass holders rent one whole flat.
 
-Monthly expenditure excluding rental are estimated from household expenditure data from HES and CPI.
-
-As for income, I use minimum salaries required by Ministry of Manpower for each type of pass. Detailed code for estimations are in @code.
+Monthly expenditure excluding rental are estimated from household expenditure data from HES and CPI. As for income estimation, I use minimum salaries required by Ministry of Manpower for each type of pass. Detailed code for estimations are in @code.
 
 #figure(
   tablex(
@@ -280,7 +276,7 @@ The shape and movement of LCPC in different period may also be used from cross c
 
 == Comparison with Hong Kong
 
-Hong Kong is an economy very similar to Singapore. Census and Statistics Department (C&SD) in Hong Kong also conducts Household Expenditure Survey once every 5 years. Thus allows me to construct a similar LCPC for Hong Kong:
+Hong Kong is an economy once very similar to Singapore. Census and Statistics Department (C&SD) in Hong Kong also conducts Household Expenditure Survey once every 5 years. Thus allows me to construct a similar LCPC for Hong Kong:
 
 #figure(
   image("data/LCPC_hk.png"),
@@ -294,6 +290,8 @@ Hong Hong's Home Owner Rate is about 51.50% @hk_home_ownership, thus rental paym
 If we exclude rent payment, all 3 groups face similar LCP about 0.64; but when rental is included into expenditure, LCP of the two non-public housing group jump significantly. Implying a much higher living cost pressure if residents in Hong Kong are not able to stay in public housing.
 
 If I'm allowed to do cross comparison of LCP between Singapore and Hong Kong, the LCP of Subsidised Housing group(0.97) is actually higher than SP group in SG LCPC for foreign workers(0.89). This may imply that there is incentive for Hong Kong resident to migrate to work in Singapore, if they could obtained a S-Pass or above.
+
+I would leave movement of HK LCPC for future study.
 
 === Data for Hong Kong
 
@@ -351,7 +349,7 @@ All data and source code used for this paper are available at: https://github.co
       })
       block(fill: luma(250), width: 100%, inset: 8pt, radius: 2pt, [
         #top_right(it.lang)
-        #set text(8pt)
+        #set text(7pt)
         #set par(justify: false)
         #it
       ], )

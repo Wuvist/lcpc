@@ -41,7 +41,7 @@ LCPC_1213 = LCPC_e_1213 ./ LCPC_i_1213
 LCPC_1718 = LCPC_e_1213 ./ LCPC_i_1718
 
 plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6],
-        ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"]), label="2007/08",
+        ["1-2 Room", "3-Room", "4-Room", "5-Room&EC", "Condo", "Landed"]), label="2007/08",
     title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Dwelling")
 plot!(LCPC_1213, label="2012/13")
 plot!(LCPC_1718, label="2017/18")
@@ -53,7 +53,7 @@ plot!([LCPC_0708[3], LCPC_1718[3]], [4, 4], arrow=2, label="")
 plot!([LCPC_0708[4], LCPC_1718[4]], [3, 3], arrow=2, label="")
 plot!([LCPC_0708[5], LCPC_1718[5]], [2, 2], arrow=2, label="")
 plot!([LCPC_0708[6], LCPC_1718[6]], [1, 1], arrow=2, label="")
-yticks!([6, 5, 4, 3, 2, 1], ["1-2 Room", "3-Room", "4-Room", "5-Room and EC", "Condo", "Landed"])
+yticks!([6, 5, 4, 3, 2, 1], ["1-2 Room", "3-Room", "4-Room", "5-Room&EC", "Condo", "Landed"])
 savefig("data/LCPC_change.png")
 
 # Hong Kong
