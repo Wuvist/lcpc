@@ -1,12 +1,15 @@
 # using CSV
 using DataFrames, GLM, Plots
 
-# HES 17/18 - Chart 1.3: Average Monthly Household Expenditure by Income Quintile2, 2007/08 - 2017/18
+# HES: REPORT ON THE HOUSEHOLD EXPENDITURE SURVEY, 2017/18
+# data/household_expenditure.pdf
+
+# HES - Chart 1.3: Average Monthly Household Expenditure by Income Quintile2, 2007/08 - 2017/18
 e0708 = [1787, 2950, 3602, 4569, 6138]
 e1213 = [2215, 3531, 4705, 5596, 7575]
 e1718 = [2570, 3753, 4812, 5826, 7573]
 
-# HES 17/18 - Chart 2.3: Average Monthly Household Income from All Sources1 by Income Quintile2, 2007/08 - 2017/18
+# HES - Chart 2.3: Average Monthly Household Income from All Sources1 by Income Quintile2, 2007/08 - 2017/18
 i0708 = [1466, 3934, 6175, 9439, 19511]
 i1213 = [1949, 5238, 8355, 12246, 24547]
 i1718 = [2235, 5981, 9678, 14407, 26587]
@@ -24,12 +27,12 @@ savefig("data/LCPC_income.png")
 
 # LCPC By dwelling
 
-# HES 17/18 - Chart 1.8: Average Monthly Household Expenditure by Type of Dwelling, 2007/08 - 2017/18
+# HES - Chart 1.8: Average Monthly Household Expenditure by Type of Dwelling, 2007/08 - 2017/18
 LCPC_e_0708 = [957, 2121, 3093, 4423, 6587, 8222]
 LCPC_e_1213 = [1287, 2478, 3918, 5283, 8000, 10409]
 LCPC_e_1718 = [1545, 2709, 3933, 5504, 7963, 10500]
 
-# HES 17/18 - Chart 2.7: Average Monthly Household Income from All Sources by Type of Dwelling, 2007/08 - 2017/18
+# HES - Chart 2.7: Average Monthly Household Income from All Sources by Type of Dwelling, 2007/08 - 2017/18
 LCPC_i_0708 = [1373, 3946, 5737, 9028, 17176, 21198]
 LCPC_i_1213 = [1855, 5083, 8043, 11006, 20534, 26055]
 LCPC_i_1718 = [2521, 5868, 8827, 12244, 21830, 28937]
@@ -48,8 +51,11 @@ savefig("data/LCPC_dwelling.png")
 # Hong Kong
 # Expenditure https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A
 # Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing
+# "data/Table 140-09005_en.csv"
+
 # Income https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A
 # Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)
+# "data/Table 130-06613A_en.csv"
 hk_e_1920 = [15018, 27631, 37895]
 hk_i_23 = [19500, 27100, 38700]
 hk_rent = [1701, 10100, 15218]
@@ -63,7 +69,8 @@ plot!(LCPC_exclude_rent_hk, label="2019/20 exclude rent")
 savefig("data/LCPC_hk.png")
 
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
-# data/cpijan24.xlsx, 3	Prices and Price Indices	Consumer Price Index (CPI), 2019 As Base Year, Annual
+# data/cpijan24.xlsx
+# Sheet 3	Prices and Price Indices	Consumer Price Index (CPI), 2019 As Base Year, Annual
 # CPI: All Items Less Accommodation
 cpi = [74.531, 74.290, 74.854, 76.378, 76.803, 77.572, 79.332, 83.623, 83.176, 85.923, 89.561, 92.662, 94.421, 95.566, 95.658, 95.971, 97.742, 99.067, 100.000, 99.657, 102.197, 108.992, 114.334]
 cpi_0708 = (cpi[7] + cpi[8]) / 2
@@ -74,7 +81,7 @@ cpi_23 = cpi[23]
 df = DataFrame()
 df.cpi = [cpi_0708, cpi_1213, cpi_1718]
 
-# HES 17/18 - Chart 1.10: Average Monthly Household Expenditure Per Household Member by Type of Dwelling, 2007/08 - 2017/18
+# HES - Chart 1.10: Average Monthly Household Expenditure Per Household Member by Type of Dwelling, 2007/08 - 2017/18
 df.e_1room = [491, 653, 772]
 df.e_4room = [919, 1162, 1320]
 df.e_condo = [2169, 2717, 2794]
