@@ -87,12 +87,15 @@ Household expenditure and income data segmented by income quintile:
     align: center + horizon,
     auto-vlines: false,
     [*Year*], [*Type*], [*1st-20th*], [*21st-40th*], [*41st-60th*], [*61st-80th*], [*81st-100th*],
-    rowspanx(2)[07/08], [Expenditure], [1,787], [2,950], [3,602], [4,569], [6,138],
+    rowspanx(3)[07/08], [Expenditure], [1,787], [2,950], [3,602], [4,569], [6,138],
     [Income], [1,466], [3,934], [6,175], [9,439], [19,511],
-    rowspanx(2)[12/13], [Expenditure], [2,215], [3,531], [4,705], [5,596], [7,575],
+    [LCP], [1.22], [0.75], [0.58], [0.48], [0.31],
+    rowspanx(3)[12/13], [Expenditure], [2,215], [3,531], [4,705], [5,596], [7,575],
     [Income], [1,949], [5,238], [8,355], [12,246], [24,547],
-    rowspanx(2)[17/18], [Expenditure], [2,570], [3,753], [4,812], [5,826], [7,573],
+    [LCP], [1.14], [0.67], [0.56], [0.46], [0.31],
+    rowspanx(3)[17/18], [Expenditure], [2,570], [3,753], [4,812], [5,826], [7,573],
     [Income], [2,235], [5,981], [9,678], [14,407], [26,587],
+    [LCP], [1.15], [0.63], [0.50], [0.40], [0.28],
   ),
   kind: table,
   caption: "SG Household income & expenditure by income quintile"
@@ -106,12 +109,15 @@ Household expenditure and income data segmented by type of dwelling:
     auto-vlines: false,
     rowspanx(2)[*Year*], rowspanx(2)[*Type*], colspanx(4)[*HDB*], rowspanx(2)[*Condo*], rowspanx(2)[*Landed*],
     (), [*1-2 Room*], [*3-Room*], [*4-Room*], [*5-Room and EC*],(),
-    rowspanx(2)[*07/08*], [Expenditure], [957], [2,121], [3,093], [4,423], [6,587], [8,222],
+    rowspanx(3)[*07/08*], [Expenditure], [957], [2,121], [3,093], [4,423], [6,587], [8,222],
     [Income], [1,373], [3,946], [5,737], [9,028], [17,176], [21,198],
-    rowspanx(2)[*12/13*], [Expenditure], [1,287], [2,478], [3,918], [5,283], [8,000], [10,409],
+    [LCP], [0.70], [0.54], [0.54], [0.49], [0.38], [0.38],
+    rowspanx(3)[*12/13*], [Expenditure], [1,287], [2,478], [3,918], [5,283], [8,000], [10,409],
     [Income], [1,855], [5,083], [8,043], [11,006], [20,534], [26,055],
-    rowspanx(2)[*17/18*], [Expenditure], [1,545], [2,709], [3,933], [5,504], [7,963], [10,500],
+    [LCP], [0.69], [0.49], [0.49], [0.48], [0.39], [0.40],
+    rowspanx(3)[*17/18*], [Expenditure], [1,545], [2,709], [3,933], [5,504], [7,963], [10,500],
     [Income], [2,521], [5,868], [8,827], [12,244], [21,830], [28,937],
+    [LCP], [0.51], [0.42], [0.44], [0.43], [0.37], [0.36],
   ),
   kind: table,
   caption: "SG Household income & expenditure by type of dwelling"
@@ -235,16 +241,23 @@ Rental on housing is an area worth deeper analysis. Home ownership rate is almos
 
 Singapore forbids foreigner making purchase of HDB and most landed properties, the additional buyer-side stamp duty (ABSD) for foreign buyers also has been increasing#footnote[https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/additional-buyer's-stamp-duty-(absd)]. Thus rental would play a major factor for foreigner staying in Singapore's LCP.
 
-It's feasible to construct an estimated LCPC for foreigners in Singapore:
+It's feasible to construct an estimated LCPC for foreign workers in Singapore for 2023:
 
 #figure(
   image("data/LCPC_foreign.png"),
   caption: "ESTIMATED SG LCPC for foreigners by type of work pass"
 ) <sg_lcpc_by_pass>
 
-For estimation, I assume Work Permit(WP), S-Pass(SP) and Employment Pass(EP) holders are individual bearing they own expenditure, Personalised Employment Pass(PEP) bear expenditure of a family of three, and Overseas Networks & Expertise Pass(ONE Pass) holder bear expenditure of a family of four. Their rentals are estimated from average rental price of 4room HDB and 3-bedroom condo, which WP holder share one 1 HDB bed room and ONE Pass holder rent the whole condo unit. Monthly expenditure excluding rental are estimated from household expenditure data from HES and CPI. Monthly rental are estimated from average rental 4room HDB and 3 bedroom condo. Details calculation are in @code.
+Quick findings:
+- WP group has LCP very close to 1, implying they are very closed to face deficit or cash flow issues. The minimum WP salary required by MOM may not be sufficient for them to support their life in Singapore. Their monthly expenditure are already closed to the minimum by having expenditures similar to the bottom 7% local, i.e. the group stay in HDB 1-2 Room and they only assumed to share HDB room with another worker. There is not much room to cut expenditure given the ever increasing CPI in Singapore. THus, the way for WP group to fight with high LCP may  work overtime and get additional income.
+- The group estimated to have both lowest LCP(0.56) and highest LCP(1.05) are WP holders, depending on the type of housing they rent. Monthly rental is the most significant factor affecting their LCP. Middle class professional considering relocating to Singapore may find living cost unbearable if they want to stay in condo and maintain corresponding life style. But, they would find comfort if they choose to rent HDB and have moderate life style just like the majority of Singaporeans.
+- High income professional like PEP/ONE pass holders faces similar LCP below 0.7. They are the target audience of WCOL by EIU. Despite Singapore may have the highest cost of living in the world, the high income of expatriate may make them still find it manageable.
 
-As for income, I would use minimum salary required by Ministry of Manpower for each type of pass.
+=== Estimation of data
+
+For estimation, I assume Work Permit(WP), S-Pass(SP) and Employment Pass(EP) holders are individual bearing they own expenditure, whereas Personalised Employment Pass(PEP) bear expenditure of a family of three, and Overseas Networks & Expertise Pass(ONE Pass) holder bear expenditure of a family of four. Their rentals are estimated from average rental price of 4room HDB and 3-bedroom condo, which WP holder share one 1 HDB bed room and ONE Pass holder rent the whole condo unit. Monthly expenditure excluding rental are estimated from household expenditure data from HES and CPI. Monthly rental are estimated from average rental 4room HDB and 3 bedroom condo.
+
+As for income, I use minimum salaries required by Ministry of Manpower for each type of pass. Detailed code for estimations are in @code.
 
 #figure(
   tablex(
@@ -255,7 +268,8 @@ As for income, I would use minimum salary required by Ministry of Manpower for e
     [*Rent HDB*], [*Rent Condo*],
     [Estimated Expenditure], [1,010], [1,667], [1,667], [3,454], [10,362], [13,816],
     [Estimated Rental#h(28pt)], [562], [1,126], [1,126], [2,328], [4,656], [6,983],
-    [Estimated Income#h(24pt)], [1,600], [3,150], [5,000], [5,500#footnote[minimum salary requirement for EP in Financial Sector]], [22,500], [30,000]
+    [Estimated Income#h(24pt)], [1,600], [3,150], [5,000], [5,500#footnote[minimum salary requirement for EP in Financial Sector]], [22,500], [30,000],
+    [LCP], [0.98], [0.89], [0.56], [1.05], [0.67], [0.69],
   ),
   kind: table,
   caption: "ESTIMATED SG foreign worker's income & expenditure by type of work pass"
@@ -277,21 +291,60 @@ The shape and movement of LCPC in different period may also be used from cross c
 
 == Comparison with Hong Kong
 
-Hong Kong income@hk_income and expenditure @hk_expenditure.
+Census and Statistics Department (C&SD) in Hong Kong also conducts Household Expenditure Survey once every 5 years. Thus allows me to construct a similar LCPC for Hong Kong:
 
-[TBA] formula for calculating flatness? Just use the variance
+#figure(
+  image("data/LCPC_hk.png"),
+  caption: "ESTIMATED HK LCPC by type of housing"
+) <sg_lcpc_by_pass>
 
-For example, the more flatten the LCPC(no matter how it's segmented) may implies a more equal society. Thus, we could compare flatness of different economies. It could actually serve as alternative to GINI co-efficient, as GINI co-efficient only accounts for different in income, and didn't include expenditures data.
+C&SD separate type of housing into three main group:
+- Public Housing
+- Subsidised Housing
+- Private Housing
 
-[TBA] Bias of ignore in dollar value: Dollar value of (I - E) could be another indicator: Live Cost Surplus Curve???
+Hong Hong have about 51.50% Home Owner Rate@hk_home_ownership, thus rental payment would be a significant factor when constructing LCPC.
+
+If we exclude rent payment, all 3 groups face similar LCP about 0.64; but when rental is included into expenditure, LCP of the two non-public housing group jump significantly. Implying a much higher living cost pressure if residents in Hong Kong are not able to stay in public housing.
+
+If I would allowed to do cross comparison of LCP between Singapore and Hong Kong, then the LCP of Subsidised Housing group(0.97) is actually higher than SP group in SG LCPC for foreign workers(0.89). Thus, this may provides incentive for Hong Kong resident to migrate to work in Singapore, if they could obtained a S-Pass or above.
+
+=== Data for Hong Kong
+
+Expenditure data for Hong Kong are obtained from Household Expenditure Survey: @hk_expenditure.
+
+However, report of Household Expenditure Survey only includes household's average expenditure data but not income. Thus the income data is obtained from @hk_income. Unfortunately, this income data only reports median income level, but not average#footnote[Whereas Household Expenditure Survey only reports average expenditure, but not median.]. Thus the LCP for Hong Kong are calculated using the ratio between average expenditure over median income. If we assume that average income is higher than median, then these LCP would be lower if using average income, i.e. the whole LCPC may shift downward.
+
+#figure(
+  tablex(
+    columns: 4,
+    align: center + horizon,
+    auto-vlines: false,
+    [], [*Public Housing*], [*Subsidised Housing*], [*Private Housing*],
+    [*Average* Rent], [1,701], [10,100], [15,218],
+    [*Average* Expenditure#footnote[Included rent]], [15,018], [27,631], [37,895],
+    [*Median* Income], [18,250], [28,400], [38,900],
+    [LCP], [0.82], [0.97], [0.97],
+  ),
+  kind: table,
+  caption: "Hong Kong Household expenditure & income by Type of housing"
+) <hk_households>
+
+Expenditure & income data in @hk_households are measured in HKD, no currency conversion are need, as LCP is a ratio which won't be affected by change of currency.
 
 = Conclusion
 
-The main purpose of LCPC is to propose a indicator/framework for living cost pressure measurements, it has only two simple idea:
+The main purpose of LCPC is to propose a easy-to-use indicator for living cost pressure measurements, it has only two simple idea:
 - Take ratio of expenditure and ratio to represent: pressure
 - Perform meaningful segmentation to show how pressure is distributed.
 
-The paper also used Singapore's data to show how simple idea of LCPC could reveal more meaningful household characteristics from the comprehensive HER reports, and make it good reference to larger group of audiences as well.
+As show cased in this paper, LCPC would have reference value to varies audiences:
+- Local resident interested about how their living cost pressure comparing to other groups.
+- Foreign worker/student considering working in another country
+- Researchers interested in comparing of living cost pressure between economies
+- Researchers interested in measuring government policies affecting different groups
+
+Bottom line, I hope SG's LCPC would be a response if WCOL by EIU hits news headlines again this year.
 
 = Appendix
 

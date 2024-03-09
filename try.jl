@@ -48,7 +48,7 @@ plot!(LCPC_1718, label="2017/18")
 savefig("data/LCPC_dwelling.png")
 
 # Hong Kong
-# Expenditure https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A
+# Expenditure https://www.censtatd.gov.hk/en/web_table.html?id=140-09005
 # Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing
 # "data/Table 140-09005_en.csv"
 
@@ -56,11 +56,14 @@ savefig("data/LCPC_dwelling.png")
 # Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)
 # "data/Table 130-06613A_en.csv"
 hk_e_1920 = [15018, 27631, 37895]
-hk_i_23 = [19500, 27100, 38700]
+
+# 2019,Q1,18500,29600,39000,28600
+# 2020,Q1,18000,27200,38800,28000
+hk_i_21 = [(18500+18000)/2, (29600+27200)/2, (39000+38800)/2]
 hk_rent = [1701, 10100, 15218]
 
-LCPC_hk = hk_e_1920 ./ hk_i_23
-LCPC_exclude_rent_hk = (hk_e_1920 .- hk_rent) ./ hk_i_23
+LCPC_hk = hk_e_1920 ./ hk_i_21
+LCPC_exclude_rent_hk = (hk_e_1920 .- hk_rent) ./ hk_i_21
 plot(LCPC_hk, xlim=[0.8, 3.2], ylim=[0, 1.3], xticks=([1, 2, 3],
         ["Public housing", "Subsidised Housing", "Private Housing"]), label="2019/20",
     title="HK LCPC by type of housing", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Housing")
@@ -155,5 +158,5 @@ LCPC_foreign_2109 = [e_WP_2019, e_SP_2019, e_EP_hdb_2019, e_EP_Condo_2019, e_PEP
 plot(LCPC_foreign, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6],
         ["WP", "SP", "EP-HDB", "EP-Condo", "PEP", "One Pass"]), label="2023",
     title="ESTIMATED SG LCPC by Type of Work Pass", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Work Pass")
-plot!(LCPC_foreign_2109, label="2019 CPI")
+# plot!(LCPC_foreign_2109, label="2019 CPI")
 savefig("data/LCPC_foreign.png")
