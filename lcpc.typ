@@ -147,8 +147,7 @@ Quick finding from SG LCPC by income quintile in @sg_lcpc_by_income and @sg_hous
 However, the data of 1st-20th group deserve more careful examination:
 - LCP is higher than 1, meaning expenditure exceed income.
 
-This status does not necessarily implies that "Singapore's Poor struggles with household deficit". Within this group, 30%+ of household sole non-working household members of age 65+. i.e. retired elderly could be living saving, thus expenditure exceeds income#footnote[Retired elderly has no fixed salary, but could still have income from investment and rental.]. HES report indicates that #quote[It is notable, for example, that some resident households in the
-lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived in private property (7.1 per cent) or were headed by persons aged 65 years and over (36.7 per cent) in 2017/18.], indicating group with low monthly income may not be poorest group.
+This status does not necessarily implies that "Singapore's Poor struggles with household deficit". Within this group, 30%+ of household sole non-working household members of age 65+. i.e. retired elderly could be living saving, thus expenditure exceeds income#footnote[Retired elderly has no fixed salary, but could still have income from investment and rental.]. HES report indicates that #quote[It is notable, for example, that some resident households in the lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived in private property (7.1 per cent) or were headed by persons aged 65 years and over (36.7 per cent) in 2017/18.], indicating group with low monthly income may not be poorest group.
 
 So, using income quintile for LCPC would be misleading.
 
@@ -183,7 +182,7 @@ Segmenting by dwelling type on the other hand, provides a clear cut of who shoul
 
 #figure(
   image("data/LCPC_change.png", width: 90%),
-  caption: "Change of SG LCPC by type of dwelling from 2007/08 to 2017/18 "
+  caption: "Change of LCP by type of dwelling from 2007/08 to 2017/18"
 ) <sg_lcpc_change>
 
 Quick findings from this LCPC:
@@ -281,7 +280,7 @@ Hong Kong is an economy once very similar to Singapore. Census and Statistics De
 #figure(
   image("data/LCPC_hk.png"),
   caption: "ESTIMATED HK LCPC by type of housing"
-) <sg_lcpc_by_pass>
+) <hk_lcpc>
 
 C&SD separate type of housing into Public Housing, Subsidised Housing and Private Housing.
 
