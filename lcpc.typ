@@ -1,5 +1,8 @@
 #import "paper_template.typ": paper
 #import "@preview/tablex:0.0.8": tablex, colspanx, rowspanx
+#import "@preview/wordometer:0.1.1": word-count, total-words
+
+#show: word-count.with(exclude: (heading.where(level: 1), raw.where(block: true)))
 
 #show: doc => paper(
   title: [Living Cost Pressure Curve in Singapore and beyond],
@@ -434,6 +437,9 @@ i_PEP = 22500
 i_ONE = 30000
 
 LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP_FSS_Condo, e_PEP, e_ONE] ./ [i_WP, i_SP, i_EP_HDB, i_EP_FSS_Condo, i_PEP, i_ONE]
-```
-
+```<no-wc>
 #bibliography("lcpc.bib", style:"harvard-cite-them-right")
+
+#set text(gray)
+#set align(right)
+#total-words words in total, excluding Section Title / Code / Bibliography.
