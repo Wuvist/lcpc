@@ -26,7 +26,7 @@
 #polylux-slide[
   == Motivation
 
-  "Singapore kept its position as the world’s most expensive city this year, for the ninth time in 11 years." - Economist Intelligence Unit(EIU) Worldwide Cost of Living 2023
+  "Singapore kept its position as the world's most expensive city this year, for the ninth time in 11 years." - Economist Intelligence Unit(EIU) Worldwide Cost of Living 2023
 
   === SG is the most expensive ???
 ]
@@ -62,7 +62,7 @@
 ]
 
 #polylux-slide[
-  #image("data/LCPC_income.png")
+  #image("data/LCPC_income.png", width: 90%)
   #uncover(2)[LCP for `1st-20th` group exceed 1 ???]
 ]
 
@@ -72,20 +72,11 @@
     - Conducted every 5 years
     - Each Survey about 14,000 dwellings in Singapore
 
-#uncover(2)[#quote["It is notable, for example, that some resident households in the lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived in private property (7.1 per cent) or were headed by persons aged 65 years and over (36.7 per cent) in 2017/18." - HES 2017/18]]
-
+#uncover((2,3))[#quote["It is notable, for example, that some resident households in the lowest 20% owned a car (13.6 per cent), employed a maid (13.9 per cent), lived in private property (7.1 per cent) or were headed by persons aged 65 years and over (36.7 per cent) in 2017/18." - HES 2017/18]]
+#uncover(3)[
   - Low income may not imply poor
   - Elderly aged 65 years and over should be handled separately
 ]
-
-#side-by-side[
-  #set par(
-  justify: false,
-)
-  SG government assume
-  - Household in bigger house are richer
-][
-  #image("slides/transfer.png")
 ]
 
 #polylux-slide[
@@ -116,7 +107,7 @@
 ]
 
 #polylux-slide[
-  #image("data/LCPC_dwelling.png")
+  #image("data/LCPC_dwelling.png", width: 95%)
   #set text(size: 16pt)
   - Households comprising Solely Non-Working Persons Aged 65 Years and Over are ignored
 ]
@@ -124,7 +115,7 @@
 #polylux-slide[
   #set text(size: 20pt)
   === Change of LCP by type of dwelling from 2007/08 to 2017/18
-  #image("data/LCPC_change.png")
+  #image("data/LCPC_change.png", width: 95%)
 ]
 
 #polylux-slide[
@@ -193,7 +184,7 @@
 ]
 
 #polylux-slide[
-  #image("data/LCPC_foreign.png")
+  #image("data/LCPC_foreign.png" , width: 95%)
   - Rental HDB or condo?
 ]
 
@@ -205,7 +196,7 @@
 ]
 
 #polylux-slide[
-  #image("data/LCPC_hk.png")
+  #image("data/LCPC_hk.png", width: 95%)
   - Relocating from HK to SG for smaller living cost pressure?
 ]
 
@@ -218,7 +209,8 @@ LCPC has only two simple idea:
 
 LCPC is simple but versatile.
 
-All data and source code are available at: https://github.com/Wuvist/lcpc
+All data and source code are available at:
+- https://github.com/Wuvist/lcpc
 ]
 
 #focus-slide[
