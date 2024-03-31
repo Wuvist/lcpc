@@ -119,7 +119,7 @@ savefig("data/LCPC_hk.png")
 
 plot(LCPC_hk_exclude_rent_0910, xlim=[0.8, 3.2], ylim=[0, 1.3], linestyle=:dot, xticks=([1, 2, 3],
         ["Public housing", "Subsidised Housing", "Private Housing"]), label="2009/10",
-    title="HK LCPC without rent by type of housing", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Housing")
+    title="HK LCPC exclude rent by type of housing", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Housing")
 plot!(LCPC_hk_exclude_rent_1415, label="2014/15", linestyle=:dash)
 plot!(LCPC_hk_exclude_rent_1920, label="2019/20")
 savefig("data/LCPC_hk_without_rent.png")
