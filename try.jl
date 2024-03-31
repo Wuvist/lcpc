@@ -21,10 +21,10 @@ LCPC_0708_IQ = e0708 ./ (i0708)
 LCPC_1213_IQ = e1213 ./ (i1213)
 LCPC_1718_IQ = e1718 ./ (i1718)
 
-plot(LCPC_0708_IQ, xlim=[0.8, 5.2], ylim=[0, 1.3], label="2007/08", title="SG LCPC by Income Quintile",
+plot(LCPC_0708_IQ, xlim=[0.8, 5.2], ylim=[0, 1.3], linestyle=:dot, label="2007/08", title="SG LCPC by Income Quintile",
     ylabel="Monthly LCP(Expenditure/Income)", xlabel="Income Quintile", xticks=([1, 2, 3, 4, 5],
         ["1st-20th", "21st-40th", "41st-60th", "61st-80th", "81th-100th"]))
-plot!(LCPC_1213_IQ, label="2012/13")
+plot!(LCPC_1213_IQ, label="2012/13", linestyle=:dash)
 plot!(LCPC_1718_IQ, label="2017/18")
 savefig("data/LCPC_income.png")
 
@@ -44,10 +44,10 @@ LCPC_0708 = LCPC_e_0708 ./ LCPC_i_0708
 LCPC_1213 = LCPC_e_1213 ./ LCPC_i_1213
 LCPC_1718 = LCPC_e_1213 ./ LCPC_i_1718
 
-plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6],
+plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.3], linestyle=:dot, xticks=([1, 2, 3, 4, 5, 6],
         ["1-2 Room", "3-Room", "4-Room", "5-Room&EC", "Condo", "Landed"]), label="2007/08",
     title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Dwelling")
-plot!(LCPC_1213, label="2012/13")
+plot!(LCPC_1213, label="2012/13", linestyle=:dash)
 plot!(LCPC_1718, label="2017/18")
 savefig("data/LCPC_dwelling.png")
 
@@ -115,12 +115,14 @@ plot(LCPC_hk_0910, xlim=[0.8, 3.2], ylim=[0, 1.3], linestyle=:dot, xticks=([1, 2
     title="HK LCPC by type of housing", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Housing")
 plot!(LCPC_hk_1415, label="2014/15", linestyle=:dash)
 plot!(LCPC_hk_1920, label="2019/20")
-
-plot!(LCPC_hk_exclude_rent_0910, label="2009/10 exclude rent", color=c1, linestyle=:dot)
-plot!(LCPC_hk_exclude_rent_1415, label="2014/15 exclude rent", color=c2, linestyle=:dash)
-plot!(LCPC_hk_exclude_rent_1920, label="2019/20 exclude rent", color=c3)
-
 savefig("data/LCPC_hk.png")
+
+plot(LCPC_hk_exclude_rent_0910, xlim=[0.8, 3.2], ylim=[0, 1.3], linestyle=:dot, xticks=([1, 2, 3],
+        ["Public housing", "Subsidised Housing", "Private Housing"]), label="2009/10",
+    title="HK LCPC by type of housing without rent", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Housing")
+plot!(LCPC_hk_exclude_rent_1415, label="2014/15", linestyle=:dash)
+plot!(LCPC_hk_exclude_rent_1920, label="2019/20")
+savefig("data/LCPC_hk_without_rent.png")
 
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
 # data/cpi_jan24.xlsx
