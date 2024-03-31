@@ -60,6 +60,11 @@ savefig("data/LCPC_change.png")
 # Expenditure https://www.censtatd.gov.hk/en/web_table.html?id=140-09005
 # Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing
 # "data/Table 140-09005_en.csv"
+# Table 140-09004 : 2014/15 Household Expenditure Survey https://www.censtatd.gov.hk/en/web_table.html?id=140-09004
+# Table 140-09003 : 2009/10 Household Expenditure Survey https://www.censtatd.gov.hk/en/web_table.html?id=140-09003
+# Table 140-09002 : 2004/05 Household Expenditure Survey https://www.censtatd.gov.hk/en/web_table.html?id=140-09002
+# Table 140-09001 : 1999/00 Household Expenditure Survey https://www.censtatd.gov.hk/en/web_table.html?id=140-09001
+
 
 # Income https://www.censtatd.gov.hk/en/web_table.html?id=130-06613A
 # Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)
