@@ -1,0 +1,1528 @@
+[
+    {
+        "year": 2024,
+        "month": 2,
+        "date": "Feb 2024",
+        "value": "137.5",
+        "increase": "1.0"
+    },
+    {
+        "year": 2024,
+        "month": 1,
+        "date": "Jan 2024",
+        "value": "136.1",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2023,
+        "month": 12,
+        "date": "Dec 2023",
+        "value": "137.0",
+        "increase": "1.0"
+    },
+    {
+        "year": 2023,
+        "month": 11,
+        "date": "Nov 2023",
+        "value": "135.7",
+        "increase": "0.8"
+    },
+    {
+        "year": 2023,
+        "month": 10,
+        "date": "Oct 2023",
+        "value": "134.7",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2023,
+        "month": 9,
+        "date": "Sep 2023",
+        "value": "135.4",
+        "increase": "0.6"
+    },
+    {
+        "year": 2023,
+        "month": 8,
+        "date": "Aug 2023",
+        "value": "134.6",
+        "increase": "-0.0"
+    },
+    {
+        "year": 2023,
+        "month": 7,
+        "date": "Jul 2023",
+        "value": "134.6",
+        "increase": "2.2"
+    },
+    {
+        "year": 2023,
+        "month": 6,
+        "date": "Jun 2023",
+        "value": "131.8",
+        "increase": "1.3"
+    },
+    {
+        "year": 2023,
+        "month": 5,
+        "date": "May 2023",
+        "value": "130.1",
+        "increase": "1.0"
+    },
+    {
+        "year": 2023,
+        "month": 4,
+        "date": "Apr 2023",
+        "value": "128.9",
+        "increase": "0.8"
+    },
+    {
+        "year": 2023,
+        "month": 3,
+        "date": "Mar 2023",
+        "value": "127.8",
+        "increase": "0.8"
+    },
+    {
+        "year": 2023,
+        "month": 2,
+        "date": "Feb 2023",
+        "value": "126.8",
+        "increase": "1.1"
+    },
+    {
+        "year": 2023,
+        "month": 1,
+        "date": "Jan 2023",
+        "value": "125.4",
+        "increase": "0.8"
+    },
+    {
+        "year": 2022,
+        "month": 12,
+        "date": "Dec 2022",
+        "value": "124.4",
+        "increase": "2.7"
+    },
+    {
+        "year": 2022,
+        "month": 11,
+        "date": "Nov 2022",
+        "value": "121.1",
+        "increase": "2.5"
+    },
+    {
+        "year": 2022,
+        "month": 10,
+        "date": "Oct 2022",
+        "value": "118.2",
+        "increase": "3.2"
+    },
+    {
+        "year": 2022,
+        "month": 9,
+        "date": "Sep 2022",
+        "value": "114.5",
+        "increase": "2.6"
+    },
+    {
+        "year": 2022,
+        "month": 8,
+        "date": "Aug 2022",
+        "value": "111.6",
+        "increase": "2.9"
+    },
+    {
+        "year": 2022,
+        "month": 7,
+        "date": "Jul 2022",
+        "value": "108.4",
+        "increase": "2.4"
+    },
+    {
+        "year": 2022,
+        "month": 6,
+        "date": "Jun 2022",
+        "value": "105.9",
+        "increase": "1.8"
+    },
+    {
+        "year": 2022,
+        "month": 5,
+        "date": "May 2022",
+        "value": "104.0",
+        "increase": "1.8"
+    },
+    {
+        "year": 2022,
+        "month": 4,
+        "date": "Apr 2022",
+        "value": "102.1",
+        "increase": "1.3"
+    },
+    {
+        "year": 2022,
+        "month": 3,
+        "date": "Mar 2022",
+        "value": "100.8",
+        "increase": "1.4"
+    },
+    {
+        "year": 2022,
+        "month": 2,
+        "date": "Feb 2022",
+        "value": "99.4",
+        "increase": "1.2"
+    },
+    {
+        "year": 2022,
+        "month": 1,
+        "date": "Jan 2022",
+        "value": "98.2",
+        "increase": "1.4"
+    },
+    {
+        "year": 2021,
+        "month": 12,
+        "date": "Dec 2021",
+        "value": "96.8",
+        "increase": "1.4"
+    },
+    {
+        "year": 2021,
+        "month": 11,
+        "date": "Nov 2021",
+        "value": "95.5",
+        "increase": "1.3"
+    },
+    {
+        "year": 2021,
+        "month": 10,
+        "date": "Oct 2021",
+        "value": "94.3",
+        "increase": "0.1"
+    },
+    {
+        "year": 2021,
+        "month": 9,
+        "date": "Sep 2021",
+        "value": "94.2",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2021,
+        "month": 8,
+        "date": "Aug 2021",
+        "value": "94.4",
+        "increase": "0.9"
+    },
+    {
+        "year": 2021,
+        "month": 7,
+        "date": "Jul 2021",
+        "value": "93.5",
+        "increase": "1.3"
+    },
+    {
+        "year": 2021,
+        "month": 6,
+        "date": "Jun 2021",
+        "value": "92.4",
+        "increase": "0.9"
+    },
+    {
+        "year": 2021,
+        "month": 5,
+        "date": "May 2021",
+        "value": "91.5",
+        "increase": "0.6"
+    },
+    {
+        "year": 2021,
+        "month": 4,
+        "date": "Apr 2021",
+        "value": "91.0",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2021,
+        "month": 3,
+        "date": "Mar 2021",
+        "value": "91.1",
+        "increase": "0.6"
+    },
+    {
+        "year": 2021,
+        "month": 2,
+        "date": "Feb 2021",
+        "value": "90.6",
+        "increase": "-0.0"
+    },
+    {
+        "year": 2021,
+        "month": 1,
+        "date": "Jan 2021",
+        "value": "90.7",
+        "increase": "0.2"
+    },
+    {
+        "year": 2020,
+        "month": 12,
+        "date": "Dec 2020",
+        "value": "90.5",
+        "increase": "0.5"
+    },
+    {
+        "year": 2020,
+        "month": 11,
+        "date": "Nov 2020",
+        "value": "90.0",
+        "increase": "0.5"
+    },
+    {
+        "year": 2020,
+        "month": 10,
+        "date": "Oct 2020",
+        "value": "89.6",
+        "increase": "0.4"
+    },
+    {
+        "year": 2020,
+        "month": 9,
+        "date": "Sep 2020",
+        "value": "89.2",
+        "increase": "0.9"
+    },
+    {
+        "year": 2020,
+        "month": 8,
+        "date": "Aug 2020",
+        "value": "88.4",
+        "increase": "1.3"
+    },
+    {
+        "year": 2020,
+        "month": 7,
+        "date": "Jul 2020",
+        "value": "87.2",
+        "increase": "0.4"
+    },
+    {
+        "year": 2020,
+        "month": 6,
+        "date": "Jun 2020",
+        "value": "86.9",
+        "increase": "0.6"
+    },
+    {
+        "year": 2020,
+        "month": 5,
+        "date": "May 2020",
+        "value": "86.4",
+        "increase": "-0.9"
+    },
+    {
+        "year": 2020,
+        "month": 4,
+        "date": "Apr 2020",
+        "value": "87.2",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2020,
+        "month": 3,
+        "date": "Mar 2020",
+        "value": "87.2",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2020,
+        "month": 2,
+        "date": "Feb 2020",
+        "value": "87.5",
+        "increase": "0.6"
+    },
+    {
+        "year": 2020,
+        "month": 1,
+        "date": "Jan 2020",
+        "value": "86.9",
+        "increase": "0.1"
+    },
+    {
+        "year": 2019,
+        "month": 12,
+        "date": "Dec 2019",
+        "value": "86.8",
+        "increase": "0.3"
+    },
+    {
+        "year": 2019,
+        "month": 11,
+        "date": "Nov 2019",
+        "value": "86.6",
+        "increase": "0.6"
+    },
+    {
+        "year": 2019,
+        "month": 10,
+        "date": "Oct 2019",
+        "value": "86.1",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2019,
+        "month": 9,
+        "date": "Sep 2019",
+        "value": "86.7",
+        "increase": "0.2"
+    },
+    {
+        "year": 2019,
+        "month": 8,
+        "date": "Aug 2019",
+        "value": "86.5",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2019,
+        "month": 7,
+        "date": "Jul 2019",
+        "value": "86.7",
+        "increase": "0.4"
+    },
+    {
+        "year": 2019,
+        "month": 6,
+        "date": "Jun 2019",
+        "value": "86.3",
+        "increase": "0.5"
+    },
+    {
+        "year": 2019,
+        "month": 5,
+        "date": "May 2019",
+        "value": "85.9",
+        "increase": "0.0"
+    },
+    {
+        "year": 2019,
+        "month": 4,
+        "date": "Apr 2019",
+        "value": "85.9",
+        "increase": "0.1"
+    },
+    {
+        "year": 2019,
+        "month": 3,
+        "date": "Mar 2019",
+        "value": "85.8",
+        "increase": "-0.0"
+    },
+    {
+        "year": 2019,
+        "month": 2,
+        "date": "Feb 2019",
+        "value": "85.8",
+        "increase": "0.1"
+    },
+    {
+        "year": 2019,
+        "month": 1,
+        "date": "Jan 2019",
+        "value": "85.7",
+        "increase": "0.2"
+    },
+    {
+        "year": 2018,
+        "month": 12,
+        "date": "Dec 2018",
+        "value": "85.6",
+        "increase": "0.1"
+    },
+    {
+        "year": 2018,
+        "month": 11,
+        "date": "Nov 2018",
+        "value": "85.6",
+        "increase": "0.1"
+    },
+    {
+        "year": 2018,
+        "month": 10,
+        "date": "Oct 2018",
+        "value": "85.5",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2018,
+        "month": 9,
+        "date": "Sep 2018",
+        "value": "85.6",
+        "increase": "-0.4"
+    },
+    {
+        "year": 2018,
+        "month": 8,
+        "date": "Aug 2018",
+        "value": "85.9",
+        "increase": "0.1"
+    },
+    {
+        "year": 2018,
+        "month": 7,
+        "date": "Jul 2018",
+        "value": "85.8",
+        "increase": "-0.0"
+    },
+    {
+        "year": 2018,
+        "month": 6,
+        "date": "Jun 2018",
+        "value": "85.9",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2018,
+        "month": 5,
+        "date": "May 2018",
+        "value": "86.0",
+        "increase": "-0.4"
+    },
+    {
+        "year": 2018,
+        "month": 4,
+        "date": "Apr 2018",
+        "value": "86.3",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2018,
+        "month": 3,
+        "date": "Mar 2018",
+        "value": "86.5",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2018,
+        "month": 2,
+        "date": "Feb 2018",
+        "value": "86.7",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2018,
+        "month": 1,
+        "date": "Jan 2018",
+        "value": "87.0",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2017,
+        "month": 12,
+        "date": "Dec 2017",
+        "value": "87.2",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2017,
+        "month": 11,
+        "date": "Nov 2017",
+        "value": "87.3",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2017,
+        "month": 10,
+        "date": "Oct 2017",
+        "value": "87.9",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2017,
+        "month": 9,
+        "date": "Sep 2017",
+        "value": "88.0",
+        "increase": "-0.4"
+    },
+    {
+        "year": 2017,
+        "month": 8,
+        "date": "Aug 2017",
+        "value": "88.4",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2017,
+        "month": 7,
+        "date": "Jul 2017",
+        "value": "88.9",
+        "increase": "0.0"
+    },
+    {
+        "year": 2017,
+        "month": 6,
+        "date": "Jun 2017",
+        "value": "88.8",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2017,
+        "month": 5,
+        "date": "May 2017",
+        "value": "89.1",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2017,
+        "month": 4,
+        "date": "Apr 2017",
+        "value": "89.3",
+        "increase": "-0.9"
+    },
+    {
+        "year": 2017,
+        "month": 3,
+        "date": "Mar 2017",
+        "value": "90.2",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2017,
+        "month": 2,
+        "date": "Feb 2017",
+        "value": "90.3",
+        "increase": "-0.4"
+    },
+    {
+        "year": 2017,
+        "month": 1,
+        "date": "Jan 2017",
+        "value": "90.7",
+        "increase": "-0.6"
+    },
+    {
+        "year": 2016,
+        "month": 12,
+        "date": "Dec 2016",
+        "value": "91.2",
+        "increase": "-0.6"
+    },
+    {
+        "year": 2016,
+        "month": 11,
+        "date": "Nov 2016",
+        "value": "91.8",
+        "increase": "-0.8"
+    },
+    {
+        "year": 2016,
+        "month": 10,
+        "date": "Oct 2016",
+        "value": "92.5",
+        "increase": "-0.9"
+    },
+    {
+        "year": 2016,
+        "month": 9,
+        "date": "Sep 2016",
+        "value": "93.3",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2016,
+        "month": 8,
+        "date": "Aug 2016",
+        "value": "93.5",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2016,
+        "month": 7,
+        "date": "Jul 2016",
+        "value": "94.0",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2016,
+        "month": 6,
+        "date": "Jun 2016",
+        "value": "94.1",
+        "increase": "-0.0"
+    },
+    {
+        "year": 2016,
+        "month": 5,
+        "date": "May 2016",
+        "value": "94.1",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2016,
+        "month": 4,
+        "date": "Apr 2016",
+        "value": "94.8",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2016,
+        "month": 3,
+        "date": "Mar 2016",
+        "value": "95.3",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2016,
+        "month": 2,
+        "date": "Feb 2016",
+        "value": "95.4",
+        "increase": "-0.6"
+    },
+    {
+        "year": 2016,
+        "month": 1,
+        "date": "Jan 2016",
+        "value": "96.0",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2015,
+        "month": 12,
+        "date": "Dec 2015",
+        "value": "96.5",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2015,
+        "month": 11,
+        "date": "Nov 2015",
+        "value": "96.7",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2015,
+        "month": 10,
+        "date": "Oct 2015",
+        "value": "97.0",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2015,
+        "month": 9,
+        "date": "Sep 2015",
+        "value": "97.7",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2015,
+        "month": 8,
+        "date": "Aug 2015",
+        "value": "97.9",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2015,
+        "month": 7,
+        "date": "Jul 2015",
+        "value": "98.0",
+        "increase": "0.1"
+    },
+    {
+        "year": 2015,
+        "month": 6,
+        "date": "Jun 2015",
+        "value": "97.9",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2015,
+        "month": 5,
+        "date": "May 2015",
+        "value": "98.2",
+        "increase": "-0.6"
+    },
+    {
+        "year": 2015,
+        "month": 4,
+        "date": "Apr 2015",
+        "value": "98.8",
+        "increase": "-0.6"
+    },
+    {
+        "year": 2015,
+        "month": 3,
+        "date": "Mar 2015",
+        "value": "99.4",
+        "increase": "0.1"
+    },
+    {
+        "year": 2015,
+        "month": 2,
+        "date": "Feb 2015",
+        "value": "99.3",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2015,
+        "month": 1,
+        "date": "Jan 2015",
+        "value": "100.0",
+        "increase": "-0.4"
+    },
+    {
+        "year": 2014,
+        "month": 12,
+        "date": "Dec 2014",
+        "value": "100.4",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2014,
+        "month": 11,
+        "date": "Nov 2014",
+        "value": "100.7",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2014,
+        "month": 10,
+        "date": "Oct 2014",
+        "value": "101.2",
+        "increase": "-0.0"
+    },
+    {
+        "year": 2014,
+        "month": 9,
+        "date": "Sep 2014",
+        "value": "101.2",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2014,
+        "month": 8,
+        "date": "Aug 2014",
+        "value": "101.4",
+        "increase": "0.0"
+    },
+    {
+        "year": 2014,
+        "month": 7,
+        "date": "Jul 2014",
+        "value": "101.4",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2014,
+        "month": 6,
+        "date": "Jun 2014",
+        "value": "101.6",
+        "increase": "0.0"
+    },
+    {
+        "year": 2014,
+        "month": 5,
+        "date": "May 2014",
+        "value": "101.5",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2014,
+        "month": 4,
+        "date": "Apr 2014",
+        "value": "101.8",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2014,
+        "month": 3,
+        "date": "Mar 2014",
+        "value": "101.9",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2014,
+        "month": 2,
+        "date": "Feb 2014",
+        "value": "102.1",
+        "increase": "0.2"
+    },
+    {
+        "year": 2014,
+        "month": 1,
+        "date": "Jan 2014",
+        "value": "101.9",
+        "increase": "-0.6"
+    },
+    {
+        "year": 2013,
+        "month": 12,
+        "date": "Dec 2013",
+        "value": "102.5",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2013,
+        "month": 11,
+        "date": "Nov 2013",
+        "value": "102.7",
+        "increase": "0.0"
+    },
+    {
+        "year": 2013,
+        "month": 10,
+        "date": "Oct 2013",
+        "value": "102.7",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2013,
+        "month": 9,
+        "date": "Sep 2013",
+        "value": "102.8",
+        "increase": "0.2"
+    },
+    {
+        "year": 2013,
+        "month": 8,
+        "date": "Aug 2013",
+        "value": "102.6",
+        "increase": "0.1"
+    },
+    {
+        "year": 2013,
+        "month": 7,
+        "date": "Jul 2013",
+        "value": "102.6",
+        "increase": "0.5"
+    },
+    {
+        "year": 2013,
+        "month": 6,
+        "date": "Jun 2013",
+        "value": "102.0",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2013,
+        "month": 5,
+        "date": "May 2013",
+        "value": "102.1",
+        "increase": "0.6"
+    },
+    {
+        "year": 2013,
+        "month": 4,
+        "date": "Apr 2013",
+        "value": "101.5",
+        "increase": "0.3"
+    },
+    {
+        "year": 2013,
+        "month": 3,
+        "date": "Mar 2013",
+        "value": "101.2",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2013,
+        "month": 2,
+        "date": "Feb 2013",
+        "value": "101.7",
+        "increase": "0.5"
+    },
+    {
+        "year": 2013,
+        "month": 1,
+        "date": "Jan 2013",
+        "value": "101.2",
+        "increase": "-1.2"
+    },
+    {
+        "year": 2012,
+        "month": 12,
+        "date": "Dec 2012",
+        "value": "102.4",
+        "increase": "1.3"
+    },
+    {
+        "year": 2012,
+        "month": 11,
+        "date": "Nov 2012",
+        "value": "101.1",
+        "increase": "0.7"
+    },
+    {
+        "year": 2012,
+        "month": 10,
+        "date": "Oct 2012",
+        "value": "100.4",
+        "increase": "0.6"
+    },
+    {
+        "year": 2012,
+        "month": 9,
+        "date": "Sep 2012",
+        "value": "99.8",
+        "increase": "1.0"
+    },
+    {
+        "year": 2012,
+        "month": 8,
+        "date": "Aug 2012",
+        "value": "98.7",
+        "increase": "-0.0"
+    },
+    {
+        "year": 2012,
+        "month": 7,
+        "date": "Jul 2012",
+        "value": "98.8",
+        "increase": "1.5"
+    },
+    {
+        "year": 2012,
+        "month": 6,
+        "date": "Jun 2012",
+        "value": "97.3",
+        "increase": "0.1"
+    },
+    {
+        "year": 2012,
+        "month": 5,
+        "date": "May 2012",
+        "value": "97.1",
+        "increase": "1.1"
+    },
+    {
+        "year": 2012,
+        "month": 4,
+        "date": "Apr 2012",
+        "value": "96.1",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2012,
+        "month": 3,
+        "date": "Mar 2012",
+        "value": "96.8",
+        "increase": "0.6"
+    },
+    {
+        "year": 2012,
+        "month": 2,
+        "date": "Feb 2012",
+        "value": "96.2",
+        "increase": "0.8"
+    },
+    {
+        "year": 2012,
+        "month": 1,
+        "date": "Jan 2012",
+        "value": "95.5",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2011,
+        "month": 12,
+        "date": "Dec 2011",
+        "value": "95.6",
+        "increase": "0.2"
+    },
+    {
+        "year": 2011,
+        "month": 11,
+        "date": "Nov 2011",
+        "value": "95.3",
+        "increase": "1.2"
+    },
+    {
+        "year": 2011,
+        "month": 10,
+        "date": "Oct 2011",
+        "value": "94.2",
+        "increase": "-0.4"
+    },
+    {
+        "year": 2011,
+        "month": 9,
+        "date": "Sep 2011",
+        "value": "94.5",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2011,
+        "month": 8,
+        "date": "Aug 2011",
+        "value": "94.7",
+        "increase": "1.7"
+    },
+    {
+        "year": 2011,
+        "month": 7,
+        "date": "Jul 2011",
+        "value": "93.1",
+        "increase": "1.7"
+    },
+    {
+        "year": 2011,
+        "month": 6,
+        "date": "Jun 2011",
+        "value": "91.5",
+        "increase": "0.6"
+    },
+    {
+        "year": 2011,
+        "month": 5,
+        "date": "May 2011",
+        "value": "91.0",
+        "increase": "1.7"
+    },
+    {
+        "year": 2011,
+        "month": 4,
+        "date": "Apr 2011",
+        "value": "89.5",
+        "increase": "1.0"
+    },
+    {
+        "year": 2011,
+        "month": 3,
+        "date": "Mar 2011",
+        "value": "88.6",
+        "increase": "1.0"
+    },
+    {
+        "year": 2011,
+        "month": 2,
+        "date": "Feb 2011",
+        "value": "87.7",
+        "increase": "0.8"
+    },
+    {
+        "year": 2011,
+        "month": 1,
+        "date": "Jan 2011",
+        "value": "87.1",
+        "increase": "1.5"
+    },
+    {
+        "year": 2010,
+        "month": 12,
+        "date": "Dec 2010",
+        "value": "85.7",
+        "increase": "0.5"
+    },
+    {
+        "year": 2010,
+        "month": 11,
+        "date": "Nov 2010",
+        "value": "85.3",
+        "increase": "0.1"
+    },
+    {
+        "year": 2010,
+        "month": 10,
+        "date": "Oct 2010",
+        "value": "85.2",
+        "increase": "0.9"
+    },
+    {
+        "year": 2010,
+        "month": 9,
+        "date": "Sep 2010",
+        "value": "84.5",
+        "increase": "2.9"
+    },
+    {
+        "year": 2010,
+        "month": 8,
+        "date": "Aug 2010",
+        "value": "82.1",
+        "increase": "0.7"
+    },
+    {
+        "year": 2010,
+        "month": 7,
+        "date": "Jul 2010",
+        "value": "81.5",
+        "increase": "2.2"
+    },
+    {
+        "year": 2010,
+        "month": 6,
+        "date": "Jun 2010",
+        "value": "79.8",
+        "increase": "1.6"
+    },
+    {
+        "year": 2010,
+        "month": 5,
+        "date": "May 2010",
+        "value": "78.6",
+        "increase": "1.4"
+    },
+    {
+        "year": 2010,
+        "month": 4,
+        "date": "Apr 2010",
+        "value": "77.5",
+        "increase": "2.1"
+    },
+    {
+        "year": 2010,
+        "month": 3,
+        "date": "Mar 2010",
+        "value": "75.9",
+        "increase": "1.3"
+    },
+    {
+        "year": 2010,
+        "month": 2,
+        "date": "Feb 2010",
+        "value": "74.9",
+        "increase": "0.7"
+    },
+    {
+        "year": 2010,
+        "month": 1,
+        "date": "Jan 2010",
+        "value": "74.4",
+        "increase": "-0.6"
+    },
+    {
+        "year": 2009,
+        "month": 12,
+        "date": "Dec 2009",
+        "value": "74.8",
+        "increase": "2.5"
+    },
+    {
+        "year": 2009,
+        "month": 11,
+        "date": "Nov 2009",
+        "value": "73.0",
+        "increase": "1.2"
+    },
+    {
+        "year": 2009,
+        "month": 10,
+        "date": "Oct 2009",
+        "value": "72.2",
+        "increase": "-0.4"
+    },
+    {
+        "year": 2009,
+        "month": 9,
+        "date": "Sep 2009",
+        "value": "72.5",
+        "increase": "1.5"
+    },
+    {
+        "year": 2009,
+        "month": 8,
+        "date": "Aug 2009",
+        "value": "71.4",
+        "increase": "1.1"
+    },
+    {
+        "year": 2009,
+        "month": 7,
+        "date": "Jul 2009",
+        "value": "70.6",
+        "increase": "1.8"
+    },
+    {
+        "year": 2009,
+        "month": 6,
+        "date": "Jun 2009",
+        "value": "69.3",
+        "increase": "1.2"
+    },
+    {
+        "year": 2009,
+        "month": 5,
+        "date": "May 2009",
+        "value": "68.5",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2009,
+        "month": 4,
+        "date": "Apr 2009",
+        "value": "68.6",
+        "increase": "-1.5"
+    },
+    {
+        "year": 2009,
+        "month": 3,
+        "date": "Mar 2009",
+        "value": "69.6",
+        "increase": "-0.3"
+    },
+    {
+        "year": 2009,
+        "month": 2,
+        "date": "Feb 2009",
+        "value": "69.8",
+        "increase": "-3.9"
+    },
+    {
+        "year": 2009,
+        "month": 1,
+        "date": "Jan 2009",
+        "value": "72.7",
+        "increase": "-2.6"
+    },
+    {
+        "year": 2008,
+        "month": 12,
+        "date": "Dec 2008",
+        "value": "74.6",
+        "increase": "-4.0"
+    },
+    {
+        "year": 2008,
+        "month": 11,
+        "date": "Nov 2008",
+        "value": "77.7",
+        "increase": "-1.9"
+    },
+    {
+        "year": 2008,
+        "month": 10,
+        "date": "Oct 2008",
+        "value": "79.2",
+        "increase": "0.7"
+    },
+    {
+        "year": 2008,
+        "month": 9,
+        "date": "Sep 2008",
+        "value": "78.7",
+        "increase": "0.4"
+    },
+    {
+        "year": 2008,
+        "month": 8,
+        "date": "Aug 2008",
+        "value": "78.4",
+        "increase": "-1.9"
+    },
+    {
+        "year": 2008,
+        "month": 7,
+        "date": "Jul 2008",
+        "value": "79.9",
+        "increase": "3.2"
+    },
+    {
+        "year": 2008,
+        "month": 6,
+        "date": "Jun 2008",
+        "value": "77.4",
+        "increase": "1.9"
+    },
+    {
+        "year": 2008,
+        "month": 5,
+        "date": "May 2008",
+        "value": "76.0",
+        "increase": "-0.2"
+    },
+    {
+        "year": 2008,
+        "month": 4,
+        "date": "Apr 2008",
+        "value": "76.1",
+        "increase": "3.6"
+    },
+    {
+        "year": 2008,
+        "month": 3,
+        "date": "Mar 2008",
+        "value": "73.4",
+        "increase": "0.8"
+    },
+    {
+        "year": 2008,
+        "month": 2,
+        "date": "Feb 2008",
+        "value": "72.8",
+        "increase": "1.5"
+    },
+    {
+        "year": 2008,
+        "month": 1,
+        "date": "Jan 2008",
+        "value": "71.7",
+        "increase": "2.0"
+    },
+    {
+        "year": 2007,
+        "month": 12,
+        "date": "Dec 2007",
+        "value": "70.3",
+        "increase": "-0.5"
+    },
+    {
+        "year": 2007,
+        "month": 11,
+        "date": "Nov 2007",
+        "value": "70.7",
+        "increase": "6.2"
+    },
+    {
+        "year": 2007,
+        "month": 10,
+        "date": "Oct 2007",
+        "value": "66.6",
+        "increase": "1.0"
+    },
+    {
+        "year": 2007,
+        "month": 9,
+        "date": "Sep 2007",
+        "value": "65.9",
+        "increase": "0.6"
+    },
+    {
+        "year": 2007,
+        "month": 8,
+        "date": "Aug 2007",
+        "value": "65.5",
+        "increase": "5.0"
+    },
+    {
+        "year": 2007,
+        "month": 7,
+        "date": "Jul 2007",
+        "value": "62.4",
+        "increase": "9.1"
+    },
+    {
+        "year": 2007,
+        "month": 6,
+        "date": "Jun 2007",
+        "value": "57.2",
+        "increase": "4.7"
+    },
+    {
+        "year": 2007,
+        "month": 5,
+        "date": "May 2007",
+        "value": "54.6",
+        "increase": "6.3"
+    },
+    {
+        "year": 2007,
+        "month": 4,
+        "date": "Apr 2007",
+        "value": "51.4",
+        "increase": "3.3"
+    },
+    {
+        "year": 2007,
+        "month": 3,
+        "date": "Mar 2007",
+        "value": "49.8",
+        "increase": "-4.2"
+    },
+    {
+        "year": 2007,
+        "month": 2,
+        "date": "Feb 2007",
+        "value": "52.0",
+        "increase": "6.9"
+    },
+    {
+        "year": 2007,
+        "month": 1,
+        "date": "Jan 2007",
+        "value": "48.6",
+        "increase": "-0.7"
+    },
+    {
+        "year": 2006,
+        "month": 12,
+        "date": "Dec 2006",
+        "value": "48.9",
+        "increase": "3.6"
+    },
+    {
+        "year": 2006,
+        "month": 11,
+        "date": "Nov 2006",
+        "value": "47.2",
+        "increase": "1.9"
+    },
+    {
+        "year": 2006,
+        "month": 10,
+        "date": "Oct 2006",
+        "value": "46.3",
+        "increase": "-0.1"
+    },
+    {
+        "year": 2006,
+        "month": 9,
+        "date": "Sep 2006",
+        "value": "46.4",
+        "increase": "2.9"
+    },
+    {
+        "year": 2006,
+        "month": 8,
+        "date": "Aug 2006",
+        "value": "45.1",
+        "increase": "-4.5"
+    },
+    {
+        "year": 2006,
+        "month": 7,
+        "date": "Jul 2006",
+        "value": "47.2",
+        "increase": "7.1"
+    },
+    {
+        "year": 2006,
+        "month": 6,
+        "date": "Jun 2006",
+        "value": "44.1",
+        "increase": "-4.4"
+    },
+    {
+        "year": 2006,
+        "month": 5,
+        "date": "May 2006",
+        "value": "46.1",
+        "increase": "5.3"
+    },
+    {
+        "year": 2006,
+        "month": 4,
+        "date": "Apr 2006",
+        "value": "43.8",
+        "increase": "9.2"
+    },
+    {
+        "year": 2006,
+        "month": 3,
+        "date": "Mar 2006",
+        "value": "40.1",
+        "increase": "-1.5"
+    },
+    {
+        "year": 2006,
+        "month": 2,
+        "date": "Feb 2006",
+        "value": "40.7",
+        "increase": "-4.9"
+    },
+    {
+        "year": 2006,
+        "month": 1,
+        "date": "Jan 2006",
+        "value": "42.8",
+        "increase": "0.00"
+    }
+]

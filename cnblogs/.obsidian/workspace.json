@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "34dba305d0a796c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e464145c4b665086",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8495955f4eebb0f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "香港居民是如何被房租压垮的.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c360f1e161b1aa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fe2cc910afc2f68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90f4800009d91e9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "49540205a6676a38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "19707a2901cc780c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb6511d794f01c51",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bd559ca621ace1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6887f774eadeeb7a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "香港居民是如何被房租压垮的.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "edac92f9c1dbd205",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "香港居民是如何被房租压垮的.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a1ec7ac8d1e7b5a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bac06e38104df6c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "香港居民是如何被房租压垮的.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8495955f4eebb0f4",
+  "lastOpenFiles": [
+    "atts/hk_vs_sg_gdp_per_capita.png",
+    "香港居民是如何被房租压垮的.md",
+    "HK_house_price_index.png",
+    "用最权威的统计告诉你新加坡究竟有多贵.md",
+    "atts/HK_house_price_index.png",
+    "atts/hk_private_house_index.png",
+    "atts",
+    "Pasted image 20240405215609.png"
+  ]
+}
