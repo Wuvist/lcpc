@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e464145c4b665086",
+        "id": "9184e1f009b9b5d6",
         "type": "tabs",
         "children": [
           {
-            "id": "8495955f4eebb0f4",
+            "id": "2a0e6682e4974e02",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,17 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8495955f4eebb0f4",
+  "active": "2a0e6682e4974e02",
   "lastOpenFiles": [
-    "atts/hk_house_ownership.png",
-    "atts/hk_rental_change.png",
-    "atts/hk_vs_sg_gdp_per_capita.png",
+    "atts/IMG20190912172250.jpg",
+    "atts/hk_house_rental_index.png",
+    "atts/hk_house_price_index.png",
     "香港居民是如何被房租压垮的.md",
-    "HK_house_price_index.png",
     "用最权威的统计告诉你新加坡究竟有多贵.md",
-    "atts/HK_house_price_index.png",
-    "atts/hk_private_house_index.png",
-    "atts",
-    "Pasted image 20240405215609.png"
+    "HK_house_price_index.png",
+    "atts/LCPC_dwelling.png",
+    "atts/hk_lcpc_without_rent_cn (1).png",
+    "atts/hk_lcpc_cn (1).png",
+    "atts/hk_housing_type.png",
+    "atts/hk_lcpc_without_rent_cn.png",
+    "atts/hk_lcpc_data.png",
+    "atts/hk_lcpc_cn.png",
+    "atts"
   ]
 }

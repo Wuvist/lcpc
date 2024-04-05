@@ -124,6 +124,18 @@ plot!(LCPC_hk_exclude_rent_1415, label="2014/15", linestyle=:dash)
 plot!(LCPC_hk_exclude_rent_1920, label="2019/20")
 savefig("data/LCPC_hk_without_rent.png")
 
+# plot(LCPC_hk_0910, xlim=[0.8, 3.2], ylim=[0, 1.3], linestyle=:dot, xticks=([1, 2, 3],
+#                ["公屋", "居屋", "私人住宅"]), label="2009/10",
+#            title="香港家庭支出 / 收入比", ylabel="支出 / 收入比", xlabel="住宅类型",legend=:outerbottomright)
+# plot!(LCPC_hk_1415, label="2014/15", linestyle=:dash)
+# plot!(LCPC_hk_1920, label="2019/20")
+
+# plot(LCPC_hk_exclude_rent_0910, xlim=[0.8, 3.2], ylim=[0, 1.3], linestyle=:dot, xticks=([1, 2, 3],
+#                ["公屋", "居屋", "私人住宅"]), label="2009/10",
+#            title="香港家庭支出 / 收入比（不计房租）", ylabel="支出 / 收入比（不计房租）", xlabel="住宅类型",legend=:outerbottomright)
+# plot!(LCPC_hk_exclude_rent_1415, label="2014/15", linestyle=:dash)
+# plot!(LCPC_hk_exclude_rent_1920, label="2019/20")
+
 # http://www.singstat.gov.sg/whats-new/latest-news/cpi-highlights
 # data/cpi_jan24.xlsx
 # Sheet 3	Prices and Price Indices	Consumer Price Index (CPI), 2019 As Base Year, Annual
