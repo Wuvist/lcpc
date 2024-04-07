@@ -3,15 +3,53 @@
  xmlns:z="http://www.zotero.org/namespaces/export#"
  xmlns:dcterms="http://purl.org/dc/terms/"
  xmlns:dc="http://purl.org/dc/elements/1.1/"
- xmlns:link="http://purl.org/rss/1.0/modules/link/"
  xmlns:bib="http://purl.org/net/biblio#"
- xmlns:foaf="http://xmlns.com/foaf/0.1/">
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/">
+    <bib:Document rdf:about="http://mp.weixin.qq.com/s?__biz=MzA5NjI5MDczNg==&amp;mid=2447831345&amp;idx=1&amp;sn=5881d906fb15e579d9e3e1414fd8826c&amp;chksm=84a003eeb3d78af8020a7681117649a74180cf6d90424157e5f3946449df20862fe0d4e557a5#rd">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Weixin Official Accounts Platform</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>翁伟</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_441"/>
+        <dc:title>用最权威的统计告诉你新加坡究竟有多贵</dc:title>
+        <dcterms:abstract>新加坡有世界一流的政府，而其一流之处也体现在了统计局长期提供了全面、细致并且及时的统计数据。</dcterms:abstract>
+        <dc:date>2024-03-09</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://mp.weixin.qq.com/s?__biz=MzA5NjI5MDczNg==&amp;mid=2447831345&amp;idx=1&amp;sn=5881d906fb15e579d9e3e1414fd8826c&amp;chksm=84a003eeb3d78af8020a7681117649a74180cf6d90424157e5f3946449df20862fe0d4e557a5#rd</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 15:26:02</dcterms:dateSubmitted>
+        <dc:description>Citation Key: wechat</dc:description>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_441">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://mp.weixin.qq.com/s/CwnGtV46-jqfJeMfPy-hQw</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-31 15:26:07</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
     <bib:Document rdf:about="https://www.gov.sg/article/singapore-is-it-really-the-most-expensive-place-to-live">
         <z:itemType>webpage</z:itemType>
         <dcterms:isPartOf>
            <z:Website><dc:title>Default</dc:title></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_115"/>
+        <link:link rdf:resource="#item_443"/>
         <dc:title>gov.sg | Singapore Is it really the most expensive place to live</dc:title>
         <dcterms:abstract>Government of Singapore.</dcterms:abstract>
         <dc:date>2024-01-13 16:41:10</dc:date>
@@ -24,7 +62,7 @@
         <dcterms:dateSubmitted>2024-01-13 16:41:10</dcterms:dateSubmitted>
         <dc:description>Citation Key: sg_response</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_115">
+    <z:Attachment rdf:about="#item_443">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -41,7 +79,7 @@
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_117"/>
+        <link:link rdf:resource="#item_445"/>
         <dc:title>Methodology and Motivation</dc:title>
         <dc:date>2024-01-13 16:46:52</dc:date>
         <dc:identifier>
@@ -51,7 +89,7 @@
         </dc:identifier>
         <dcterms:dateSubmitted>2024-01-13 16:46:52</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_117">
+    <z:Attachment rdf:about="#item_445">
         <z:itemType>attachment</z:itemType>
         <dc:title>Methodology and Motivation</dc:title>
         <dc:identifier>
@@ -68,7 +106,7 @@
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_119"/>
+        <link:link rdf:resource="#item_447"/>
         <dc:title>Cost of Living in Singapore</dc:title>
         <dcterms:abstract>Average prices of more than 40 products and services in Singapore, SingaporeJan 2024. Prices of restaurants, food, transportation, utilities and housing are included.</dcterms:abstract>
         <dc:date>2024-01-13 17:05:03</dc:date>
@@ -80,7 +118,7 @@
         </dc:identifier>
         <dcterms:dateSubmitted>2024-01-13 17:05:03</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_119">
+    <z:Attachment rdf:about="#item_447">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -97,7 +135,7 @@
         <dcterms:isPartOf>
            <z:Website><dc:title>Base</dc:title></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_121"/>
+        <link:link rdf:resource="#item_449"/>
         <dc:title>Singapore Consumer Price Index, Nov 2023</dc:title>
         <dc:date>2024-01-13 17:22:12</dc:date>
         <z:language>en</z:language>
@@ -109,7 +147,7 @@
         <dcterms:dateSubmitted>2024-01-13 17:22:12</dcterms:dateSubmitted>
         <dc:description>Citation Key: sg_cpi</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_121">
+    <z:Attachment rdf:about="#item_449">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -126,7 +164,7 @@
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_123"/>
+        <link:link rdf:resource="#item_451"/>
         <dc:title>World Economic Outlook (October 2023) - GDP per capita, current prices</dc:title>
         <dcterms:abstract>Gross domestic product (GDP) is the most commonly used single measure of a country's overall economic activity. Per capita GDP represents the total value in PPP terms of final goods and services produced within a country during a specified time period divided by the average population for the same one year.
 
@@ -139,7 +177,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 07:55:07</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_123">
+    <z:Attachment rdf:about="#item_451">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -156,7 +194,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website><dc:title>Economist Intelligence Unit</dc:title></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_125"/>
+        <link:link rdf:resource="#item_453"/>
         <dc:title>Worldwide Cost of Living 2023</dc:title>
         <dcterms:abstract>Discover which cities the cost-of-living crisis is affecting the most in EIU’s latest report.</dcterms:abstract>
         <dc:date>2024-02-18 07:57:03</dc:date>
@@ -169,7 +207,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-02-18 07:57:03</dcterms:dateSubmitted>
         <dc:description>Citation Key: eiu</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_125">
+    <z:Attachment rdf:about="#item_453">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -186,7 +224,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_127"/>
+        <link:link rdf:resource="#item_455"/>
         <dc:title>HDB | Rental Statistics</dc:title>
         <dc:date>2024-02-18 08:24:41</dc:date>
         <dc:identifier>
@@ -196,7 +234,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 08:24:41</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_127">
+    <z:Attachment rdf:about="#item_455">
         <z:itemType>attachment</z:itemType>
         <dc:title>HDB | Rental Statistics</dc:title>
         <dc:identifier>
@@ -259,7 +297,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_132"/>
+        <link:link rdf:resource="#item_460"/>
         <dc:title>(DOS) | SingStat Table Builder – Average Household Size of Resident and Resident Employed Households</dc:title>
         <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
         <dc:date>2024-02-18 10:59:55</dc:date>
@@ -271,7 +309,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 10:59:55</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_132">
+    <z:Attachment rdf:about="#item_460">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -288,7 +326,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_134"/>
+        <link:link rdf:resource="#item_462"/>
         <dc:title>(DOS) | SingStat Table Builder – Average Monthly Household Expenditure Per Household Member Among Resident Households</dc:title>
         <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
         <dc:date>2024-02-18 11:18:35</dc:date>
@@ -300,7 +338,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 11:18:35</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_134">
+    <z:Attachment rdf:about="#item_462">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -317,7 +355,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_136"/>
+        <link:link rdf:resource="#item_464"/>
         <dc:title>(DOS) | SingStat Table Builder – Average Monthly Household Income (excluding Employer CPF) Among Resident Households</dc:title>
         <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
         <dc:date>2024-02-18 11:21:36</dc:date>
@@ -329,7 +367,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 11:21:36</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_136">
+    <z:Attachment rdf:about="#item_464">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -346,7 +384,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_138"/>
+        <link:link rdf:resource="#item_466"/>
         <dc:title>(DOS) | SingStat Table Builder – Average Monthly Household Expenditure Per Household Member Among Resident Households Comprising Solely Non-Working Persons Aged 65 Years and Over</dc:title>
         <dcterms:abstract>View, customise and download data table using the selections and dropdowns. Explore functions available in the table view. Get information on data table via the Metadata panel.</dcterms:abstract>
         <dc:date>2024-02-18 11:22:16</dc:date>
@@ -358,7 +396,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 11:22:16</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_138">
+    <z:Attachment rdf:about="#item_466">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -375,7 +413,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website><dc:title>PropertyGuru Singapore</dc:title></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_140"/>
+        <link:link rdf:resource="#item_468"/>
         <dc:title>HDB BTO Prices Sorted by Estate and Price of Different Flat Types in Singapore (From 2019 to Oct 2023)</dc:title>
         <dcterms:abstract>Looking up HDB BTO prices for the various estates and room sizes is part of figuring out which areas you can afford to live in. To help you better plan your budget, we compiled a list of BTO prices in Singapore from 2019 to Oct 2023.</dcterms:abstract>
         <dc:date>2024-02-18 12:07:37</dc:date>
@@ -386,7 +424,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 12:07:37</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_140">
+    <z:Attachment rdf:about="#item_468">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -444,7 +482,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_144"/>
+        <link:link rdf:resource="#item_472"/>
         <dc:title>Are BTOs Still As Profitable Today? Here’s How BTO Profits Have Changed Since 2001</dc:title>
         <dc:date>2022-06-15T14:00:04+00:00</dc:date>
         <z:language>en-US</z:language>
@@ -456,7 +494,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 12:15:50</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_144">
+    <z:Attachment rdf:about="#item_472">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -496,7 +534,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 12:22:00</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_147">
+    <z:Attachment rdf:about="#item_475">
         <z:itemType>attachment</z:itemType>
         <dc:title>InterestRate.pdf</dc:title>
         <dc:identifier>
@@ -508,7 +546,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <z:linkMode>3</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <bib:Article rdf:about="#item_148">
+    <bib:Article rdf:about="#item_476">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
            <bib:Journal></bib:Journal>
@@ -523,13 +561,13 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
-        <link:link rdf:resource="#item_149"/>
+        <link:link rdf:resource="#item_477"/>
         <dc:title>Summary of SIBOR (SGD) 2024</dc:title>
         <z:language>en</z:language>
         <z:libraryCatalog>Zotero</z:libraryCatalog>
         <dc:description>Citation Key: sibor</dc:description>
     </bib:Article>
-    <z:Attachment rdf:about="#item_149">
+    <z:Attachment rdf:about="#item_477">
         <z:itemType>attachment</z:itemType>
         <dc:title>Sibor - Summary of SIBOR (SGD) 2024.pdf</dc:title>
         <dc:identifier>
@@ -546,7 +584,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_151"/>
+        <link:link rdf:resource="#item_479"/>
         <dc:title>HousingLoanSG - SIBOR/SORA Historical Chart</dc:title>
         <dc:date>2024-02-18 12:32:19</dc:date>
         <dc:identifier>
@@ -556,7 +594,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 12:32:19</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_151">
+    <z:Attachment rdf:about="#item_479">
         <z:itemType>attachment</z:itemType>
         <dc:title>HousingLoanSG - SIBOR/SORA Historical Chart</dc:title>
         <dc:identifier>
@@ -588,7 +626,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_154"/>
+        <link:link rdf:resource="#item_482"/>
         <dc:title>HDB | Resale Statistics</dc:title>
         <dc:date>2024-02-18 12:41:24</dc:date>
         <dc:identifier>
@@ -598,7 +636,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dc:identifier>
         <dcterms:dateSubmitted>2024-02-18 12:41:24</dcterms:dateSubmitted>
     </bib:Document>
-    <z:Attachment rdf:about="#item_154">
+    <z:Attachment rdf:about="#item_482">
         <z:itemType>attachment</z:itemType>
         <dc:title>HDB | Resale Statistics</dc:title>
         <dc:identifier>
@@ -615,7 +653,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_156"/>
+        <link:link rdf:resource="#item_484"/>
         <dc:title>C&amp;SD : Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing</dc:title>
         <dc:date>2024-03-07 14:11:30</dc:date>
         <dc:identifier>
@@ -626,7 +664,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-07 14:11:30</dcterms:dateSubmitted>
         <dc:description>Citation Key: hk_expenditure</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_156">
+    <z:Attachment rdf:about="#item_484">
         <z:itemType>attachment</z:itemType>
         <dc:title>C&amp;SD : Table 140-09005 : 2019/20 Household Expenditure Survey - Average Monthly Household Expenditure by Commodity/Service Section/Group by Type of Housing</dc:title>
         <dc:identifier>
@@ -643,7 +681,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_158"/>
+        <link:link rdf:resource="#item_486"/>
         <dc:title>C&amp;SD : Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)</dc:title>
         <dc:date>2024-03-07 14:11:35</dc:date>
         <dc:identifier>
@@ -654,7 +692,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-07 14:11:35</dcterms:dateSubmitted>
         <dc:description>Citation Key: hk_income</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_158">
+    <z:Attachment rdf:about="#item_486">
         <z:itemType>attachment</z:itemType>
         <dc:title>C&amp;SD : Table 130-06613A : Median monthly household income (excluding Chinese New Year bonus/double pay) by type of housing (excluding foreign domestic helpers)</dc:title>
         <dc:identifier>
@@ -671,7 +709,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_160"/>
+        <link:link rdf:resource="#item_488"/>
         <dc:title>Singapore Home Ownership Rate</dc:title>
         <dc:date>2024-03-07 14:29:12</dc:date>
         <dc:identifier>
@@ -682,7 +720,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-07 14:29:12</dcterms:dateSubmitted>
         <dc:description>Citation Key: sg_home_ownership</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_160">
+    <z:Attachment rdf:about="#item_488">
         <z:itemType>attachment</z:itemType>
         <dc:title>Singapore Home Ownership Rate</dc:title>
         <dc:identifier>
@@ -699,8 +737,9 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website><dc:title>Base</dc:title></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_162"/>
+        <link:link rdf:resource="#item_490"/>
         <dc:title>Household Expenditure Survey</dc:title>
+        <dc:date>2024-03-08 08:47:11</dc:date>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
@@ -710,7 +749,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-08 08:47:11</dcterms:dateSubmitted>
         <dc:description>Citation Key: hes</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_162">
+    <z:Attachment rdf:about="#item_490">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -719,7 +758,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-08 08:47:21</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
     <bib:Document rdf:about="https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement">
@@ -727,9 +766,10 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_164"/>
+        <link:link rdf:resource="#item_492"/>
         <dc:title>CPFB | Workfare Income Supplement</dc:title>
         <dcterms:abstract>The WIS scheme encourages eligible workers to work and boost their CPF savings by providing cash payments and additional CPF contributions.</dcterms:abstract>
+        <dc:date>2024-03-08 08:49:57</dc:date>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
@@ -739,7 +779,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-08 08:49:57</dcterms:dateSubmitted>
         <dc:description>Citation Key: wis</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_164">
+    <z:Attachment rdf:about="#item_492">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -748,10 +788,10 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-08 08:50:08</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
-    <z:Attachment rdf:about="#item_165">
+    <z:Attachment rdf:about="#item_493">
         <z:itemType>attachment</z:itemType>
         <dc:title>hes2223-info-pamphlet.pdf</dc:title>
         <dc:identifier>
@@ -760,7 +800,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-08 08:51:36</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>application/pdf</link:type>
     </z:Attachment>
     <bib:Document rdf:about="https://www.hdb.gov.sg/residential/servicing-your-hdb-housing-loan/loan-matters/interest-rate">
@@ -768,8 +808,9 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_167"/>
+        <link:link rdf:resource="#item_495"/>
         <dc:title>HDB | Interest Rate</dc:title>
+        <dc:date>2024-03-08 08:54:45</dc:date>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>https://www.hdb.gov.sg/residential/servicing-your-hdb-housing-loan/loan-matters/interest-rate</rdf:value>
@@ -778,7 +819,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-08 08:54:45</dcterms:dateSubmitted>
         <dc:description>Citation Key: hdb_interest</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_167">
+    <z:Attachment rdf:about="#item_495">
         <z:itemType>attachment</z:itemType>
         <dc:title>HDB | Interest Rate</dc:title>
         <dc:identifier>
@@ -787,7 +828,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-08 08:54:49</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
     <bib:Document rdf:about="https://www.cpf.gov.sg/member/faq/growing-your-savings/cpf-interest-rates/what-are-the-cpf-interest-rates">
@@ -795,9 +836,10 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_169"/>
+        <link:link rdf:resource="#item_497"/>
         <dc:title>CPFB | What are the CPF interest rates?</dc:title>
         <dcterms:abstract>The current base interest rate is 2.5% per annum for the Ordinary Account, and 4% per annum for Special, MediSave and Retirement accounts.</dcterms:abstract>
+        <dc:date>2024-03-08 08:56:51</dc:date>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
@@ -807,7 +849,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-08 08:56:51</dcterms:dateSubmitted>
         <dc:description>Citation Key: cpf_interest</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_169">
+    <z:Attachment rdf:about="#item_497">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -816,7 +858,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-08 08:56:53</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
     <bib:Document rdf:about="http://www.singstat.gov.sg/find-data/search-by-theme/households/household-income/latest-data">
@@ -824,8 +866,9 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website><dc:title>Base</dc:title></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_171"/>
+        <link:link rdf:resource="#item_499"/>
         <dc:title>Household Income - Latest Data</dc:title>
+        <dc:date>2024-03-09</dc:date>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
@@ -835,7 +878,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-09 07:01:10</dcterms:dateSubmitted>
         <dc:description>Citation Key: income_trend</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_171">
+    <z:Attachment rdf:about="#item_499">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -844,7 +887,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-09 07:01:17</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
     <bib:Document rdf:about="http://www.singstat.gov.sg/find-data/search-by-theme/households/households/latest-data">
@@ -852,8 +895,9 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website><dc:title>Base</dc:title></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_173"/>
+        <link:link rdf:resource="#item_501"/>
         <dc:title>Households - Latest Data</dc:title>
+        <dc:date>2024-03-09</dc:date>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
@@ -863,7 +907,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-09 07:17:51</dcterms:dateSubmitted>
         <dc:description>Citation Key: dwelling_types</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_173">
+    <z:Attachment rdf:about="#item_501">
         <z:itemType>attachment</z:itemType>
         <dc:title>Snapshot</dc:title>
         <dc:identifier>
@@ -872,7 +916,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-09 07:17:59</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
     <bib:Document rdf:about="https://www.mof.gov.sg/singaporebudget/resources/support-for-households">
@@ -882,6 +926,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dcterms:isPartOf>
         <dc:title>Support For Households</dc:title>
         <dcterms:abstract>Support For Households</dcterms:abstract>
+        <dc:date>2024-03-09</dc:date>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
@@ -898,6 +943,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         </dcterms:isPartOf>
         <dc:title>Singapore Population Trend</dc:title>
         <dcterms:abstract>Singapore’s total population stood at 5.92 million as at June 2023 (Diagram 1), a 5.0 per cent increase from June...</dcterms:abstract>
+        <dc:date>2023-06-10</dc:date>
         <z:language>en</z:language>
         <dc:identifier>
             <dcterms:URI>
@@ -912,8 +958,9 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:isPartOf>
            <z:Website></z:Website>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_177"/>
+        <link:link rdf:resource="#item_505"/>
         <dc:title>Hong Kong Home Ownership Rate</dc:title>
+        <dc:date>2024-03-09 11:04:55</dc:date>
         <dc:identifier>
             <dcterms:URI>
                 <rdf:value>https://tradingeconomics.com/hong-kong/home-ownership-rate</rdf:value>
@@ -922,7 +969,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
         <dcterms:dateSubmitted>2024-03-09 11:04:55</dcterms:dateSubmitted>
         <dc:description>Citation Key: hk_home_ownership</dc:description>
     </bib:Document>
-    <z:Attachment rdf:about="#item_177">
+    <z:Attachment rdf:about="#item_505">
         <z:itemType>attachment</z:itemType>
         <dc:title>Hong Kong Home Ownership Rate</dc:title>
         <dc:identifier>
@@ -931,7 +978,7 @@ Purchasing Power Parity (PPP) is a theory which relates changes in the nominal e
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2024-03-09 11:05:03</dcterms:dateSubmitted>
-        <z:linkMode>1</z:linkMode>
+        <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
 </rdf:RDF>
