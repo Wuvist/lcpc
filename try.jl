@@ -29,7 +29,7 @@ LCPC_2023_IQ = e2023 ./ (i2023)
 
 plot(LCPC_0708_IQ, xlim=[0.8, 5.2], ylim=[0, 1.3], linestyle=:dot, label="2007/08", title="SG LCPC by Income Quintile",
     ylabel="Monthly LCP(Expenditure/Income)", xlabel="Income Quintile", xticks=([1, 2, 3, 4, 5],
-        ["1st-20th", "21st-40th", "41st-60th", "61st-80th", "81th-100th"]))
+        ["1st-20th", "21st-40th", "41st-60th", "61st-80th", "81th-100th"]), dpi=300)
 plot!(LCPC_1213_IQ, label="2012/13", linestyle=:dash)
 plot!(LCPC_1718_IQ, label="2017/18")
 plot!(LCPC_2023_IQ, label="2023")
@@ -58,7 +58,8 @@ LCPC_2023 = LCPC_e_2023 ./ LCPC_i_2023
 
 plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.0], linestyle=:dot, xticks=([1, 2, 3, 4, 5, 6],
         ["1-2 Room", "3-Room", "4-Room", "5-Room&EC", "Condo", "Landed"]), label="2007/08",
-    title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)", xlabel="房屋类型")
+    title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)",
+    dpi=300, xlabel="Type of Dwelling")
 plot!(LCPC_1213, label="2012/13", linestyle=:dash)
 plot!(LCPC_1718, label="2017/18")
 plot!(LCPC_2023, label="2023")
