@@ -5,50 +5,63 @@ c2 = theme_palette(:auto).colors.colors[2]
 c3 = theme_palette(:auto).colors.colors[3]
 
 # HES: REPORT ON THE HOUSEHOLD EXPENDITURE SURVEY, 2017/18
-# data/household_expenditure.pdf
+# HES1718 data/household_expenditure.pdf
+# HES2023 data/hes2023.pdf
 
-# HES - Chart 1.3: Average Monthly Household Expenditure by Income Quintile2, 2007/08 - 2017/18
+# HES1718 - Chart 1.3: Average Monthly Household Expenditure by Income Quintile2, 2007/08 - 2017/18
+# HES2023 - Chart 1.3: Average Monthly Household Expenditure by Income Quintile2
 e0708 = [1787, 2950, 3602, 4569, 6138]
 e1213 = [2215, 3531, 4705, 5596, 7575]
 e1718 = [2570, 3753, 4812, 5826, 7573]
+e2023 = [3233, 4401, 5916, 6981, 9125]
 
-# HES - Chart 2.3: Average Monthly Household Income from All Sources1 by Income Quintile2, 2007/08 - 2017/18
+# HES1718 - Chart 2.3: Average Monthly Household Income from All Sources1 by Income Quintile2, 2007/08 - 2017/18
+# HES2023 - Chart 4.3: Average Monthly Household Income from All Sources1 by Income Quintile2
 i0708 = [1466, 3934, 6175, 9439, 19511]
 i1213 = [1949, 5238, 8355, 12246, 24547]
 i1718 = [2235, 5981, 9678, 14407, 26587]
+i2023 = [3254, 7961, 13058, 18751, 34341]
 
 LCPC_0708_IQ = e0708 ./ (i0708)
 LCPC_1213_IQ = e1213 ./ (i1213)
 LCPC_1718_IQ = e1718 ./ (i1718)
+LCPC_2023_IQ = e2023 ./ (i2023)
 
 plot(LCPC_0708_IQ, xlim=[0.8, 5.2], ylim=[0, 1.3], linestyle=:dot, label="2007/08", title="SG LCPC by Income Quintile",
     ylabel="Monthly LCP(Expenditure/Income)", xlabel="Income Quintile", xticks=([1, 2, 3, 4, 5],
         ["1st-20th", "21st-40th", "41st-60th", "61st-80th", "81th-100th"]))
 plot!(LCPC_1213_IQ, label="2012/13", linestyle=:dash)
 plot!(LCPC_1718_IQ, label="2017/18")
+plot!(LCPC_2023_IQ, label="2023")
 savefig("data/LCPC_income.png")
 
 # LCPC By dwelling
 
-# HES - Chart 1.8: Average Monthly Household Expenditure by Type of Dwelling, 2007/08 - 2017/18
+# HES1718 - Chart 1.8: Average Monthly Household Expenditure by Type of Dwelling, 2007/08 - 2017/18
+# HES2023 - Chart 1.8: Average Monthly Household Expenditure by Type of Dwelling
 LCPC_e_0708 = [957, 2121, 3093, 4423, 6587, 8222]
 LCPC_e_1213 = [1287, 2478, 3918, 5283, 8000, 10409]
 LCPC_e_1718 = [1545, 2709, 3933, 5504, 7963, 10500]
+LCPC_e_2023 = [1855, 3291, 4862, 6285, 9567, 13545]
 
-# HES - Chart 2.7: Average Monthly Household Income from All Sources by Type of Dwelling, 2007/08 - 2017/18
+# HES1718 - Chart 2.7: Average Monthly Household Income from All Sources by Type of Dwelling, 2007/08 - 2017/18
+# HES2023 - Chart 4.7: Average Monthly Household Income from All Sources by Type of Dwelling
 LCPC_i_0708 = [1373, 3946, 5737, 9028, 17176, 21198]
 LCPC_i_1213 = [1855, 5083, 8043, 11006, 20534, 26055]
 LCPC_i_1718 = [2521, 5868, 8827, 12244, 21830, 28937]
+LCPC_i_2023 = [3729, 7904, 12330, 16026, 25707, 40884]
 
 LCPC_0708 = LCPC_e_0708 ./ LCPC_i_0708
 LCPC_1213 = LCPC_e_1213 ./ LCPC_i_1213
 LCPC_1718 = LCPC_e_1213 ./ LCPC_i_1718
+LCPC_2023 = LCPC_e_2023 ./ LCPC_i_2023
 
-plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.3], linestyle=:dot, xticks=([1, 2, 3, 4, 5, 6],
+plot(LCPC_0708, xlim=[0.8, 6.2], ylim=[0, 1.0], linestyle=:dot, xticks=([1, 2, 3, 4, 5, 6],
         ["1-2 Room", "3-Room", "4-Room", "5-Room&EC", "Condo", "Landed"]), label="2007/08",
-    title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Dwelling")
+    title="SG LCPC by Type of Dwelling", ylabel="Monthly LCP(Expenditure/Income)", xlabel="房屋类型")
 plot!(LCPC_1213, label="2012/13", linestyle=:dash)
 plot!(LCPC_1718, label="2017/18")
+plot!(LCPC_2023, label="2023")
 savefig("data/LCPC_dwelling.png")
 
 plot([LCPC_0708[1], LCPC_1718[1]], [6, 6], arrow=2, ylim=[0, 6.5], xlim=[0.3, 0.75], label="", xlabel="LCP")
