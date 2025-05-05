@@ -236,7 +236,7 @@ LCPC_foreign = [e_WP, e_SP, e_EP_hdb, e_EP_Condo, e_PEP, e_ONE] ./ [i_WP, i_SP, 
 LCPC_foreign_2109 = [e_WP_2019, e_SP_2019, e_EP_hdb_2019, e_EP_Condo_2019, e_PEP_2019, e_ONE_2019] ./ [i_WP, i_SP, i_EP_HDB, i_EP_Condo, i_PEP, i_ONE]
 
 plot(LCPC_foreign, xlim=[0.8, 6.2], ylim=[0, 1.3], xticks=([1, 2, 3, 4, 5, 6],
-        ["WP", "SP", "EP-HDB", "EP-Condo", "PEP", "One Pass"]), label="2023",
+        ["WP", "SP", "EP-HDB", "EP-Condo", "PEP", "One Pass"]), label="2023", dpi=300,
     title="ESTIMATED SG LCPC by Type of Work Pass", ylabel="Monthly LCP(Expenditure/Income)", xlabel="Type of Work Pass")
 # plot!(LCPC_foreign_2109, label="2019 CPI")
 savefig("data/LCPC_foreign.png")
