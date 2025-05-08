@@ -3,6 +3,7 @@ using CSV, DataFrames, GLM, Plots
 c1 = theme_palette(:auto).colors.colors[1]
 c2 = theme_palette(:auto).colors.colors[2]
 c3 = theme_palette(:auto).colors.colors[3]
+c4 = theme_palette(:auto).colors.colors[4]
 
 # HES: REPORT ON THE HOUSEHOLD EXPENDITURE SURVEY, 2017/18
 # HES1718 data/household_expenditure.pdf
